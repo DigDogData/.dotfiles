@@ -30,39 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/roy/Music
-	English Songs
-3
-d/home/roy/Music/English Songs
-	..
-0
-d/home/roy/Music
-	Bangla Songs
-2
-d/home/roy
-	Downloads
-3
-d/home
-	roy
-2
-d/
-	home
-5
-d/home
-	roy
-2
-d/home/roy
-	Pictures
-6
-d/home/roy/Pictures
-	Thakur
-16
-d/home/roy
-	Pictures
-6
-d/home/roy/Pictures
-	Tortoise pics
-17
 d/home/roy/Pictures/Tortoise pics
 	..
 0
@@ -330,12 +297,48 @@ d/home/roy/.config/vifm/colors
 d/home/roy/.config/vifm
 	scripts
 2
+d/home/roy/.config
+	vifm
+29
+d/home/roy
+	.hypnotix
+4
+d/home
+	roy
+2
+d/
+	home
+5
+d/home
+	roy
+2
+d/home/roy
+	Pictures
+23
+d/home/roy/Pictures
+	100_0121_2.jpg
+38
+d/home/roy
+	Pictures
+23
+d/home/roy/Pictures
+	2015
+16
+d/home/roy
+	Pictures
+23
+d/home
+	roy
+2
 d
 
 # Right window history (oldest to newest):
 D/home/roy
 	..
 0
+D/home
+	roy
+2
 D
 
 # Command line history (oldest to newest):

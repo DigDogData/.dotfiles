@@ -25,3 +25,6 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+
+# set locale (LM defaults locale en_CA.UTF-8)
+LANG=en_US.UTF-8

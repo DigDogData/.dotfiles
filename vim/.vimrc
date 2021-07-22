@@ -29,7 +29,7 @@ set t_Co=256
 set t_ut=
 set mouse=a
 set termguicolors
-set lines=46 columns=185        " set window size
+"set lines=46 columns=185        " set window size
 set backup      " make backup files
 set backupdir=~/.vim/backupdir
 set undofile    " persistent undo
@@ -261,7 +261,7 @@ let g:lightline = {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'gitbranch', 'readonly', 'filename', 'modified', 'virtualenv' ] ],
       \   'right': [ [ 'lineinfo' ],
-      \              [ 'fileformat', 'filetype', 'percent' ] ]
+      \              [ 'fileformat', 'fileencoding', 'filetype', 'percent' ] ]
       \ },
       \ 'component': {
       \   'virtualenv': venv
@@ -298,24 +298,6 @@ let g:startify_custom_header = [
 
 " set gitbranch
 " let gitbranch = system('echo -n $(git rev-parse --abbrev-ref HEAD 2> /dev/null)')
-
-" set NERDTree
-"nmap <leader>f :NERDTreeToggle<CR>
-"let loaded_netrwPlugin = 1      " disable netrw
-"let g:NERDTreeWinPos = "right"
-"let g:NERDTreeShowBookmarks = 0
-"let g:NERDTreeMinimalUI = 1
-"let g:NERDTreeAutoDeleteBuffer = 1
-"let g:NERDTreeQuitOnOpen = 1
-"let g:NERDTreeWinSize = 30
-"let g:NERDTreeShowHidden = 1
-"" quit vim if only NERDTree is present
-"function! QuitIfOnly()
-"    if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree())
-"        q
-"    end
-"endfunction
-"autocmd bufenter * call QuitIfOnly()
 
 " open + reload vimrc
 nnoremap <leader>ev :e $MYVIMRC<cr>

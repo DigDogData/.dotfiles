@@ -1,0 +1,5 @@
+[flake8]
+# extend maximum allowed line length (beyond default of 79)
+max-line-length = 88
+# set maximum allowed (McCabe) complexity value for a block of code
+max-complexity = 10

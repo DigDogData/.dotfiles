@@ -1,0 +1,18 @@
+# force IPv4
+--force-ipv4
+
+# use secure account credential
+#--netrc
+
+# save in Downloads folder
+-o ~/Downloads/%(title)s\ (%(format_note)s).%(ext)s
+
+# only download video (if URL refers to video and playlist)
+--no-playlist
+
+# get best video quality (if audio not needed)
+#-f "bestvideo"
+
+# get subtitle (if available)
+#--write-sub
+

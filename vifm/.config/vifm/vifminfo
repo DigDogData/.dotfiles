@@ -30,171 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/roy/Videos/TV/Stargate SG-1
-	Season 9
-9
-d/home/roy/Videos/TV/Stargate SG-1/Season 9
-	E01 - Avalon (Part 1).mkv
-1
-d/home/roy
-	Videos
-30
-d/home/roy/Videos
-	TV
-4
-d/home/roy/Videos/TV
-	Stargate SG-1
-1
-d/home/roy/Videos/TV/Stargate SG-1
-	Season 9
-9
-d/home/roy/Videos/TV/Stargate SG-1/Season 9
-	E02 - Avalon (Part 2).srt
-4
-d/home/roy/Videos/TV/Stargate SG-1
-	Season 9
-9
-d/home/roy/Videos/TV
-	Stargate SG-1
-1
-d/home/roy/Videos
-	TV
-4
-d/home/roy
-	Music
-25
-d/home/roy/Music
-	Anika's Songs
-1
-d/home/roy/Music/Anika's Songs
-	..
-0
-d/home/roy/Music
-	Bangla Songs
-2
-d/home/roy/Music/Bangla Songs
-	Tagore
-2
-d/home/roy/Music/Bangla Songs/Tagore
-	ABELAY JADI ESECHHO INH100702454.mp3
-4
-d/home/roy/Music/Bangla Songs
-	Tagore
-2
-d/home/roy/Music
-	Bangla Songs
-2
-d/home/roy
-	Videos
-30
-d/home/roy/Videos
-	Movies
-2
-d/home/roy/Videos/Movies
-	Hobbit (Extended)
-2
-d/home/roy/Videos/Movies/Hobbit (Extended)
-	1. An Unexpected Journey
-1
-d/home/roy/Videos/Movies/Hobbit (Extended)/1. An Unexpected Journey
-	Movie.mkv
-1
-d/home/roy/Videos/Movies/Hobbit (Extended)
-	2. Desolation of Smaug
-2
-d/home/roy/Videos/Movies/Hobbit (Extended)/2. Desolation of Smaug
-	Movie.mkv
-1
-d/home/roy/Videos/Movies/Hobbit (Extended)
-	3. Battle of the Five Armies
-3
-d/home/roy/Videos/Movies
-	Hobbit (Extended)
-2
-d/home/roy/Videos
-	Movies
-2
-d/home/roy
-	Pictures
-26
-d/home/roy/Pictures
-	Manojit.jpg
-37
-d/home/roy
-	Pictures
-26
-d/home
-	roy
-2
-d/
-	home
-5
-d/home
-	roy
-2
-d/home/roy
-	.pki
-13
-d/home/roy/.pki
-	..
-0
-d/home/roy
-	Documents
-22
-d/home/roy/Documents
-	MOOC
-21
-d/home/roy
-	Documents
-22
-d/home
-	roy
-2
-d/home/roy
-	Documents
-22
-d/home/roy/Documents
-	Anika's Docs
-2
-d/home/roy/Documents/Anika's Docs
-	ACT
-7
-d/home/roy/Documents/Anika's Docs/ACT
-	Ticket2.pdf
-7
-d/home/roy
-	Documents
-22
-d/home/roy/Documents
-	Anika's Docs
-2
-d/home/roy/Documents/Anika's Docs
-	ACT
-7
-d/home/roy/Documents/Anika's Docs/ACT
-	Nik Decision Letter ACT.pdf
-4
-d/home/roy
-	Documents
-22
-d/home/roy/Documents
-	MOOC
-21
-d/home/roy/Documents/MOOC
-	Linear_Algebra
-5
-d/home/roy/Documents/MOOC/Linear_Algebra
-	Lectures
-4
-d/home/roy/Documents/MOOC/Linear_Algebra/Lectures
-	13 (Quiz 1 review).mp4
-13
-d/home/roy
-	Documents
-22
-d/home/roy/Documents
-	Hawking Thesis
-11
 d/home/roy
 	.config
 3
@@ -294,6 +129,18 @@ d/home/roy/.config/vifm/colors
 d/home/roy/.config/vifm
 	vifmrc
 5
+d/home/roy/Downloads
+	install.py
+18
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	vifm
+29
+d/home/roy/.config/vifm
+	vifmrc
+5
 d/home/roy
 	Documents
 22
@@ -319,17 +166,170 @@ d/home/roy/Documents
 	EBooks
 6
 d/home/roy
-	Downloads
-23
-d/home
-	roy
+	.config
+3
+d/home/roy/.config
+	vifm
+29
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	EBooks
+6
+d/home/roy/Documents/EBooks
+	Kobo_BckUp
+2
+d/home/roy/Documents/EBooks/Kobo_BckUp
+	Alistair Maclean
+1
+d/home/roy/Documents/EBooks/Kobo_BckUp/Alistair Maclean
+	Alistair MacLean - Breakheart Pass.epub
+1
+d/home/roy/Documents/EBooks/Kobo_BckUp
+	Alistair Maclean
+1
+d/home/roy/Documents/EBooks
+	Kobo_BckUp
+2
+d/home/roy/Documents
+	VimWiki
+34
+d/home/roy/Documents/VimWiki
+	Linux Mint.md
+7
+d/home/roy/Documents
+	Immigration  etc
+14
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	vifm
+29
+d/home/roy/.config/vifm
+	colors
+1
+d/home/roy/.config/vifm/colors
+	Default.vifm
+1
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	MOOC
+21
+d/home/roy/Documents/MOOC
+	Linear_Algebra
+5
+d/home/roy/Documents/MOOC/Linear_Algebra
+	Lectures
+4
+d/home/roy/Documents/MOOC
+	Linear_Algebra
+5
+d/home/roy/Documents
+	Anika's Docs
+2
+d/home/roy/Documents/Anika's Docs
+	ACT
+7
+d/home/roy/Documents/Anika's Docs/ACT
+	Nik Decision Letter ACT.pdf
+4
+d/home/roy/Documents/Anika's Docs
+	ACT
+7
+d/home/roy/Documents
+	Anika's Docs
 2
 d/home/roy
 	Desktop
 21
 d/home/roy/Desktop
-	AAPS_food_dsitribution.pdf
-2
+	Medicaid.txt
+5
+d/home/roy
+	.dotfiles
+4
+d/home/roy/.dotfiles
+	..
+0
+d/home/roy
+	.dotfiles
+4
+d/home/roy/.dotfiles
+	gitconfig
+4
+d/home/roy/.dotfiles/gitconfig
+	.gitconfig
+1
+d/home/roy/.dotfiles
+	netrc
+8
+d/home/roy/.dotfiles/netrc
+	.netrc
+1
+d/home/roy/.dotfiles
+	netrc
+8
+d/home/roy
+	.fzf
+5
+d/home/roy/.fzf
+	..
+0
+d/home/roy
+	.dotfiles
+4
+d/home/roy/.dotfiles
+	vifm
+9
+d/home/roy/.dotfiles/vifm
+	.config
+1
+d/home/roy/.dotfiles/vifm/.config
+	vifm
+1
+d/home/roy/.dotfiles/vifm/.config/vifm
+	vifmrc
+5
+d/home/roy/.dotfiles/vifm/.config
+	vifm
+1
+d/home/roy
+	.dotfiles
+4
+d/home/roy/.dotfiles
+	vifm
+9
+d/home/roy/.dotfiles/vifm
+	.config
+1
+d/home/roy/.dotfiles/vifm/.config
+	vifm
+1
+d/home/roy/.dotfiles/vifm/.config/vifm
+	vifmrc
+5
+d/home/roy
+	.dotfiles
+4
+d/home/roy/.dotfiles
+	vifm
+9
+d/home/roy/.dotfiles/vifm
+	.config
+1
+d/home/roy/.dotfiles/vifm/.config
+	vifm
+1
+d/home/roy/.dotfiles/vifm/.config/vifm
+	vifmrc
+5
 d
 
 # Right window history (oldest to newest):
@@ -354,9 +354,10 @@ D/home
 D
 
 # Command line history (oldest to newest):
-:marks
 :vmap
+:marks
 :nmap
+:<c-tab>  
 :q
 
 # Search history (oldest to newest):

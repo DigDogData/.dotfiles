@@ -5,6 +5,10 @@
 	/home/roy/
 	..
 1626983045
+'b
+	/home/roy/bin/
+	..
+1627067533
 'h
 	/home/roy/
 	..
@@ -13,10 +17,6 @@
 	/home/roy/.config/vifm
 	..
 1626983045
-'b
-	/home/roy/bin/
-	..
-1627067533
 
 # Bookmarks:
 
@@ -30,132 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/roy/Videos
-	Sports
-3
-d/home/roy/Videos/Sports
-	Cricket
-1
-d/home/roy/Videos/Sports/Cricket
-	1. WODI_2011 Quart Ind-Aus.mkv
-1
-d/home/roy/Videos/Sports
-	Cricket
-1
-d/home/roy/Videos
-	Sports
-3
-d/home/roy
-	Videos
-30
-d/home
-	roy
-2
-d/
-	home
-5
-d/home/roy
-	Documents
-22
-d/home/roy/Documents
-	Anika's Docs
-2
-d/home/roy/Documents/Anika's Docs
-	ACT
-7
-d/home/roy/Documents/Anika's Docs/ACT
-	Ticket3.pdf
-9
-d/home/roy/Documents/Anika's Docs
-	ACT
-7
-d/home/roy/Documents
-	MOOC
-21
-d/home/roy
-	Downloads
-23
-d/home/roy/Downloads
-	NerdFonts
-4
-d/home/roy/Downloads/NerdFonts
-	Hack Bold Italic Nerd Font Complete Mono.ttf
-1
-d/home/roy/Downloads
-	NerdFonts
-4
-d/home/roy/Downloads/Apps/FontPreview/fontpreview
-	..
-0
-d/home/roy/Downloads/Apps/FontPreview
-	fontpreview
-1
-d/home/roy/Downloads/Apps
-	FontPreview
-2
-d/home/roy/Downloads
-	Apps
-1
-d/home/roy
-	Downloads
-23
-d/home/roy/Downloads
-	NerdFonts
-4
-d/home/roy/Downloads/NerdFonts
-	Hack Italic Nerd Font Complete Mono.ttf
-5
-d/home/roy
-	Downloads
-23
-d/home/roy/Downloads
-	NerdFonts
-4
-d/home/roy/Downloads/NerdFonts
-	Hack Italic Nerd Font Complete Mono.ttf
-5
-d/home/roy/Downloads
-	tmp
-6
-d/home/roy/Downloads/tmp
-	..
-0
-d/home/roy/Downloads
-	Krishna
-3
-d/home/roy/Downloads/Krishna
-	Thumbs.db
-3
-d/home/roy/Downloads
-	Krishna
-3
-d/home/roy/Downloads/Krishna
-	lord-Krishna-and-Arjuna-on-chariot-ISKCON-photo.jpg
-6
-d/home/roy/Downloads
-	qBittorrent_Plugins
-5
-d/home/roy/Downloads/qBittorrent_Plugins
-	anidex.py
-1
-d/home/roy/Downloads
-	Dad's book.pdf
-12
-d/home/roy
-	Downloads
-23
-d/home
-	roy
-2
-d/home/roy
-	Videos
-30
-d/home/roy/Videos
-	TV
-4
-d/home/roy/Videos/TV
-	Stargate SG-1
-1
 d/home/roy/Videos/TV/Stargate SG-1
 	Season 9
 9
@@ -319,23 +193,146 @@ d/home/roy
 	Documents
 22
 d/home/roy/Documents
-	MOOC
-21
-d/home/roy/Documents/MOOC
-	Linear_Algebra
+	Hawking Thesis
+11
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	vifm
+29
+d/home/roy/.config/vifm
+	vifmrc
 5
-d/home/roy/Documents/MOOC/Linear_Algebra
-	Lectures
-4
-d/home/roy/Documents/MOOC/Linear_Algebra/Lectures
-	14 (Orthogonal vectors and subspaces).mp4
-14
+d/home/roy/.config
+	vifm
+29
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy/.config
+	vifm
+29
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	vifm
+29
+d/home/roy/.config/vifm
+	vifm-help.txt
+3
+d/home/roy/.config
+	vifm
+29
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	vifm
+29
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy/.config
+	vifm
+29
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy/.config
+	vifm
+29
+d/home/roy
+	.config
+3
+d/home
+	roy
+2
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	vifm
+29
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy/.config
+	vifm
+29
+d/home/roy
+	.config
+3
+d/home
+	roy
+2
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	vifm
+29
+d/home/roy/.config/vifm
+	colors
+1
+d/home/roy/.config/vifm/colors
+	Default.vifm
+1
+d/home/roy/.config/vifm
+	colors
+1
+d/home/roy/.config/vifm/colors
+	Default.vifm
+1
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	EBooks
+6
+d/home/roy/Documents/EBooks
+	Kobo_BckUp
+2
+d/home/roy/Documents/EBooks/Kobo_BckUp
+	Alistair Maclean
+1
+d/home/roy/Documents/EBooks/Kobo_BckUp/Alistair Maclean
+	Alistair MacLean - Breakheart Pass.epub
+1
+d/home/roy/Documents/EBooks/Kobo_BckUp
+	Alistair Maclean
+1
+d/home/roy/Documents/EBooks
+	Kobo_BckUp
+2
+d/home/roy/Documents
+	EBooks
+6
+d/home/roy
+	Downloads
+23
+d/home
+	roy
+2
+d/home/roy
+	Desktop
+21
+d/home/roy/Desktop
+	AAPS_food_dsitribution.pdf
+2
 d
 
 # Right window history (oldest to newest):
-D/
-	home
-5
 D/home/roy
 	..
 0
@@ -345,6 +342,12 @@ D/home
 D/home/roy
 	..
 0
+D/home
+	roy
+2
+D/
+	home
+5
 D/home
 	roy
 2
@@ -352,6 +355,8 @@ D
 
 # Command line history (oldest to newest):
 :marks
+:vmap
+:nmap
 :q
 
 # Search history (oldest to newest):

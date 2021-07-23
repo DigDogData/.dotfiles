@@ -30,195 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/roy/Pictures/Tortoise pics
-	..
-0
-d/home/roy/Pictures
-	..
-0
-d/home/roy
-	Documents
-2
-d/home/roy/Documents
-	Anika's Docs
-2
-d/home/roy/Documents/Anika's Docs
-	ACT
-7
-d/home/roy/Documents/Anika's Docs/ACT
-	College List.png
-3
-d/home/roy/Documents/Anika's Docs
-	Huron
-11
-d/home/roy/Documents
-	Anika's Docs
-2
-d/home/roy
-	Documents
-2
-d/home
-	roy
-2
-d/home/roy
-	Public
-7
-d/home/roy/Public
-	..
-0
-d/home/roy
-	Public
-7
-d/home
-	roy
-2
-d/
-	home
-5
-d/home
-	roy
-2
-d/home/roy
-	Documents
-2
-d/home/roy/Documents
-	IMPORTANT DOCS
-13
-d/home/roy/Documents/IMPORTANT DOCS
-	Signatures
-5
-d/home/roy/Documents
-	IMPORTANT DOCS
-13
-d/home/roy
-	.pyenv
-4
-d/home/roy/.pyenv
-	..
-0
-d/home/roy
-	Documents
-7
-d/home/roy/Documents
-	Anika's Docs
-2
-d/home/roy/Documents/Anika's Docs
-	ACT
-7
-d/home/roy/Documents/Anika's Docs/ACT
-	Ticket.pdf
-6
-d/home/roy/Documents/Anika's Docs
-	ACT
-7
-d/home/roy/Documents
-	Research
-27
-d/home/roy/Documents/Research
-	PhD Thesis
-30
-d/home/roy/Documents/Research/PhD Thesis
-	thesis.ps
-2
-d/home/roy/Documents/Research
-	PhD Thesis
-30
-d/home/roy/Documents
-	Research
-27
-d/home/roy
-	Music
-10
-d/home/roy/Music
-	Anika's Songs
-1
-d/home/roy/Music/Anika's Songs
-	A Blackened Heart - Peter Gundry.mp3
-1
-d/home/roy/Music
-	Anika's Songs
-1
-d/home/roy/Music/Anika's Songs
-	A Blackened Heart - Peter Gundry.mp3
-1
-d/home/roy/Music
-	Anika's Songs
-1
-d/home/roy/Music/Anika's Songs
-	A Little Bit Closer - Johnny Hollow.mp3
-2
-d/home/roy/Music
-	Anika's Songs
-1
-d/home/roy
-	Videos
-15
-d/home/roy/Videos
-	Movies
-2
-d/home/roy/Videos/Movies
-	Hobbit (Extended)
-2
-d/home/roy/Videos/Movies/Hobbit (Extended)
-	1. An Unexpected Journey
-1
-d/home/roy/Videos/Movies/Hobbit (Extended)/1. An Unexpected Journey
-	Movie.mkv
-1
-d/home/roy/Videos/Movies/Hobbit (Extended)
-	1. An Unexpected Journey
-1
-d/home/roy/Videos/Movies
-	Hobbit (Extended)
-2
-d/home/roy/Videos
-	Movies
-2
-d/home/roy
-	Videos
-15
-d/home/roy/Videos
-	Movies
-2
-d/home/roy/Videos/Movies
-	Hobbit (Extended)
-2
-d/home/roy/Videos/Movies/Hobbit (Extended)
-	1. An Unexpected Journey
-1
-d/home/roy/Videos/Movies/Hobbit (Extended)/1. An Unexpected Journey
-	Movie.mkv
-1
-d/home/roy/Videos/Movies/Hobbit (Extended)
-	1. An Unexpected Journey
-1
-d/home/roy/Videos/Movies
-	Hobbit (Extended)
-2
-d/home/roy/Videos
-	Movies
-2
-d/home/roy
-	Videos
-15
-d/home
-	roy
-2
-d/
-	home
-5
-d/home
-	roy
-2
-d/home/roy
-	Pictures
-11
-d/home/roy/Pictures
-	100_0121_2.jpg
-38
-d/home/roy
-	Pictures
-11
 d/home
 	roy
 2
@@ -330,9 +141,204 @@ d/home/roy
 d/home
 	roy
 2
+d/
+	home
+5
+d/home
+	roy
+2
+d/
+	home
+5
+d/home
+	roy
+2
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	vifm
+29
+d/home/roy/.config/vifm
+	scripts
+2
+d/home/roy/.config
+	vifm
+29
+d/home/roy/.config/vifm
+	vifm-help.txt
+3
+d/home/roy/.config
+	dconf
+9
+d/home/roy
+	.fzf
+5
+d/home/roy/.fzf
+	..
+0
+d/home/roy
+	.fzf
+5
+d/home
+	timeshift
+3
+d/
+	home
+5
+d/home
+	timeshift
+3
+d/home/timeshift
+	..
+0
+d/home
+	roy
+2
+d/home/roy
+	MEGASync
+24
+d/home/roy/MEGASync
+	Camera Uploads
+2
+d/home/roy/MEGASync/Camera Uploads
+	..
+0
+d/home/roy/MEGASync
+	MEGAsync Uploads
+4
+d/home/roy/MEGASync/MEGAsync Uploads
+	COVID_Card.jpg
+1
+d/home/roy/MEGASync
+	MEGAsync Uploads
+4
+d/home/roy
+	MEGASync
+24
+d/home
+	roy
+2
+d/
+	home
+5
+d/home
+	roy
+2
+d/home/roy
+	Documents
+7
+d/home/roy/Documents
+	Data_Science
+5
+d/home/roy/Documents/Data_Science
+	Basics
+1
+d/home/roy/Documents
+	MOOC
+21
+d/home/roy/Documents/MOOC
+	Linear_Algebra
+5
+d/home/roy/Documents/MOOC/Linear_Algebra
+	Codes
+2
+d/home/roy/Documents/MOOC/Linear_Algebra/Codes
+	rref2.py
+7
+d/home/roy/Documents/MOOC/Linear_Algebra
+	Codes
+2
+d/home/roy/Documents/MOOC
+	Linear_Algebra
+5
+d/home/roy/Documents
+	MOOC
+21
+d/home/roy
+	.dotfiles
+4
+d/home/roy/.dotfiles
+	.gitignore
+12
+d/home/roy
+	.dotfiles
+4
+d/home/roy/.dotfiles
+	.gitignore
+12
+d/home/roy
+	.dotfiles
+4
+d/home/roy/.dotfiles
+	.gitignore
+12
+d/home/roy
+	Videos
+30
+d/home/roy/Videos
+	TV
+4
+d/home/roy/Videos/TV
+	Stargate SG-1
+1
+d/home/roy/Videos/TV/Stargate SG-1
+	Season 9
+9
+d/home/roy/Videos/TV/Stargate SG-1/Season 9
+	E01 - Avalon (Part 1).mkv
+1
+d/home/roy/Videos/TV/Stargate SG-1
+	Season 9
+9
+d/home/roy/Videos/TV
+	Stargate SG-1
+1
+d/home/roy/Videos
+	TV
+4
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	vifm
+23
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy/.config
+	vifm
+23
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy/.config
+	plank
+17
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	Anika's Docs
+2
+d/home/roy/Documents/Anika's Docs
+	Anika's Shot Chart (May 2015).pdf
+19
+d/home/roy/Documents
+	Anika's Docs
+2
+d/home/roy
+	.vimrc
+38
 d
 
 # Right window history (oldest to newest):
+D/home/roy
+	..
+0
+D/home
+	roy
+2
 D/home/roy
 	..
 0

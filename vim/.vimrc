@@ -41,13 +41,9 @@ call plug#begin('~/.vim/plugged')
 Plug 'joshdick/onedark.vim'
 "Plug 'morhetz/gruvbox'
 "Plug 'tomasiser/vim-code-dark'
-"Plug 'sainnhe/sonokai'
-"Plug 'NLKNguyen/papercolor-theme'
 " fzf integration (*install fzf first*)
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-" NERDTree
-"Plug 'preservim/nerdtree'
 " tag
 "Plug 'preservim/tagbar'
 " linting+fixing
@@ -117,25 +113,6 @@ colorscheme onedark
 "let g:codedark_conservative = 0     " 1/0 for less/more(default) colors
 "colorscheme codedark
 
-" set sonokai color scheme
-"colorscheme sonokai
-
-" set papercolor color scheme
-"set background=dark     " use dark theme
-"let g:PaperColor_Theme_Options = {
-"  \   'theme': {
-"  \     'default.dark': {
-"  \       'allow_italic': 1
-"  \     }
-"  \   },
-"  \   'language': {
-"  \     'python': {
-"  \       'highlight_builtins' : 1
-"  \     }
-"  \   }
-"  \ }
-"colorscheme PaperColor
-
 """""""""""""""""""""""""""""""
 " set fzf
 """""""""""""""""""""""""""""""
@@ -204,8 +181,9 @@ let python_highlight_all = 1
 " turn off highlighting
 noremap <leader>h :noh<CR>
 
-" Ctrl-Z escape in insert mode (https://vi.stackexchange.com/a/6137)
-inoremap <c-z> <esc><c-z>
+" Disable Ctrl-Z in normal&insert mode to prevent backgrounding (<nop> -> 'no operation')
+nnoremap <c-z> <nop>
+inoremap <c-z> <nop>
 
 " open new buffer in split window
 nmap <leader>r :set splitright<CR>:vsp
@@ -259,7 +237,7 @@ let g:lightline = {
       \ 'colorscheme': 'onedark',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'gitbranch', 'readonly', 'filename', 'modified', 'virtualenv' ] ],
+      \             [ 'readonly', 'filename', 'modified', 'virtualenv', 'gitbranch'] ],
       \   'right': [ [ 'lineinfo' ],
       \              [ 'fileformat', 'fileencoding', 'filetype', 'percent' ] ]
       \ },
@@ -275,8 +253,6 @@ let g:lightline = {
 map <leader>t :below vert terminal<CR>
 tmap <F2> <C-w>w
 tmap <F3> <C-w>N
-" set termwinsize=0x90
-"hi Terminal guibg=#282a36
 hi Terminal guibg=#3c3c3c         " linux mint console color
 
 " set startify

@@ -139,7 +139,7 @@ command! -bang -nargs=* Rg
     \                           --no-heading
     \                           --color=always
     \                           --smart-case
-    \                           -g "!{.git,.cache,.pyenv,.mozilla,.vim,.local}"
+    \                           --glob "!{.cache,.git,.local,.mozilla,.pyenv,.steam}"
     \                       '
     \                       .shellescape(<q-args>), 1,
     \                       fzf#vim#with_preview(), <bang>0
@@ -275,6 +275,10 @@ let g:startify_custom_header = [
 
 " set gitbranch
 " let gitbranch = system('echo -n $(git rev-parse --abbrev-ref HEAD 2> /dev/null)')
+
+" disable netrw
+let g:loaded_netrw       = 1
+let g:loaded_netrwPlugin = 1
 
 " open + reload vimrc
 nnoremap <leader>ev :e $MYVIMRC<cr>

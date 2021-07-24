@@ -87,40 +87,14 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-# some more ls aliases
-alias rm='rm -i'
-alias cp='cp -i'
-alias mv='mv -i'
-alias c='clear'
-alias m='less -r'
-alias md='mkdir'
-alias rd='rmdir'
-alias q='clear;exit'
-alias t='htop -d 10'
-alias ls='ls -hF --color'
-alias ll='ls -Al --color'
-alias la='ls -A --color'
-alias l='ls -l --color'
-alias df='df -h'
-alias du='du -h'
-alias r='R --save'
-alias n='neofetch'
-alias s='sensors'
-alias f='free -h'
-alias v='vi'
-alias vf='~/.config/vifm/scripts/vifmrun .'
-alias i='inxi -Fxxxrz'
-alias update='sudo apt update'
-alias upgradable='sudo apt list --upgradable'
-alias upgrade='sudo apt update && sudo apt upgrade -y'
-alias clean='sudo apt autoclean && sudo apt autoremove -y'
-alias reboot='sudo reboot now'
-alias log='clear && tail /var/log/syslog -n 20'
-alias bootlog='clear && sudo tail /var/log/boot.log -n 100'
-
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+# set git commit alias (takes a parameter)
+gcommit() {
+    git commit -m "$1"
+}
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -157,6 +131,3 @@ export PATH="$PATH:$HOME/.local/bin"
 export FZF_DEFAULT_COMMAND='rg --files --hidden --follow --glob "!{.cache,.git,.local,.mozilla,.pyenv,.steam}"'
 export FZF_DEFAULT_OPTS='--no-height --color=bg+:#222222,gutter:-1,info:#0dbc79,hl:#0dbc79,hl+:#23d18b,prompt:#0dbc79,preview-bg:#222222'
 #export FZF_DEFAULT_OPTS='--no-height --preview-window wrap --color=bg+:#222222,gutter:-1,info:#0dbc79,hl:#0dbc79,hl+:#23d18b,prompt:#0dbc79,preview-bg:#222222'
-alias ff='fzf --preview="head -$LINES {}" | xargs -r -I % xed %'
-alias fd='cd $HOME/Documents && fzf --preview="head -$LINES {}" | xargs -r -I % xed %'
-alias FF='cd $HOME && fzf --preview="head -$LINES {}" | xargs -r -I % xed %'

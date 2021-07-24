@@ -29,14 +29,11 @@ alias reboot='sudo reboot now'
 alias log='clear && tail /var/log/syslog -n 20'
 alias bootlog='clear && sudo tail /var/log/boot.log -n 100'
 
-# git aliases
+# git aliases (gcommit alias read from .bashrc)
 alias gstat='git status'
 alias gadd='git add .'
 alias gpush='git push'
 alias gpull='git pull'
-gcommit() {
-    git commit -m "$1"
-}
 
 # fzf aliases
 alias ff='fzf --preview="head -$LINES {}" | xargs -r -I % xed %'

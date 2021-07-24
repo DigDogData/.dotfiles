@@ -29,7 +29,6 @@ set t_Co=256
 set t_ut=
 set mouse=a
 set termguicolors
-"set lines=46 columns=185        " set window size
 set backup      " make backup files
 set backupdir=~/.vim/backupdir
 set undofile    " persistent undo
@@ -118,6 +117,7 @@ colorscheme onedark
 """""""""""""""""""""""""""""""
 let g:fzf_layout = { 'down': '40%' }
 let g:fzf_preview_window = ['right:50%', 'ctrl-/']  " ctrl-/ to toggle
+"let g:fzf_preview_window = ['right:50%:wrap', 'ctrl-/']  " ctrl-/ to toggle
 
 " search for file
 let $FZF_DEFAULT_COMMAND = '
@@ -150,8 +150,9 @@ autocmd! FileType fzf set laststatus=0 noshowmode noruler
   \| autocmd BufLeave <buffer> set laststatus=2 showmode ruler
 
 "keybindings
-nnoremap <silent> FF :Files ~<CR>
 nnoremap <silent> ff :Files<CR>
+nnoremap <silent> fd :Files ~/Documents<CR>
+nnoremap <silent> FF :Files ~<CR>
 nnoremap <silent> bb :Buffers<CR>
 
 let g:fzf_action = {

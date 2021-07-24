@@ -156,5 +156,7 @@ export PATH="$PATH:$HOME/.local/bin"
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 export FZF_DEFAULT_COMMAND='rg --files --hidden --follow --glob "!{.cache,.git,.local,.mozilla,.pyenv,.steam}"'
 export FZF_DEFAULT_OPTS='--no-height --color=bg+:#222222,gutter:-1,info:#0dbc79,hl:#0dbc79,hl+:#23d18b,prompt:#0dbc79,preview-bg:#222222'
+#export FZF_DEFAULT_OPTS='--no-height --preview-window wrap --color=bg+:#222222,gutter:-1,info:#0dbc79,hl:#0dbc79,hl+:#23d18b,prompt:#0dbc79,preview-bg:#222222'
 alias ff='fzf --preview="head -$LINES {}" | xargs -r -I % xed %'
+alias fd='cd $HOME/Documents && fzf --preview="head -$LINES {}" | xargs -r -I % xed %'
 alias FF='cd $HOME && fzf --preview="head -$LINES {}" | xargs -r -I % xed %'

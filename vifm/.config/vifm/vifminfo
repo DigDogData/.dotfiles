@@ -30,30 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/roy
-	.dotfiles
-4
-d/home
-	roy
-2
-d/home/roy
-	.local
-10
-d/home/roy/.local
-	..
-0
-d/home/roy
-	.local
-10
-d/home/roy/.local
-	..
-0
-d/home/roy
-	.local
-10
-d/home
-	roy
-2
 d/
 	home
 5
@@ -330,6 +306,30 @@ d/home/roy/Videos/TV/The Mandalorian
 d/home/roy/Videos/TV/The Mandalorian/Season 1
 	E03 (Chapter 3: The Sin).mkv
 5
+d/home/roy
+	Videos
+30
+d/home/roy/Videos
+	Sports
+3
+d/home/roy/Videos/Sports
+	NBA
+2
+d/home/roy/Videos/Sports/NBA
+	2012 Playoff G4 Heat @Pacers.mkv
+2
+d/home/roy/Videos/Sports
+	NBA
+2
+d/home/roy/Videos
+	Sports
+3
+d/home/roy
+	Videos
+30
+d/home
+	roy
+2
 d
 
 # Right window history (oldest to newest):

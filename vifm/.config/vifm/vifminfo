@@ -47,21 +47,6 @@ d/home/roy
 4
 d/home/roy/.dotfiles
 	vifm
-9
-d/home/roy/.dotfiles/vifm
-	.config
-1
-d/home/roy/.dotfiles/vifm/.config
-	vifm
-1
-d/home/roy/.dotfiles/vifm/.config/vifm
-	vifmrc
-5
-d/home/roy
-	.dotfiles
-4
-d/home/roy/.dotfiles
-	vifm
 7
 d/home/roy/.dotfiles/vifm
 	.config
@@ -330,6 +315,21 @@ d/home/roy/Documents/MOOC
 d/home/roy/Documents
 	Lottery
 19
+d/home/roy
+	Desktop
+21
+d/home/roy/Desktop
+	SMART_03-23-21.png
+9
+d/home/roy
+	Pictures
+26
+d/home/roy/Pictures
+	Unidentified
+29
+d/home/roy
+	Documents
+22
 d
 
 # Right window history (oldest to newest):

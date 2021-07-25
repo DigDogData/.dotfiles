@@ -30,45 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/roy/.dotfiles/vifm/.config
-	vifm
-1
-d/home/roy/.dotfiles/vifm/.config/vifm
-	vifmrc
-5
-d/home/roy
-	.dotfiles
-4
-d/home/roy/.dotfiles
-	vifm
-7
-d/home/roy/.dotfiles/vifm
-	.config
-1
-d/home/roy/.dotfiles/vifm/.config
-	vifm
-1
-d/home/roy/.dotfiles/vifm/.config/vifm
-	scripts
-2
-d/home/roy/.dotfiles/vifm/.config/vifm/scripts
-	vifmrun
-3
-d/home/roy/.dotfiles/vifm/.config/vifm
-	scripts
-2
-d/home/roy/.dotfiles/vifm/.config
-	vifm
-1
-d/home/roy/.dotfiles/vifm
-	.config
-1
-d/home/roy/.dotfiles
-	vifm
-7
-d/home/roy
-	Pictures
-21
 d/home/roy/Pictures
 	From Camera
 20
@@ -328,8 +289,47 @@ d/home/roy/Downloads
 	NerdFonts
 4
 d/home/roy
-	Downloads
-23
+	Music
+25
+d/home/roy/Music
+	Anika's Songs
+1
+d/home/roy/Music/Anika's Songs
+	Alors On Danse - Stromae.mp3
+6
+d/home/roy/Music
+	English Songs
+3
+d/home/roy
+	Videos
+30
+d/home/roy/Videos
+	Family
+1
+d/home/roy/Videos/Family
+	..
+0
+d/home/roy/Videos
+	Movies
+2
+d/home/roy/Videos/Movies
+	Hobbit (Extended)
+2
+d/home/roy/Videos/Movies/Hobbit (Extended)
+	1. An Unexpected Journey
+1
+d/home/roy/Videos/Movies/Hobbit (Extended)/1. An Unexpected Journey
+	Movie.mkv
+1
+d/home/roy/Videos/Movies/Hobbit (Extended)
+	1. An Unexpected Journey
+1
+d/home/roy/Videos/Movies
+	Hobbit (Extended)
+2
+d/home/roy/Videos
+	Movies
+2
 d
 
 # Right window history (oldest to newest):

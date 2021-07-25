@@ -30,36 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/roy/Pictures
-	From Camera
-20
-d/home/roy
-	Documents
-18
-d/home/roy/Documents
-	Anika's Docs
-1
-d/home/roy/Documents/Anika's Docs
-	ACT
-7
-d/home/roy/Documents/Anika's Docs/ACT
-	Nik Decision Letter ACT.pdf
-4
-d/home/roy/Documents/Anika's Docs
-	ACT
-7
-d/home/roy/Documents
-	Data_Science
-2
-d/home/roy
-	Downloads
-19
-d/home/roy/Downloads
-	NerdFonts
-2
-d/home/roy/Downloads/NerdFonts
-	Hack Bold Italic Nerd Font Complete.ttf
-2
 d/home/roy/Downloads
 	NerdFonts
 2
@@ -330,6 +300,36 @@ d/home/roy/Videos/Movies
 d/home/roy/Videos
 	Movies
 2
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	Personal_Finance
+23
+d/home/roy/Documents/Personal_Finance
+	Statements
+5
+d/home/roy/Documents/Personal_Finance/Statements
+	Accounts
+1
+d/home/roy/Documents/Personal_Finance/Statements/Accounts
+	TIAA-CREF
+10
+d/home/roy/Documents/Personal_Finance/Statements/Accounts/TIAA-CREF
+	2011-Q4.pdf
+1
+d/home/roy/Documents/Personal_Finance/Statements/Accounts
+	TIAA-CREF
+10
+d/home/roy/Documents/Personal_Finance/Statements
+	Accounts
+1
+d/home/roy/Documents/Personal_Finance
+	Statements
+5
+d/home/roy/Documents
+	Personal_Finance
+23
 d
 
 # Right window history (oldest to newest):

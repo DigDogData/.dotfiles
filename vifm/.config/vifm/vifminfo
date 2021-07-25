@@ -30,243 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/roy/Downloads/NerdFonts
-	Hack Bold Italic Nerd Font Complete.ttf
-2
-d/home/roy/Downloads
-	NerdFonts
-2
-d/home/roy/Downloads/NerdFonts
-	Hack Bold Nerd Font Complete Mono.ttf
-3
-d/home/roy/Downloads
-	NerdFonts
-2
-d/home/roy
-	Downloads
-19
-d/home
-	roy
-2
-d/
-	home
-5
-d/home
-	roy
-2
-d/home/roy
-	Desktop
-17
-d/home/roy/Desktop
-	facebook.txt
-15
-d/home/roy
-	Documents
-11
-d/home/roy/Documents
-	Data_Science
-2
-d/home/roy/Documents/Data_Science
-	Linear_Algebra
-2
-d/home/roy/Documents/Data_Science/Linear_Algebra
-	Lectures
-4
-d/home/roy/Documents/Data_Science/Linear_Algebra/Lectures
-	13 (Quiz 1 review).mp4
-13
-d/home/roy/Documents/Data_Science/Linear_Algebra
-	Lectures
-4
-d/home/roy/Documents/Data_Science
-	Linear_Algebra
-2
-d/home/roy/Documents
-	Data_Science
-2
-d/home/roy
-	Documents
-11
-d/home/roy/Documents
-	Data_Science
-2
-d/home/roy/Documents/Data_Science
-	Linear_Algebra
-2
-d/home/roy/Documents/Data_Science/Linear_Algebra
-	Codes
-2
-d/home/roy/Documents/Data_Science/Linear_Algebra/Codes
-	null.py
-4
-d/home/roy
-	Desktop
-10
-d/home/roy/Desktop
-	AAPS_MedAdminFormSelfCarry.pdf
-3
-d/home/roy
-	Documents
-11
-d/home/roy/Documents
-	Data_Science
-2
-d/home/roy/Documents/Data_Science
-	Linear_Algebra
-2
-d/home/roy/Documents/Data_Science/Linear_Algebra
-	Codes
-2
-d/home/roy/Documents/Data_Science/Linear_Algebra/Codes
-	rref2.py
-7
-d/home/roy
-	Desktop
-10
-d/home/roy/Desktop
-	AAPS_RegistrationConfirmation.pdf
-4
-d/home/roy
-	Videos
-16
-d/home/roy/Videos
-	..
-0
-d/home/roy
-	Pictures
-13
-d/home/roy/Pictures
-	dad.jpg
-31
-d/home/roy
-	Desktop
-9
-d/home/roy/Desktop
-	AP Fee.pdf
-5
-d/home/roy
-	Documents
-10
-d/home/roy/Documents
-	Data_Science
-2
-d/home/roy/Documents/Data_Science
-	Linear_Algebra
-2
-d/home/roy/Documents/Data_Science/Linear_Algebra
-	Lectures
-4
-d/home/roy/Documents/Data_Science/Linear_Algebra/Lectures
-	20 (Cramer's rule, inverse matrix, and volume).mp4
-20
-d/home/roy
-	Desktop
-20
-d/home/roy/Desktop
-	SMART_03-23-21.png
-9
-d/home/roy
-	Desktop
-20
-d/home/roy/.dotfiles
-	vifm
-7
-d/home/roy/.dotfiles/vifm
-	.config
-1
-d/home/roy/.dotfiles/vifm/.config
-	vifm
-1
-d/home/roy/.dotfiles/vifm
-	.config
-1
-d/home/roy/.dotfiles
-	vifm
-7
-d/home/roy
-	.dotfiles
-4
-d/home
-	roy
-2
-d/home/roy
-	.local
-10
-d/home/roy/.local
-	..
-0
-d/home/roy
-	.local
-10
-d/home/roy/.local
-	..
-0
-d/home/roy
-	.local
-10
-d/home
-	roy
-2
-d/
-	home
-5
-d/home/roy
-	Documents
-22
-d/home/roy/Documents
-	MOOC
-21
-d/home/roy/Documents/MOOC
-	Linear_Algebra
-5
-d/home/roy/Documents/MOOC/Linear_Algebra
-	Lectures
-4
-d/home/roy/Documents/MOOC/Linear_Algebra/Lectures
-	15 (Projections onto subspaces).mp4
-15
-d/home/roy
-	Documents
-22
-d/home/roy/Documents
-	MOOC
-21
-d/home/roy/Documents/MOOC
-	Linear_Algebra
-5
-d/home/roy/Documents/MOOC/Linear_Algebra
-	Lectures
-4
-d/home/roy/Documents/MOOC/Linear_Algebra/Lectures
-	13 (Quiz 1 review).mp4
-13
-d/home/roy/Documents/MOOC/Linear_Algebra
-	Lectures
-4
-d/home/roy/Documents/MOOC/Linear_Algebra/Lectures
-	13 (Quiz 1 review).mp4
-13
-d/home/roy
-	Documents
-22
-d/home/roy/Documents
-	MOOC
-21
-d/home/roy/Documents/MOOC
-	Linear_Algebra
-5
-d/home/roy/Documents/MOOC/Linear_Algebra
-	Codes
-2
-d/home/roy/Documents/MOOC/Linear_Algebra/Codes
-	..
-0
-d/home/roy/Documents/MOOC/Linear_Algebra
-	Exams
-2
-d/home/roy/Documents/MOOC
-	Linear_Algebra
-5
 d/home/roy/Documents
 	DS
 5
@@ -274,62 +37,299 @@ d/home/roy/Documents/DS
 	Codes
 3
 d/home/roy/Documents/DS/Codes
-	Py
-1
-d/home/roy/Documents/DS/Codes/Py
-	LinAlg
-2
-d/home/roy/Documents/DS/Codes/Py/LinAlg
-	.Rhistory
-1
-d/home/roy/Documents/DS/Codes/Py
-	LinAlg
-2
-d/home/roy/Documents/DS/Codes
-	Py
-1
-d/home/roy/Documents/DS/Codes/Py
-	LinAlg
-2
-d/home/roy/Documents/DS/Codes
-	Py
-1
-d/home/roy/Documents/DS
-	Codes
+	R
 3
-d/home/roy/Documents/DS/Codes
-	Py
+d/home/roy/Documents/DS/Codes/R
+	DataCamp
 1
-d/home/roy/Documents/DS/Codes/Py
-	
+d/home/roy/Documents/DS/Codes/R/DataCamp
+	..
+0
+d/home/roy/Documents/DS/Codes/R
+	DataCamp
 1
+d/home/roy/Documents/DS/Codes/R/DataCamp
+	..
+0
+d/home/roy/Documents/DS/Codes/R
+	DataCamp
+1
+d/home/roy/Documents/DS/Codes/R/DataCamp
+	..
+0
+d/home/roy/Documents/DS/Codes/R
+	Image_Processing
+2
+d/home/roy/Documents/DS/Codes/R/Image_Processing
+	beach.jpg
+1
+d/home/roy/Documents/DS/Codes/R
+	Libs
+3
+d/home/roy/Documents/DS/Codes/R/Libs
+	..
+0
+d/home/roy/Documents/DS/Codes/R
+	Misc
+4
+d/home/roy/Documents/DS/Codes/R/Misc
+	..
+0
+d/home/roy/Documents/DS/Codes/R
+	Predictive_Modeling
+5
+d/home/roy/Documents/DS/Codes/R/Predictive_Modeling
+	..
+0
+d/home/roy/Documents/DS/Codes/R
+	Spatial_Analysis
+6
+d/home/roy/Documents/DS/Codes/R/Spatial_Analysis
+	CRS Overview.pdf
+1
+d/home/roy/Documents/DS/Codes/R
+	String_Manipulation
+7
+d/home/roy/Documents/DS/Codes/R/String_Manipulation
+	..
+0
+d/home/roy/Documents/DS/Codes/R
+	String_Manipulation
+7
 d/home/roy/Documents/DS/Codes
 	Python
+2
+d/home/roy/Documents/DS/Codes/Python
+	Libs
+1
+d/home/roy/Documents/DS/Codes/Python/Libs
+	..
+0
+d/home/roy/Documents/DS/Codes/Python
+	LinAlg
+2
+d/home/roy/Documents/DS/Codes/Python/LinAlg
+	null.py
 1
 d/home/roy/Documents/DS/Codes/Python
 	LinAlg
 2
 d/home/roy/Documents/DS/Codes
 	Python
-1
+2
 d/home/roy/Documents/DS
 	Codes
 3
 d/home/roy/Documents/DS/Codes
 	Python
+2
+d/home/roy/Documents/DS
+	Codes
+3
+d/home/roy/Documents
+	Research
+27
+d/home/roy
+	.dotfiles
+4
+d/home/roy/.dotfiles
+	README.md
+10
+d/home/roy
+	.dotfiles
+4
+d/home/roy/.dotfiles
+	flake8
+3
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	Research
+27
+d/home/roy/Documents/Research
+	..
+0
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy/Documents/Scripts
+	Git
+2
+d/home/roy/Documents/Scripts/Git
+	gitpush.sh
+3
+d/home/roy/Documents/Scripts
+	Git
+2
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy
+	.cache
+2
+d/home/roy/.cache
+	BraveSoftware
+1
+d/home/roy/.cache/BraveSoftware
+	Brave-Browser
+1
+d/home/roy/.cache/BraveSoftware/Brave-Browser
+	Default
+1
+d/home/roy/.cache/BraveSoftware/Brave-Browser/Default
+	Cache
+1
+d/home/roy/.cache/BraveSoftware/Brave-Browser
+	Default
+1
+d/home/roy/.cache/BraveSoftware
+	Brave-Browser
+1
+d/home/roy/.cache
+	BraveSoftware
+1
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	BraveSoftware
+1
+d/home/roy/.config/BraveSoftware
+	Brave-Browser
+1
+d/home/roy/.config/BraveSoftware/Brave-Browser
+	Greaselion
+10
+d/home/roy/.config/BraveSoftware
+	Brave-Browser
+1
+d/home/roy/.config
+	BraveSoftware
+1
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	BraveSoftware
+1
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	BraveSoftware
 1
 d/home/roy
 	Documents
 22
 d/home/roy/Documents
-	DS
-5
-d/home/roy/Documents/DS
-	Codes
+	Scripts
+28
+d/home/roy/Documents/Scripts
+	Backup
+1
+d/home/roy/Documents/Scripts/Backup
+	exclude_list.txt
 3
-d/home/roy/Documents/DS/Codes
-	.gitignore
-4
+d/home/roy/Documents/Scripts
+	Backup
+1
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy
+	.fzf
+5
+d/home/roy/.fzf
+	test
+9
+d/home/roy
+	.fzf
+5
+d/home
+	roy
+2
+d/
+	home
+5
+d/home
+	roy
+2
+d/home/roy
+	.fzf
+5
+d/home
+	roy
+2
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy/Documents/Scripts
+	Backup
+1
+d/home/roy/Documents/Scripts/Backup
+	exclude_list.txt
+3
+d/home/roy/Documents/Scripts
+	Backup
+1
+d/home/roy/Documents
+	Research
+27
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	Research
+27
+d/home/roy/Documents/Research
+	..
+0
+d/home/roy/Documents
+	Research
+27
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy/Documents/Scripts
+	Backup
+1
+d/home/roy/Documents/Scripts/Backup
+	exclude_list.txt
+3
+d/home/roy/Documents/Scripts
+	Backup
+1
+d/home/roy/Documents
+	MOOC
+21
+d/home/roy
+	Documents
+22
+d/home
+	roy
+2
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	vifm
+30
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy/.config
+	vifm
+30
+d/home/roy
+	.config
+3
 d
 
 # Right window history (oldest to newest):
@@ -365,6 +365,7 @@ D
 :marks
 :nmap
 :<c-tab>  
+:empty
 :q
 
 # Search history (oldest to newest):
@@ -395,42 +396,6 @@ pLinAlg
 # Directory stack (oldest to newest):
 
 # Trash content:
-t/home/roy/.local/share/vifm/Trash/000_vifmimg
-	/home/roy/.dotfiles/vifm/.config/vifm/scripts/vifmimg
-t/home/roy/.local/share/vifm/Trash/000_vifmrun
-	/home/roy/.dotfiles/vifm/.config/vifm/scripts/vifmrun
-t/home/roy/.local/share/vifm/Trash/000_Thumbs.db
-	/home/roy/Downloads/Krishna/Thumbs.db
-t/home/roy/.local/share/vifm/Trash/000_Thumbs.db:encryptable
-	/home/roy/Downloads/Krishna/Thumbs.db:encryptable
-t/home/roy/.local/share/vifm/Trash/000_.profile_old
-	/home/roy/.profile_old
-t/home/roy/.local/share/vifm/Trash/000_.netrc
-	/home/roy/.netrc
-t/home/roy/.local/share/vifm/Trash/000_Space Jam A New Legacy (2021)
-	/home/roy/Downloads/Space Jam A New Legacy (2021)
-t/home/roy/.local/share/vifm/Trash/000_tmp
-	/home/roy/Downloads/tmp
-t/home/roy/.local/share/vifm/Trash/001_Thumbs.db
-	/home/roy/Downloads/Free Images/Thumbs.db
-t/home/roy/.local/share/vifm/Trash/001_Thumbs.db:encryptable
-	/home/roy/Downloads/Free Images/Thumbs.db:encryptable
-t/home/roy/.local/share/vifm/Trash/000_test.sh
-	/home/roy/Desktop/test.sh
-t/home/roy/.local/share/vifm/Trash/000_gitscript.sh
-	/home/roy/Desktop/gitscript.sh
-t/home/roy/.local/share/vifm/Trash/000_gitscript2.sh
-	/home/roy/Desktop/gitscript2.sh
-t/home/roy/.local/share/vifm/Trash/000_gitpush_orig.sh
-	/home/roy/Documents/Scripts/Git/gitpush_orig.sh
-t/home/roy/.local/share/vifm/Trash/002_Thumbs.db
-	/home/roy/Documents/Data_Science/Thumbs.db
-t/home/roy/.local/share/vifm/Trash/002_Thumbs.db:encryptable
-	/home/roy/Documents/Data_Science/Thumbs.db:encryptable
-t/home/roy/.local/share/vifm/Trash/000_.RData
-	/home/roy/Documents/Data_Science/Codes/.RData
-t/home/roy/.local/share/vifm/Trash/000_.Rhistory
-	/home/roy/Documents/Data_Science/Codes/.Rhistory
 
 # State:
 f

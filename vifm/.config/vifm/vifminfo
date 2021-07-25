@@ -30,102 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/roy/.dotfiles/vifm
-	.config
-1
-d/home/roy/.dotfiles/vifm/.config
-	vifm
-1
-d/home/roy/.dotfiles/vifm/.config/vifm
-	vifmrc
-5
-d/home/roy/.dotfiles/vifm/.config
-	vifm
-1
-d/home/roy
-	.dotfiles
-4
-d/home/roy/.dotfiles
-	vifm
-9
-d/home/roy/.dotfiles/vifm
-	.config
-1
-d/home/roy/.dotfiles/vifm/.config
-	vifm
-1
-d/home/roy/.dotfiles/vifm/.config/vifm
-	vifmrc
-5
-d/home/roy
-	.dotfiles
-4
-d/home/roy/.dotfiles
-	vifm
-9
-d/home/roy/.dotfiles/vifm
-	.config
-1
-d/home/roy/.dotfiles/vifm/.config
-	vifm
-1
-d/home/roy/.dotfiles/vifm/.config/vifm
-	vifmrc
-5
-d/home/roy
-	.dotfiles
-4
-d/home/roy/.dotfiles
-	vifm
-7
-d/home/roy/.dotfiles/vifm
-	.config
-1
-d/home/roy/.dotfiles/vifm/.config
-	vifm
-1
-d/home/roy/.dotfiles/vifm/.config/vifm
-	scripts
-2
-d/home/roy/.dotfiles/vifm/.config/vifm/scripts
-	vifmrun
-3
-d/home/roy/.dotfiles/vifm/.config/vifm
-	scripts
-2
-d/home/roy/.dotfiles/vifm/.config
-	vifm
-1
-d/home/roy/.dotfiles/vifm
-	.config
-1
-d/home/roy/.dotfiles
-	vifm
-7
-d/home/roy
-	Pictures
-21
-d/home/roy/Pictures
-	From Camera
-20
-d/home/roy
-	Documents
-18
-d/home/roy/Documents
-	Anika's Docs
-1
-d/home/roy/Documents/Anika's Docs
-	ACT
-7
-d/home/roy/Documents/Anika's Docs/ACT
-	Nik Decision Letter ACT.pdf
-4
-d/home/roy/Documents/Anika's Docs
-	ACT
-7
-d/home/roy/Documents
-	Data_Science
-2
 d/home/roy
 	Downloads
 19
@@ -316,20 +220,116 @@ d/home/roy
 	Documents
 22
 d/home/roy/Documents
-	MOOC
-21
-d/home/roy/Documents/MOOC
-	Linear_Algebra
-5
-d/home/roy/Documents/MOOC/Linear_Algebra
-	Lectures
-4
-d/home/roy/Documents/MOOC/Linear_Algebra/Lectures
-	15 (Projections onto subspaces).mp4
-15
+	Scripts
+28
+d/home/roy/Documents/Scripts
+	Backup
+1
+d/home/roy/Documents/Scripts/Backup
+	backup
+2
 d/home/roy
 	Documents
 22
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy/Documents/Scripts
+	Backup
+1
+d/home/roy/Documents/Scripts/Backup
+	backup
+2
+d/home/roy
+	Downloads
+23
+d/home/roy/Downloads
+	Space Jam A New Legacy (2021)
+5
+d/home/roy/Downloads/Space Jam A New Legacy (2021)
+	Movie.mp4
+2
+d/home/roy/Downloads
+	Space Jam A New Legacy (2021)
+5
+d/home/roy
+	Downloads
+23
+d/home/roy/Downloads
+	Space Jam A New Legacy (2021)
+5
+d/home/roy/Downloads/Space Jam A New Legacy (2021)
+	Movie.mp4
+2
+d/home/roy/Downloads
+	qBittorrent_Plugins
+5
+d/home/roy
+	Downloads
+23
+d/home/roy/Downloads
+	tmp
+6
+d/home/roy/Downloads/tmp
+	..
+0
+d/home/roy/Downloads
+	Free Images
+2
+d/home/roy/Downloads/Free Images
+	site-is-under-construction-1-1241835.jpg
+1
+d/home/roy/Downloads
+	Apps
+1
+d/home/roy/Downloads/Apps
+	..
+0
+d/home/roy/Downloads
+	qBittorrent_Plugins
+5
+d/home/roy
+	Desktop
+13
+d/home/roy/Desktop
+	SMART_03-23-21.png
+9
+d/home/roy
+	Documents
+14
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy/Documents/Scripts
+	Backup
+1
+d/home/roy/Documents/Scripts/Backup
+	backup
+2
+d/home/roy/Documents/Scripts
+	Backup
+1
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy/Documents/Scripts
+	Backup
+1
+d/home/roy/Documents/Scripts/Backup
+	backup
+2
+d/home/roy/Documents/Scripts
+	Backup
+1
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy
+	Desktop
+13
+d/home/roy/Desktop
+	gitscript.sh
+13
 d
 
 # Right window history (oldest to newest):
@@ -358,17 +358,20 @@ D
 :marks
 :nmap
 :<c-tab>  
+:chmod 755 gitscript.sh
+:!chmod 755 gitscript.sh
 :q
 
 # Search history (oldest to newest):
 
 # Prompt history (oldest to newest):
 p.netrc
+ptest.sh
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/roy/.local/share/vifm/Trash/000_.netrc
+""/home/roy/.local/share/vifm/Trash/000_test.sh
 
 # Directory stack (oldest to newest):
 
@@ -385,6 +388,16 @@ t/home/roy/.local/share/vifm/Trash/000_.profile_old
 	/home/roy/.profile_old
 t/home/roy/.local/share/vifm/Trash/000_.netrc
 	/home/roy/.netrc
+t/home/roy/.local/share/vifm/Trash/000_Space Jam A New Legacy (2021)
+	/home/roy/Downloads/Space Jam A New Legacy (2021)
+t/home/roy/.local/share/vifm/Trash/000_tmp
+	/home/roy/Downloads/tmp
+t/home/roy/.local/share/vifm/Trash/001_Thumbs.db
+	/home/roy/Downloads/Free Images/Thumbs.db
+t/home/roy/.local/share/vifm/Trash/001_Thumbs.db:encryptable
+	/home/roy/Downloads/Free Images/Thumbs.db:encryptable
+t/home/roy/.local/share/vifm/Trash/000_test.sh
+	/home/roy/Desktop/test.sh
 
 # State:
 f

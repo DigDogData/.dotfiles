@@ -30,18 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/roy/Documents/DS/Codes
-	Python
-2
-d/home/roy/Documents/DS
-	Codes
-1
-d/home/roy/Documents
-	Scripts
-8
-d/home/roy/Documents/Scripts
-	Git
-2
 d/home/roy/Documents/Scripts/Git
 	gitpush.sh
 3
@@ -328,8 +316,20 @@ d/home
 	roy
 2
 d/home/roy
-	.bash_aliases
-20
+	Documents
+8
+d/home/roy/Documents
+	Scripts
+7
+d/home/roy/Documents/Scripts
+	Git
+2
+d/home/roy/Documents/Scripts/Git
+	gitpull.sh
+2
+d/home/roy/Documents/Scripts
+	Git
+2
 d
 
 # Right window history (oldest to newest):

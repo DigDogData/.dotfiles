@@ -8,11 +8,11 @@
 'b
 	/home/roy/bin/
 	..
-1627067533
+1627167440
 'h
 	/home/roy/
 	..
-1626983045
+1627167440
 'z
 	/home/roy/.config/vifm
 	..
@@ -31,128 +31,8 @@ r2
 
 # Left window history (oldest to newest):
 d/home/roy/Documents
-	DS
-5
-d/home/roy/Documents/DS
-	Codes
-3
-d/home/roy/Documents/DS/Codes
-	R
-3
-d/home/roy/Documents/DS/Codes/R
-	DataCamp
-1
-d/home/roy/Documents/DS/Codes/R/DataCamp
-	..
-0
-d/home/roy/Documents/DS/Codes/R
-	DataCamp
-1
-d/home/roy/Documents/DS/Codes/R/DataCamp
-	..
-0
-d/home/roy/Documents/DS/Codes/R
-	DataCamp
-1
-d/home/roy/Documents/DS/Codes/R/DataCamp
-	..
-0
-d/home/roy/Documents/DS/Codes/R
-	Image_Processing
-2
-d/home/roy/Documents/DS/Codes/R/Image_Processing
-	beach.jpg
-1
-d/home/roy/Documents/DS/Codes/R
-	Libs
-3
-d/home/roy/Documents/DS/Codes/R/Libs
-	..
-0
-d/home/roy/Documents/DS/Codes/R
-	Misc
-4
-d/home/roy/Documents/DS/Codes/R/Misc
-	..
-0
-d/home/roy/Documents/DS/Codes/R
-	Predictive_Modeling
-5
-d/home/roy/Documents/DS/Codes/R/Predictive_Modeling
-	..
-0
-d/home/roy/Documents/DS/Codes/R
-	Spatial_Analysis
-6
-d/home/roy/Documents/DS/Codes/R/Spatial_Analysis
-	CRS Overview.pdf
-1
-d/home/roy/Documents/DS/Codes/R
-	String_Manipulation
-7
-d/home/roy/Documents/DS/Codes/R/String_Manipulation
-	..
-0
-d/home/roy/Documents/DS/Codes/R
-	String_Manipulation
-7
-d/home/roy/Documents/DS/Codes
-	Python
-2
-d/home/roy/Documents/DS/Codes/Python
-	Libs
-1
-d/home/roy/Documents/DS/Codes/Python/Libs
-	..
-0
-d/home/roy/Documents/DS/Codes/Python
-	LinAlg
-2
-d/home/roy/Documents/DS/Codes/Python/LinAlg
-	null.py
-1
-d/home/roy/Documents/DS/Codes/Python
-	LinAlg
-2
-d/home/roy/Documents/DS/Codes
-	Python
-2
-d/home/roy/Documents/DS
-	Codes
-3
-d/home/roy/Documents/DS/Codes
-	Python
-2
-d/home/roy/Documents/DS
-	Codes
-3
-d/home/roy/Documents
-	Research
-27
-d/home/roy
-	.dotfiles
-4
-d/home/roy/.dotfiles
-	README.md
-10
-d/home/roy
-	.dotfiles
-4
-d/home/roy/.dotfiles
-	flake8
-3
-d/home/roy
-	Documents
-22
-d/home/roy/Documents
-	Research
-27
-d/home/roy/Documents/Research
-	..
-0
-d/home/roy/Documents
 	Scripts
-28
+8
 d/home/roy/Documents/Scripts
 	Git
 2
@@ -164,91 +44,241 @@ d/home/roy/Documents/Scripts
 2
 d/home/roy/Documents
 	Scripts
-28
+8
 d/home/roy
-	.cache
-2
-d/home/roy/.cache
-	BraveSoftware
-1
-d/home/roy/.cache/BraveSoftware
-	Brave-Browser
-1
-d/home/roy/.cache/BraveSoftware/Brave-Browser
-	Default
-1
-d/home/roy/.cache/BraveSoftware/Brave-Browser/Default
-	Cache
-1
-d/home/roy/.cache/BraveSoftware/Brave-Browser
-	Default
-1
-d/home/roy/.cache/BraveSoftware
-	Brave-Browser
-1
-d/home/roy/.cache
-	BraveSoftware
-1
-d/home/roy
-	.config
-3
-d/home/roy/.config
-	BraveSoftware
-1
-d/home/roy/.config/BraveSoftware
-	Brave-Browser
-1
-d/home/roy/.config/BraveSoftware/Brave-Browser
-	Greaselion
-10
-d/home/roy/.config/BraveSoftware
-	Brave-Browser
-1
-d/home/roy/.config
-	BraveSoftware
-1
-d/home/roy
-	.config
-3
-d/home/roy/.config
-	BraveSoftware
-1
-d/home/roy
-	.config
-3
-d/home/roy/.config
-	BraveSoftware
-1
+	Desktop
+17
+d/home/roy/Desktop
+	facebook.txt
+15
 d/home/roy
 	Documents
-22
+18
 d/home/roy/Documents
 	Scripts
-28
+8
 d/home/roy/Documents/Scripts
-	Backup
-1
-d/home/roy/Documents/Scripts/Backup
-	exclude_list.txt
+	Git
+2
+d/home/roy/Documents/Scripts/Git
+	gitpush.sh
 3
 d/home/roy/Documents/Scripts
-	Backup
+	Git
+2
+d/home/roy/Documents/Scripts/Git
+	gitpush.sh
+3
+d/home/roy/Documents/Scripts
+	Git
+2
+d/home/roy/Documents
+	DS
+2
+d/home/roy/Documents/DS
+	Codes
+1
+d/home/roy/Documents/DS/Codes
+	Python
+2
+d/home/roy/Documents/DS
+	Codes
+1
+d/home/roy/Documents
+	DS
+2
+d/home/roy/Documents/DS
+	Codes
+1
+d/home/roy/Documents/DS/Codes
+	Python
+2
+d/home/roy/Documents/DS
+	Codes
+1
+d/home/roy/Documents
+	DS
+2
+d/home/roy/Documents/DS
+	HandsOnML
+1
+d/home/roy/Documents
+	DS
+2
+d/home/roy/Documents/DS
+	Codes
+1
+d/home/roy/Documents/DS/Codes
+	Python
+2
+d/home/roy/Documents/DS/Codes/Python
+	Libs
+1
+d/home/roy/Documents/DS/Codes
+	Python
+2
+d/home/roy/Documents/DS
+	HandsOnML
+1
+d/home/roy/Documents
+	DS
+2
+d/home/roy
+	Documents
+18
+d/home/roy/Documents
+	DS
+2
+d/home/roy/Documents/DS
+	HandsOnML
+1
+d/home/roy/Documents
+	DS
+2
+d/home/roy/Documents/DS
+	Codes
+1
+d/home/roy/Documents/DS/Codes
+	Python
+2
+d/home/roy/Documents/DS/Codes/Python
+	Libs
+1
+d/home/roy/Documents/DS/Codes/Python/Libs
+	..
+0
+d/home/roy/Documents/DS/Codes/Python
+	Libs
+1
+d/home/roy/Documents/DS/Codes
+	Python
+2
+d/home/roy/Documents/DS/Codes/Python
+	Libs
+1
+d/home/roy/Documents/DS/Codes
+	Python
+2
+d/home/roy/Documents/DS/Codes/Python
+	Libs
+1
+d/home/roy/Documents/DS/Codes
+	Python
+2
+d/home/roy/Documents/DS/Codes/Python
+	Libs
+1
+d/home/roy/Documents/DS/Codes
+	Python
+2
+d/home/roy/Documents/DS
+	Codes
 1
 d/home/roy/Documents
 	Scripts
-28
+8
+d/home/roy/Documents/Scripts
+	Git
+2
+d/home/roy/Documents/Scripts/Git
+	gitpush.sh
+3
+d/home/roy/Documents/Scripts
+	Git
+2
+d/home/roy/Documents
+	Scripts
+8
 d/home/roy
-	.fzf
-5
-d/home/roy/.fzf
-	test
-9
+	Desktop
+17
+d/home/roy/Desktop
+	gitscript.sh
+16
 d/home/roy
-	.fzf
-5
+	Documents
+18
+d/home/roy/Documents
+	Scripts
+8
+d/home/roy/Documents/Scripts
+	Git
+2
+d/home/roy/Documents/Scripts/Git
+	gitpull.sh
+2
+d/home/roy
+	dwhelper
+26
 d/home
 	roy
 2
+d/
+	media
+11
+d/media
+	roy
+1
+d/media/roy
+	ROY
+1
+d/media/roy/ROY
+	tmp
+1
+d/media/roy/ROY/tmp
+	pic
+10
+d/media/roy/ROY/tmp/pic
+	14.jpg
+7
+d/media/roy/ROY/tmp
+	pic
+10
+d/media/roy/ROY
+	tmp
+2
+d/media/roy
+	ROY
+1
+d/media
+	roy
+1
+d/media/roy
+	ROY
+1
+d/media/roy/ROY
+	.vifm-Trash-1000
+1
+d/media/roy/ROY/.vifm-Trash-1000
+	..
+0
+d/media/roy/ROY
+	.vifm-Trash-1000
+1
+d/media/roy
+	ROY
+1
+d/media/roy/ROY
+	.vifm-Trash-1000
+1
+d/media/roy/ROY/.vifm-Trash-1000
+	..
+0
+d/media/roy/ROY
+	.vifm-Trash-1000
+1
+d/media/roy
+	ROY
+1
+d/media/roy/ROY
+	.vifm-Trash-1000
+1
+d/media/roy
+	ROY
+1
+d/media
+	roy
+1
 d/
 	home
 5
@@ -256,92 +286,53 @@ d/home
 	roy
 2
 d/home/roy
-	.fzf
+	Documents
+18
+d/home/roy/Documents
+	Scripts
+8
+d/home/roy/Documents/Scripts
+	Git
+2
+d/home/roy/Documents
+	Scripts
+8
+d/home/roy/Documents/Scripts
+	brave.desktop
+4
+d/home/roy/Documents
+	Scripts
+8
+d/home/roy/Documents/Scripts
+	brave.desktop
+4
+d/home/roy/Documents
+	Scripts
+8
+d/home/roy
+	Documents
+18
+d/home
+	roy
+2
+d/
+	home
+5
+d/home
+	timeshift
+3
+d/
+	home
 5
 d/home
 	roy
 2
 d/home/roy
-	Documents
-22
-d/home/roy/Documents
-	Scripts
-28
-d/home/roy/Documents/Scripts
-	Backup
-1
-d/home/roy/Documents/Scripts/Backup
-	exclude_list.txt
-3
-d/home/roy/Documents/Scripts
-	Backup
-1
-d/home/roy/Documents
-	Research
-27
-d/home/roy
-	Documents
-22
-d/home/roy/Documents
-	Research
-27
-d/home/roy/Documents/Research
-	..
-0
-d/home/roy/Documents
-	Research
-27
-d/home/roy
-	Documents
-22
-d/home/roy/Documents
-	Scripts
-28
-d/home/roy/Documents/Scripts
-	Backup
-1
-d/home/roy/Documents/Scripts/Backup
-	exclude_list.txt
-3
-d/home/roy/Documents/Scripts
-	Backup
-1
-d/home/roy/Documents
-	MOOC
-21
-d/home/roy
-	Documents
-22
-d/home
-	roy
-2
-d/home/roy
-	.config
-3
-d/home/roy/.config
-	vifm
+	.bash_aliases
 30
-d/home/roy/.config/vifm
-	vifmrc
-5
-d/home/roy/.config
-	vifm
-30
-d/home/roy
-	.config
-3
 d
 
 # Right window history (oldest to newest):
-D/home/roy
-	..
-0
-D/home
-	roy
-2
-D/home/roy
-	..
-0
 D/home
 	roy
 2
@@ -349,6 +340,9 @@ D/
 	home
 5
 D/home
+	..
+0
+D/home/roy
 	..
 0
 D
@@ -375,7 +369,6 @@ pImage_Processing
 pPredictive_Modeling
 pSpatial_Analysis
 pString_Manipulation
-pDS
 pPython
 pR
 pPy
@@ -388,6 +381,9 @@ pgitpush_orig.sh
 ptest.sh
 p.netrc
 pLinAlg
+pgitpull.sh
+pData_Science
+pDS
 
 # Local filter history (oldest to newest):
 
@@ -396,6 +392,10 @@ pLinAlg
 # Directory stack (oldest to newest):
 
 # Trash content:
+t/home/roy/.local/share/vifm/Trash/000_Git-20210726T125336Z-001.zip
+	/home/roy/Documents/Scripts/Git-20210726T125336Z-001.zip
+t/home/roy/.local/share/vifm/Trash/000_Codes
+	/home/roy/Documents/DS/Codes
 
 # State:
 f

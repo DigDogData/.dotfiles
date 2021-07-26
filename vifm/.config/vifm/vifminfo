@@ -30,147 +30,282 @@ l2
 r2
 
 # Left window history (oldest to newest):
+d/home/roy/Documents/Scripts
+	Git
+3
 d/home/roy/Documents/Scripts/Git
 	gitpush.sh
 3
 d/home/roy/Documents/Scripts
 	Git
-2
-d/home/roy/Documents
-	Scripts
-8
-d/home/roy
-	Desktop
-17
-d/home/roy/Desktop
-	gitscript.sh
-16
-d/home/roy
-	Documents
-18
-d/home/roy/Documents
-	Scripts
-8
-d/home/roy/Documents/Scripts
-	Git
-2
-d/home/roy/Documents/Scripts/Git
-	gitpull.sh
-2
-d/home/roy
-	dwhelper
-26
-d/home
-	roy
-2
-d/
-	media
-11
-d/media
-	roy
-1
-d/media/roy
-	ROY
-1
-d/media/roy/ROY
-	tmp
-1
-d/media/roy/ROY/tmp
-	pic
-10
-d/media/roy/ROY/tmp/pic
-	14.jpg
-7
-d/media/roy/ROY/tmp
-	pic
-10
-d/media/roy/ROY
-	tmp
-2
-d/media/roy
-	ROY
-1
-d/media
-	roy
-1
-d/media/roy
-	ROY
-1
-d/media/roy/ROY
-	.vifm-Trash-1000
-1
-d/media/roy/ROY/.vifm-Trash-1000
-	..
-0
-d/media/roy/ROY
-	.vifm-Trash-1000
-1
-d/media/roy
-	ROY
-1
-d/media/roy/ROY
-	.vifm-Trash-1000
-1
-d/media/roy/ROY/.vifm-Trash-1000
-	..
-0
-d/media/roy/ROY
-	.vifm-Trash-1000
-1
-d/media/roy
-	ROY
-1
-d/media/roy/ROY
-	.vifm-Trash-1000
-1
-d/media/roy
-	ROY
-1
-d/media
-	roy
-1
-d/
-	home
-5
-d/home
-	roy
-2
-d/home/roy
-	Documents
-18
-d/home/roy/Documents
-	Scripts
-8
-d/home/roy/Documents/Scripts
-	Git
-2
-d/home/roy/Documents
-	Scripts
-8
-d/home/roy/Documents/Scripts
-	brave.desktop
-4
-d/home/roy/Documents
-	Scripts
-8
-d/home/roy/Documents/Scripts
-	brave.desktop
-4
-d/home/roy/Documents
-	Scripts
-8
-d/home/roy
-	Documents
-18
-d/home
-	roy
-2
-d/
-	home
-5
-d/home
-	timeshift
 3
+d/home/roy/Documents
+	DS
+5
+d/home/roy
+	.dotfiles
+4
+d/home/roy/.dotfiles
+	bash
+2
+d/home/roy
+	.dotfiles
+4
+d/home/roy/.dotfiles
+	bash
+2
+d/home/roy
+	.dotfiles
+4
+d/home/roy/.dotfiles
+	.gitignore
+10
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	DS
+5
+d/home/roy/Documents/DS
+	Codes
+3
+d/home/roy/Documents/DS/Codes
+	.gitignore
+4
+d/home/roy/Documents/DS
+	Portfolios
+6
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy/Documents/Scripts
+	Git
+3
+d/home/roy/Documents/Scripts/Git
+	gitpush.sh
+3
+d/home/roy/Documents/Scripts
+	Git
+3
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy/Documents/Scripts
+	Git
+3
+d/home/roy/Documents/Scripts/Git
+	Repo_list.txt
+1
+d/home/roy/Documents/Scripts
+	Git
+3
+d/home/roy/Documents/Scripts/Git
+	Repo_list.txt
+1
+d/home/roy/Documents/Scripts
+	Git
+3
+d/home/roy/Documents
+	DS
+5
+d/home/roy/Documents/DS
+	Codes
+3
+d/home/roy/Documents/DS/Codes
+	.gitignore
+4
+d/home/roy/Documents/DS
+	Codes
+3
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy/Documents/Scripts
+	Git
+3
+d/home/roy/Documents/Scripts/Git
+	Repo_list.txt
+1
+d/home/roy/Documents/Scripts
+	Misc
+4
+d/home/roy/Documents/Scripts/Misc
+	..
+0
+d/home/roy/Documents/Scripts
+	Misc
+4
+d/home/roy/Documents/Scripts/Misc
+	..
+0
+d/home/roy/Documents/Scripts
+	Misc
+4
+d/home/roy/Documents/Scripts/Misc
+	..
+0
+d/home/roy/Documents/Scripts
+	Git
+3
+d/home/roy/Documents/Scripts/Git
+	GitRepo_list.txt
+1
+d/home/roy/Documents/Scripts
+	Git
+3
+d/home/roy/Documents/Scripts/Git
+	Repo_list.txt
+1
+d/home/roy/Documents/Scripts
+	MiscConfigs
+4
+d/home/roy/Documents/Scripts/MiscConfigs
+	..
+0
+d/home/roy/Documents/Scripts
+	Backup
+2
+d/home/roy/Documents/Scripts/Backup
+	exclude_list.txt
+2
+d/home/roy/Documents/Scripts
+	Backup
+2
+d/home/roy/Documents/Scripts/Backup
+	exclude_list.txt
+2
+d/home/roy/Documents/Scripts
+	gitstat.sh
+10
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy/Documents/Scripts
+	gitstat
+10
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy
+	Documents
+21
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy/Documents/Scripts
+	Git
+4
+d/home/roy/Documents/Scripts/Git
+	Repo_list.txt
+1
+d/home/roy/Documents/Scripts
+	backup
+7
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy
+	Documents
+21
+d/home
+	roy
+2
+d/home/roy
+	Documents
+21
+d/home
+	roy
+2
+d/home/roy
+	VirtualBox VMs
+27
+d/home/roy/VirtualBox VMs
+	Windows 7
+1
+d/home/roy/VirtualBox VMs/Windows 7
+	Windows 7.vbox-prev
+3
+d/home/roy/VirtualBox VMs
+	Windows 7
+1
+d/home/roy
+	VirtualBox VMs
+27
+d/home
+	roy
+2
+d/home/roy
+	Steam
+24
+d/home/roy/Steam
+	..
+0
+d/home/roy
+	Steam
+24
+d/home/roy/Steam
+	..
+0
+d/home/roy
+	Videos
+26
+d/home/roy/Videos
+	Sports
+3
+d/home/roy/Videos/Sports
+	Cricket
+1
+d/home/roy/Videos/Sports/Cricket
+	3. WODI_2011 Final Ind-SL.mkv
+3
+d/home/roy/Videos/Sports
+	NBA
+2
+d/home/roy/Videos/Sports/NBA
+	2014 Playoff G4 Heat @Nets.mkv
+5
+d/home/roy/Videos/Sports
+	NBA
+2
+d/home/roy/Videos
+	Movies
+2
+d/home/roy
+	Music
+21
+d/home/roy/Music
+	Anika's Songs
+1
+d/home/roy/Music/Anika's Songs
+	A Little Bit Closer - Johnny Hollow.mp3
+2
+d/home/roy/Music
+	Hindi Songs
+4
+d/home/roy
+	Music
+21
+d/home/roy/Music
+	Hindi Songs
+4
+d/home/roy/Music/Hindi Songs
+	Bhimsen Joshi
+1
+d/home/roy/Music/Hindi Songs/Bhimsen Joshi
+	Bhimsen_02 Raga Bibhas.mp3
+9
+d/home/roy/Music/Hindi Songs
+	Bhimsen Joshi
+1
+d/home/roy/Music
+	Hindi Songs
+4
+d/home/roy
+	Music
+21
+d/home
+	roy
+2
 d/
 	home
 5
@@ -178,161 +313,35 @@ d/home
 	roy
 2
 d/home/roy
-	Documents
-18
-d/home/roy/Documents
-	Scripts
-8
-d/home/roy/Documents/Scripts
-	Git
+	.config
+3
+d/home/roy/.config
+	vifm
+30
+d/home/roy/.config/vifm
+	scripts
 2
-d/home/roy/Documents/Scripts/Git
-	gitstat.sh
-4
-d/home/roy/Documents/Scripts
-	Git
+d/home/roy/.config
+	vifm
+30
+d/home/roy/.config/vifm
+	scripts
 2
-d/home/roy/Documents
-	Imp
-4
-d/home/roy/Documents/Imp
-	SSN.txt
-1
-d/home/roy/Documents
-	Imp
-4
-d/home/roy
-	Documents
-18
-d/home
-	roy
-2
-d/
-	media
-11
-d/media
-	roy
-1
-d/media/roy
-	ROY
-1
-d/media/roy/ROY
-	tmp
-2
-d/media/roy/ROY/tmp
-	pic
-10
-d/media/roy/ROY/tmp/pic
-	14.jpg
-7
-d/media/roy/ROY/tmp
-	pic
-10
-d/media/roy/ROY
-	tmp
-2
-d/media/roy
-	ROY
-1
-d/media
-	roy
-1
-d/
-	lib32
-7
-d/lib32
-	..
-0
-d/
-	media
-11
-d/media
-	roy
-1
-d/media/roy
-	ROY
-1
-d/media/roy/ROY
-	tmp
-2
-d/media/roy/ROY/tmp
-	pic
-10
-d/media/roy/ROY/tmp/pic
-	14.jpg
-7
-d/home/roy
-	.thunderbird
-15
-d/home
-	roy
-2
-d/home/roy
-	Documents
-18
-d/home/roy/Documents
-	Mega Database 2021 updates
-6
-d/home/roy/Documents/Mega Database 2021 updates
-	..
-0
-d/home/roy/Documents
-	KeePass
-5
-d/home/roy
-	Documents
-18
-d/home/roy/Documents
-	Personal_Finance
-6
-d/home/roy
-	Documents
-18
-d/home/roy/Documents
-	KeePass
-5
-d/home/roy
-	.vim
-6
-d/home
-	roy
-2
-d/home/roy
-	Public
-12
-d/home/roy/Public
-	..
-0
-d/home/roy
-	Pictures
-11
-d/home/roy/Pictures
-	21590732-Cartoon-Illustration-of-Funny-Capital-Letters-Alphabet-for-Children-Education-Stock-Vector.jpg
-31
-d/home/roy
-	Downloads
-9
-d/home
-	roy
-2
-d/home/roy
-	Documents
-8
-d/home/roy/Documents
-	Scripts
-7
-d/home/roy/Documents/Scripts
-	Git
-2
-d/home/roy/Documents/Scripts/Git
-	gitpull.sh
-2
-d/home/roy/Documents/Scripts
-	Git
+d/home/roy/.config/vifm/scripts
+	vifmimg
 2
 d
 
 # Right window history (oldest to newest):
+D/home/roy
+	..
+0
+D/home
+	roy
+2
+D/home/roy
+	..
+0
 D/home
 	roy
 2
@@ -342,12 +351,10 @@ D/
 D/home
 	..
 0
-D/home/roy
-	..
-0
 D
 
 # Command line history (oldest to newest):
+:empty
 :!chmod a-x
 :!chmod a-x Excel\ Notes.docx
 :!chmod 755 gitinit.sh
@@ -359,16 +366,36 @@ D
 :marks
 :nmap
 :<c-tab>  
-:empty
 :q
 
 # Search history (oldest to newest):
 
 # Prompt history (oldest to newest):
+pgitpull.sh
+pData_Science
+pMega Database 2021 updates
+pImmigration_Docs
+pIMPORTANT_DOCS
+pTWS_API
+pRakhi's_Docs
+pLinux_Stuff
+pIndia_Trips
+pHome_Business
+pHawking_Thesis
+pHabitat_for_Humanity
+pHHMI_Stuff
+pBro's_Docs
+pAnika's_Docs
+pBro_Docs
+pAnika_Docs
+pRakhi_Docs
+pJob_Search
+pgitpull2.sh
 pImage_Processing
 pPredictive_Modeling
 pSpatial_Analysis
 pString_Manipulation
+pDS
 pPython
 pR
 pPy
@@ -376,31 +403,73 @@ pLibs
 pgitpush.sh
 pgitinit.sh
 prepo_list
-pRepo_list
 pgitpush_orig.sh
 ptest.sh
 p.netrc
 pLinAlg
-pgitpull.sh
-pData_Science
-pDS
+pMiscConfigs
+pGitRepo_list
+pRepo_list
+pConfigs
+pbackup
+pgitpull
+pgitpush
 pgitstat.sh
-pMega Database 2021 updates
+pgitstat
+pvifmimg.orig
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/roy/.local/share/vifm/Trash/000_Mega Database 2021 updates
+""/home/roy/.config/vifm/scripts/vifmimg
 
 # Directory stack (oldest to newest):
 
 # Trash content:
+t/home/roy/.local/share/vifm/Trash/000_vifmimg
+	/home/roy/.dotfiles/vifm/.config/vifm/scripts/vifmimg
+t/home/roy/.local/share/vifm/Trash/000_vifmrun
+	/home/roy/.dotfiles/vifm/.config/vifm/scripts/vifmrun
+t/home/roy/.local/share/vifm/Trash/000_Thumbs.db
+	/home/roy/Downloads/Krishna/Thumbs.db
+t/home/roy/.local/share/vifm/Trash/000_Thumbs.db:encryptable
+	/home/roy/Downloads/Krishna/Thumbs.db:encryptable
+t/home/roy/.local/share/vifm/Trash/000_.profile_old
+	/home/roy/.profile_old
+t/home/roy/.local/share/vifm/Trash/000_.netrc
+	/home/roy/.netrc
+t/home/roy/.local/share/vifm/Trash/000_Space Jam A New Legacy (2021)
+	/home/roy/Downloads/Space Jam A New Legacy (2021)
+t/home/roy/.local/share/vifm/Trash/000_tmp
+	/home/roy/Downloads/tmp
+t/home/roy/.local/share/vifm/Trash/001_Thumbs.db
+	/home/roy/Downloads/Free Images/Thumbs.db
+t/home/roy/.local/share/vifm/Trash/001_Thumbs.db:encryptable
+	/home/roy/Downloads/Free Images/Thumbs.db:encryptable
+t/home/roy/.local/share/vifm/Trash/000_test.sh
+	/home/roy/Desktop/test.sh
+t/home/roy/.local/share/vifm/Trash/000_gitscript.sh
+	/home/roy/Desktop/gitscript.sh
+t/home/roy/.local/share/vifm/Trash/000_gitscript2.sh
+	/home/roy/Desktop/gitscript2.sh
+t/home/roy/.local/share/vifm/Trash/000_gitpush_orig.sh
+	/home/roy/Documents/Scripts/Git/gitpush_orig.sh
+t/home/roy/.local/share/vifm/Trash/002_Thumbs.db
+	/home/roy/Documents/Data_Science/Thumbs.db
+t/home/roy/.local/share/vifm/Trash/002_Thumbs.db:encryptable
+	/home/roy/Documents/Data_Science/Thumbs.db:encryptable
+t/home/roy/.local/share/vifm/Trash/000_.RData
+	/home/roy/Documents/Data_Science/Codes/.RData
+t/home/roy/.local/share/vifm/Trash/000_.Rhistory
+	/home/roy/Documents/Data_Science/Codes/.Rhistory
 t/home/roy/.local/share/vifm/Trash/000_Git-20210726T125336Z-001.zip
 	/home/roy/Documents/Scripts/Git-20210726T125336Z-001.zip
 t/home/roy/.local/share/vifm/Trash/000_Codes
 	/home/roy/Documents/DS/Codes
 t/home/roy/.local/share/vifm/Trash/000_Mega Database 2021 updates
 	/home/roy/Documents/Mega Database 2021 updates
+t/home/roy/.local/share/vifm/Trash/000_gitpull2.sh
+	/home/roy/Documents/Scripts/Git/gitpull2.sh
 
 # State:
 f

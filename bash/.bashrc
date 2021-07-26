@@ -111,6 +111,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# My bash scripts path
+export PATH="$PATH:/home/roy/Documents/Scripts"
+
 # pyenv setup
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"

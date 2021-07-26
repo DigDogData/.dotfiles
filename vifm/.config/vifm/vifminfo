@@ -30,144 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/roy/Documents
-	Scripts
-8
-d/home/roy/Documents/Scripts
-	Git
-2
-d/home/roy/Documents/Scripts/Git
-	gitpush.sh
-3
-d/home/roy/Documents/Scripts
-	Git
-2
-d/home/roy/Documents
-	Scripts
-8
-d/home/roy
-	Desktop
-17
-d/home/roy/Desktop
-	facebook.txt
-15
-d/home/roy
-	Documents
-18
-d/home/roy/Documents
-	Scripts
-8
-d/home/roy/Documents/Scripts
-	Git
-2
-d/home/roy/Documents/Scripts/Git
-	gitpush.sh
-3
-d/home/roy/Documents/Scripts
-	Git
-2
-d/home/roy/Documents/Scripts/Git
-	gitpush.sh
-3
-d/home/roy/Documents/Scripts
-	Git
-2
-d/home/roy/Documents
-	DS
-2
-d/home/roy/Documents/DS
-	Codes
-1
-d/home/roy/Documents/DS/Codes
-	Python
-2
-d/home/roy/Documents/DS
-	Codes
-1
-d/home/roy/Documents
-	DS
-2
-d/home/roy/Documents/DS
-	Codes
-1
-d/home/roy/Documents/DS/Codes
-	Python
-2
-d/home/roy/Documents/DS
-	Codes
-1
-d/home/roy/Documents
-	DS
-2
-d/home/roy/Documents/DS
-	HandsOnML
-1
-d/home/roy/Documents
-	DS
-2
-d/home/roy/Documents/DS
-	Codes
-1
-d/home/roy/Documents/DS/Codes
-	Python
-2
-d/home/roy/Documents/DS/Codes/Python
-	Libs
-1
-d/home/roy/Documents/DS/Codes
-	Python
-2
-d/home/roy/Documents/DS
-	HandsOnML
-1
-d/home/roy/Documents
-	DS
-2
-d/home/roy
-	Documents
-18
-d/home/roy/Documents
-	DS
-2
-d/home/roy/Documents/DS
-	HandsOnML
-1
-d/home/roy/Documents
-	DS
-2
-d/home/roy/Documents/DS
-	Codes
-1
-d/home/roy/Documents/DS/Codes
-	Python
-2
-d/home/roy/Documents/DS/Codes/Python
-	Libs
-1
-d/home/roy/Documents/DS/Codes/Python/Libs
-	..
-0
-d/home/roy/Documents/DS/Codes/Python
-	Libs
-1
-d/home/roy/Documents/DS/Codes
-	Python
-2
-d/home/roy/Documents/DS/Codes/Python
-	Libs
-1
-d/home/roy/Documents/DS/Codes
-	Python
-2
-d/home/roy/Documents/DS/Codes/Python
-	Libs
-1
-d/home/roy/Documents/DS/Codes
-	Python
-2
-d/home/roy/Documents/DS/Codes/Python
-	Libs
-1
 d/home/roy/Documents/DS/Codes
 	Python
 2
@@ -328,8 +190,146 @@ d/home
 	roy
 2
 d/home/roy
+	Documents
+18
+d/home/roy/Documents
+	Scripts
+8
+d/home/roy/Documents/Scripts
+	Git
+2
+d/home/roy/Documents/Scripts/Git
+	gitstat.sh
+4
+d/home/roy/Documents/Scripts
+	Git
+2
+d/home/roy/Documents
+	Imp
+4
+d/home/roy/Documents/Imp
+	SSN.txt
+1
+d/home/roy/Documents
+	Imp
+4
+d/home/roy
+	Documents
+18
+d/home
+	roy
+2
+d/
+	media
+11
+d/media
+	roy
+1
+d/media/roy
+	ROY
+1
+d/media/roy/ROY
+	tmp
+2
+d/media/roy/ROY/tmp
+	pic
+10
+d/media/roy/ROY/tmp/pic
+	14.jpg
+7
+d/media/roy/ROY/tmp
+	pic
+10
+d/media/roy/ROY
+	tmp
+2
+d/media/roy
+	ROY
+1
+d/media
+	roy
+1
+d/
+	lib32
+7
+d/lib32
+	..
+0
+d/
+	media
+11
+d/media
+	roy
+1
+d/media/roy
+	ROY
+1
+d/media/roy/ROY
+	tmp
+2
+d/media/roy/ROY/tmp
+	pic
+10
+d/media/roy/ROY/tmp/pic
+	14.jpg
+7
+d/home/roy
+	.thunderbird
+15
+d/home
+	roy
+2
+d/home/roy
+	Documents
+18
+d/home/roy/Documents
+	Mega Database 2021 updates
+6
+d/home/roy/Documents/Mega Database 2021 updates
+	..
+0
+d/home/roy/Documents
+	KeePass
+5
+d/home/roy
+	Documents
+18
+d/home/roy/Documents
+	Personal_Finance
+6
+d/home/roy
+	Documents
+18
+d/home/roy/Documents
+	KeePass
+5
+d/home/roy
+	.vim
+6
+d/home
+	roy
+2
+d/home/roy
+	Public
+12
+d/home/roy/Public
+	..
+0
+d/home/roy
+	Pictures
+11
+d/home/roy/Pictures
+	21590732-Cartoon-Illustration-of-Funny-Capital-Letters-Alphabet-for-Children-Education-Stock-Vector.jpg
+31
+d/home/roy
+	Downloads
+9
+d/home
+	roy
+2
+d/home/roy
 	.bash_aliases
-30
+20
 d
 
 # Right window history (oldest to newest):
@@ -384,10 +384,13 @@ pLinAlg
 pgitpull.sh
 pData_Science
 pDS
+pgitstat.sh
+pMega Database 2021 updates
 
 # Local filter history (oldest to newest):
 
 # Registers:
+""/home/roy/.local/share/vifm/Trash/000_Mega Database 2021 updates
 
 # Directory stack (oldest to newest):
 
@@ -396,6 +399,8 @@ t/home/roy/.local/share/vifm/Trash/000_Git-20210726T125336Z-001.zip
 	/home/roy/Documents/Scripts/Git-20210726T125336Z-001.zip
 t/home/roy/.local/share/vifm/Trash/000_Codes
 	/home/roy/Documents/DS/Codes
+t/home/roy/.local/share/vifm/Trash/000_Mega Database 2021 updates
+	/home/roy/Documents/Mega Database 2021 updates
 
 # State:
 f

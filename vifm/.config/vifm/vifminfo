@@ -30,198 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/roy/Documents/Scripts
-	Git
-3
-d/home/roy/Documents/Scripts/Git
-	gitpush.sh
-3
-d/home/roy/Documents/Scripts
-	Git
-3
-d/home/roy/Documents
-	DS
-5
-d/home/roy
-	.dotfiles
-4
-d/home/roy/.dotfiles
-	bash
-2
-d/home/roy
-	.dotfiles
-4
-d/home/roy/.dotfiles
-	bash
-2
-d/home/roy
-	.dotfiles
-4
-d/home/roy/.dotfiles
-	.gitignore
-10
-d/home/roy
-	Documents
-22
-d/home/roy/Documents
-	DS
-5
-d/home/roy/Documents/DS
-	Codes
-3
-d/home/roy/Documents/DS/Codes
-	.gitignore
-4
-d/home/roy/Documents/DS
-	Portfolios
-6
-d/home/roy/Documents
-	Scripts
-28
-d/home/roy/Documents/Scripts
-	Git
-3
-d/home/roy/Documents/Scripts/Git
-	gitpush.sh
-3
-d/home/roy/Documents/Scripts
-	Git
-3
-d/home/roy/Documents
-	Scripts
-28
-d/home/roy/Documents/Scripts
-	Git
-3
-d/home/roy/Documents/Scripts/Git
-	Repo_list.txt
-1
-d/home/roy/Documents/Scripts
-	Git
-3
-d/home/roy/Documents/Scripts/Git
-	Repo_list.txt
-1
-d/home/roy/Documents/Scripts
-	Git
-3
-d/home/roy/Documents
-	DS
-5
-d/home/roy/Documents/DS
-	Codes
-3
-d/home/roy/Documents/DS/Codes
-	.gitignore
-4
-d/home/roy/Documents/DS
-	Codes
-3
-d/home/roy/Documents
-	Scripts
-28
-d/home/roy/Documents/Scripts
-	Git
-3
-d/home/roy/Documents/Scripts/Git
-	Repo_list.txt
-1
-d/home/roy/Documents/Scripts
-	Misc
-4
-d/home/roy/Documents/Scripts/Misc
-	..
-0
-d/home/roy/Documents/Scripts
-	Misc
-4
-d/home/roy/Documents/Scripts/Misc
-	..
-0
-d/home/roy/Documents/Scripts
-	Misc
-4
-d/home/roy/Documents/Scripts/Misc
-	..
-0
-d/home/roy/Documents/Scripts
-	Git
-3
-d/home/roy/Documents/Scripts/Git
-	GitRepo_list.txt
-1
-d/home/roy/Documents/Scripts
-	Git
-3
-d/home/roy/Documents/Scripts/Git
-	Repo_list.txt
-1
-d/home/roy/Documents/Scripts
-	MiscConfigs
-4
-d/home/roy/Documents/Scripts/MiscConfigs
-	..
-0
-d/home/roy/Documents/Scripts
-	Backup
-2
-d/home/roy/Documents/Scripts/Backup
-	exclude_list.txt
-2
-d/home/roy/Documents/Scripts
-	Backup
-2
-d/home/roy/Documents/Scripts/Backup
-	exclude_list.txt
-2
-d/home/roy/Documents/Scripts
-	gitstat.sh
-10
-d/home/roy/Documents
-	Scripts
-28
-d/home/roy/Documents/Scripts
-	gitstat
-10
-d/home/roy/Documents
-	Scripts
-28
-d/home/roy
-	Documents
-21
-d/home/roy/Documents
-	Scripts
-28
-d/home/roy/Documents/Scripts
-	Git
-4
-d/home/roy/Documents/Scripts/Git
-	Repo_list.txt
-1
-d/home/roy/Documents/Scripts
-	backup
-7
-d/home/roy/Documents
-	Scripts
-28
-d/home/roy
-	Documents
-21
-d/home
-	roy
-2
-d/home/roy
-	Documents
-21
-d/home
-	roy
-2
-d/home/roy
-	VirtualBox VMs
-27
-d/home/roy/VirtualBox VMs
-	Windows 7
-1
 d/home/roy/VirtualBox VMs/Windows 7
 	Windows 7.vbox-prev
 3
@@ -330,6 +138,198 @@ d/home/roy/.config/vifm
 d/home/roy/.config/vifm/scripts
 	vifmimg
 2
+d/home/roy
+	Music
+25
+d/home/roy/Music
+	Hindi Songs
+4
+d/home/roy/Music/Hindi Songs
+	Bhimsen Joshi
+1
+d/home/roy/Music/Hindi Songs/Bhimsen Joshi
+	Bhimsen_01 Raga Yamani Bilawal.mp3
+8
+d/home/roy/Music/Hindi Songs
+	Bhimsen Joshi
+1
+d/home/roy/Music
+	Hindi Songs
+4
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	VimWiki
+34
+d/home/roy/Documents/VimWiki
+	USB Image.md
+17
+d/home/roy/Documents
+	TWS_API
+29
+d/home/roy
+	Pictures
+26
+d/home/roy/Pictures
+	1996 (Pune)
+1
+d/home/roy/Pictures/1996 (Pune)
+	sc000973d2.jpg
+21
+d/home/roy/Pictures
+	1998 (Bardhaman)
+2
+d/home/roy/Pictures/1998 (Bardhaman)
+	IMG_1233.jpg
+1
+d/home/roy/Pictures
+	2001
+3
+d/home/roy/Pictures/2001
+	Marriage
+1
+d/home/roy/Pictures/2001/Marriage
+	then.JPG
+1
+d/home/roy/Pictures/2001
+	Marriage
+1
+d/home/roy/Pictures
+	img2.jpg
+40
+d/home/roy
+	Music
+25
+d/home/roy/Music
+	English Songs
+3
+d/home/roy/Music/English Songs
+	3. Aerosmith (Dream On).mp4
+3
+d/home/roy/Music
+	Hindi Songs
+4
+d/home/roy/Music/Hindi Songs
+	Hindi Movie
+2
+d/home/roy/Music/Hindi Songs/Hindi Movie
+	Hindi_05_THAHRIYE_HOSH_MEIN_AA_LO.MP3
+5
+d/home/roy/Music/Hindi Songs
+	Mehdi Hassan
+3
+d/home/roy/Music/Hindi Songs/Mehdi Hassan
+	Mehdi_Be Imaan Chahon Tujhe.mp3
+13
+d/home/roy/Music/Hindi Songs
+	Mirza Ghalib
+4
+d/home/roy/Music/Hindi Songs/Mirza Ghalib
+	Jagjit_Dil hi to hai.MP3
+3
+d/home/roy/Music/Hindi Songs
+	Mirza Ghalib
+4
+d/home/roy/Music
+	Hindi Songs
+4
+d/home/roy
+	Music
+25
+d/home
+	roy
+2
+d/home/roy
+	.local
+10
+d/home/roy/.local
+	share
+3
+d/home/roy/.local/share
+	vifm
+21
+d/home/roy/.local/share/vifm
+	Trash
+1
+d/home/roy/.local/share
+	vifm
+21
+d/home/roy/.local
+	share
+3
+d/home/roy/.local/share
+	vifm
+21
+d/home/roy/.local/share/vifm
+	Trash
+1
+d/home/roy/.local/share/vifm/Trash
+	000_gitpull2.sh
+1
+d/home/roy/.local/share/vifm
+	Trash
+1
+d/home/roy/.local/share
+	vifm
+21
+d/home/roy/.local
+	share
+3
+d/home/roy/.local/share
+	vifm
+21
+d/home/roy/.local/share/vifm
+	Trash
+1
+d/home/roy/.local/share/vifm/Trash
+	000_gitpull2.sh
+1
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy/Documents/Scripts
+	gitpull
+8
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy/Documents/Scripts
+	gitpull
+8
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	vifm
+30
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	vifm
+30
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	vifm
+30
+d/home/roy/.config/vifm
+	vifmrc
+5
 d
 
 # Right window history (oldest to newest):

@@ -31,72 +31,6 @@ r2
 
 # Left window history (oldest to newest):
 d/home/roy
-	.pki
-13
-d/home
-	roy
-2
-d/
-	media
-11
-d/media
-	roy
-1
-d/media/roy
-	ROY
-1
-d/media/roy/ROY
-	tmp
-2
-d/media/roy/ROY/tmp
-	vid
-13
-d/media/roy/ROY/tmp/vid
-	Cute Japanese chick loves fucking with her mature lover.mp4
-4
-d/home/roy
-	.pki
-13
-d/home
-	roy
-2
-d/
-	media
-11
-d/media
-	roy
-1
-d/media/roy
-	ROY
-1
-d/media/roy/ROY
-	tmp
-2
-d/media/roy/ROY/tmp
-	vid
-13
-d/media/roy/ROY/tmp/vid
-	t71.mp4
-31
-d/media/roy/ROY/tmp
-	vid
-13
-d/media/roy/ROY/tmp/vid
-	t48.mp4
-10
-d/media/roy/ROY/tmp
-	vid
-13
-d/media/roy/ROY/tmp/vid
-	t48.mp4
-10
-d/home/roy
-	Documents
-18
-d/home/roy/Documents
-	Scripts
-7
-d/home/roy
 	.local
 10
 d/home/roy/.local
@@ -330,6 +264,72 @@ d/home/roy/Documents/Scripts
 d/home/roy/Documents
 	Signatures
 8
+d/home/roy
+	Documents
+18
+d/home/roy/Documents
+	Scripts
+7
+d/home/roy/Documents/Scripts
+	.gitignore
+5
+d/home/roy/Documents
+	VimWiki
+9
+d/home/roy/Documents/VimWiki
+	Git.md
+6
+d/home/roy/Documents
+	VimWiki
+9
+d/home/roy
+	Documents
+18
+d/home/roy/Documents
+	Scripts
+7
+d/home/roy/Documents/Scripts
+	Git
+4
+d/home/roy/Documents/Scripts/Git
+	Repo_list.txt
+1
+d/home/roy/Documents/Scripts
+	Git
+4
+d/home/roy/Documents
+	Scripts
+7
+d/home/roy
+	.dotfiles
+4
+d/home/roy/.dotfiles
+	newsboat
+7
+d/home/roy/.dotfiles/newsboat
+	.config
+1
+d/home/roy/.dotfiles/newsboat/.config
+	newsboat
+1
+d/home/roy/.dotfiles/newsboat/.config/newsboat
+	urls
+2
+d/home/roy/.dotfiles/newsboat/.config
+	newsboat
+1
+d/home/roy/.dotfiles/newsboat
+	.config
+1
+d/home/roy/.dotfiles
+	newsboat
+7
+d/home/roy
+	.dotfiles
+4
+d/home/roy/.dotfiles
+	newsboat
+7
 d
 
 # Right window history (oldest to newest):

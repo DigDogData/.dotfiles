@@ -13,7 +13,7 @@ show-read-articles yes          # 'no' hides read articles
 datetime-format "%B %d, %Y"
 article-sort-order date-asc
 prepopulate-query-feeds yes     # make query feeds appear first
-max-items 100                   # max #articles to keep fer feed ('0' keeps all)
+max-items 100                   # max #articles to keep per feed ('0' keeps all)
 ignore-mode "display"           # ignore articles
 
 # KEYBINDING

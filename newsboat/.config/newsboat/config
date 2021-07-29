@@ -1,3 +1,26 @@
+# LOAD
+refresh-on-startup yes
+auto-reload yes
+reload-time 60      # #minutes between auto-reloads
+reload-threads 15   # #parallel reload threads started when all feeds are reloaded
+
+# FORMAT
+feedlist-format "%3i %n %8u %t"
+articlelist-format "%5i %f %?T?%-27T ?%t %> %D"
+show-read-feeds yes             # 'no' hides empty sources
+show-read-articles yes          # 'no' hides read articles
+#feed-sort-order title-dec       # sort titles
+datetime-format "%B %d, %Y"
+article-sort-order date-asc
+prepopulate-query-feeds yes     # make query feeds appear first
+max-items 100                   # max #articles to keep fer feed ('0' keeps all)
+ignore-mode "display"           # ignore articles
+
+# KEYBINDING
+bind-key LEFT quit
+bind-key RIGHT open
+bind-key ENTER open-in-browser
+
 # COLORS
 # ==================
 # http://www.newsbeuter.org/doc/newsbeuter.html#_configuring_colors

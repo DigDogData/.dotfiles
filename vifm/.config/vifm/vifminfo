@@ -30,15 +30,219 @@ l2
 r2
 
 # Left window history (oldest to newest):
+d/home/roy/Documents/Linux_Stuff
+	System-freeze.odt
+1
+d/home/roy/Documents
+	Linux_Stuff
+18
 d/home/roy
-	.local
-10
+	.config
+3
+d/home/roy/.config
+	warpinator
+32
+d/home/roy/.config/warpinator
+	..
+0
+d/home/roy/.config
+	vifm
+30
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	Linux_Stuff
+18
+d/home/roy/Documents/Linux_Stuff
+	System-freeze.odt
+1
+d/home/roy/Documents
+	Linux_Stuff
+18
+d/home/roy
+	Documents
+22
+d/home
+	roy
+2
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	vifm
+30
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	Linux_Stuff
+18
+d/home/roy/Documents/Linux_Stuff
+	System-freeze.odt
+1
+d/home/roy/Documents
+	Linux_Stuff
+18
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	vifm
+30
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	Linux_Stuff
+18
+d/home/roy/Documents/Linux_Stuff
+	System-freeze.odt
+1
+d/home/roy/Documents
+	Linux_Stuff
+18
+d/home/roy
+	Documents
+22
+d/home
+	roy
+2
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	vifm
+30
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	Linux_Stuff
+18
+d/home/roy/Documents/Linux_Stuff
+	System-freeze.odt
+1
+d/home/roy/Documents
+	Linux_Stuff
+18
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	vifm
+30
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	Linux_Stuff
+18
+d/home/roy/Documents/Linux_Stuff
+	System-freeze.odt
+1
+d/home/roy/Documents
+	Linux_Stuff
+18
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	vifm
+30
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	Linux_Stuff
+18
+d/home/roy/Documents/Linux_Stuff
+	System-freeze.odt
+1
+d/home/roy/Documents
+	Linux_Stuff
+18
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	vifm
+30
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy
+	.steam
+17
 d/home
 	roy
 2
 d/
 	home
 5
+d/home
+	roy
+2
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	vifm
+30
+d/home/roy/.config/vifm
+	vifmrc
+5
+d/home/roy/.config
+	vifm
+30
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	MOOC
+21
+d/home/roy/Documents/MOOC
+	Linear_Algebra
+5
+d/home/roy/Documents/MOOC/Linear_Algebra
+	Introduction to Linear Algebra 4ed (Gilbert Strang).pdf
+4
+d/home/roy/Documents/MOOC
+	Linear_Algebra
+5
+d/home/roy/Documents/MOOC/Linear_Algebra
+	Introduction to Linear Algebra 4ed (Gilbert Strang).pdf
+4
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	MOOC
+21
+d/home/roy/Documents/MOOC
+	Linear_Algebra
+5
+d/home/roy/Documents/MOOC/Linear_Algebra
+	Introduction to Linear Algebra 4ed (Gilbert Strang).pdf
+4
 d/home/roy
 	Documents
 22
@@ -50,285 +254,81 @@ d/home/roy/Documents/MOOC
 5
 d/home/roy/Documents/MOOC/Linear_Algebra
 	Lectures
-4
-d/home/roy/Documents/MOOC/Linear_Algebra/Lectures
-	15 (Projections onto subspaces).mp4
-15
-d/home/roy
-	Documents
-22
-d/home/roy/Documents
-	MOOC
-21
-d/home/roy/Documents/MOOC
-	Linear_Algebra
-5
-d/home/roy/Documents/MOOC/Linear_Algebra
-	Lectures
-4
-d/home/roy/Documents/MOOC/Linear_Algebra/Lectures
-	13 (Quiz 1 review).mp4
-13
-d/home/roy/Documents/MOOC/Linear_Algebra
-	Lectures
-4
-d/home/roy/Documents/MOOC/Linear_Algebra/Lectures
-	13 (Quiz 1 review).mp4
-13
-d/home/roy
-	Documents
-22
-d/home/roy/Documents
-	MOOC
-21
-d/home/roy/Documents/MOOC
-	Linear_Algebra
-5
-d/home/roy/Documents/MOOC/Linear_Algebra
-	Codes
-2
-d/home/roy/Documents/MOOC/Linear_Algebra/Codes
-	..
-0
-d/home/roy/Documents/MOOC/Linear_Algebra
-	Exams
-2
+3
 d/home/roy/Documents/MOOC
 	Linear_Algebra
 5
 d/home/roy/Documents
-	DS
-5
-d/home/roy/Documents/DS
-	Codes
+	Books
 3
-d/home/roy/Documents/DS/Codes
-	Py
-1
-d/home/roy/Documents/DS/Codes/Py
-	LinAlg
-2
-d/home/roy/Documents/DS/Codes/Py/LinAlg
-	.Rhistory
-1
-d/home/roy/Documents/DS/Codes/Py
-	LinAlg
-2
-d/home/roy/Documents/DS/Codes
-	Py
-1
-d/home/roy/Documents/DS/Codes/Py
-	LinAlg
-2
-d/home/roy/Documents/DS/Codes
-	Py
-1
-d/home/roy/Documents/DS
-	Codes
-3
-d/home/roy/Documents/DS/Codes
-	Py
-1
-d/home/roy/Documents/DS/Codes/Py
-	
-1
-d/home/roy/Documents/DS/Codes
-	Python
-1
-d/home/roy/Documents/DS/Codes/Python
-	LinAlg
-2
-d/home/roy/Documents/DS/Codes
-	Python
-1
-d/home/roy/Documents/DS
-	Codes
-3
-d/home/roy/Documents/DS/Codes
-	Python
-1
-d/home/roy
-	Documents
-22
-d/home/roy/Documents
-	DS
-5
-d/home/roy/Documents/DS
-	Codes
-3
-d/home/roy/Documents/DS/Codes
-	.gitignore
-4
-d/home/roy
-	Documents
-22
-d/home/roy/Documents
-	DS
-5
-d/home/roy/Documents/DS
-	Codes
-3
-d/home/roy/Documents/DS/Codes
-	README.md
-5
-d/home/roy/Documents/DS
-	Codes
-3
-d/home/roy/Documents
-	Scripts
-28
-d/home/roy/Documents/Scripts
-	Git
-2
-d/home/roy/Documents/Scripts/Git
-	gitinit.sh
-2
-d/home/roy/Documents/Scripts
-	Git
-2
-d/home/roy/Documents
-	DS
-5
-d/home/roy/Documents/DS
-	Codes
-3
-d/home/roy/Documents/DS/Codes
-	README.md
-5
-d/home/roy/Documents/DS
-	Codes
-3
-d/home/roy/Documents/DS/Codes
-	Python
-2
-d/home/roy/Documents/DS/Codes/Python
-	LinAlg
-2
-d/home/roy/Documents/DS/Codes
-	Python
-2
-d/home/roy/Documents/DS/Codes/Python
-	LinAlg
-2
-d/home/roy/Documents/DS/Codes
-	Python
-2
-d/home/roy/Documents/DS
-	Codes
-3
-d/home/roy/Documents/DS/Codes
-	Python
-2
-d/home/roy/Documents/DS/Codes/Python
-	LinAlg
-2
-d/home/roy/Documents/DS/Codes
-	Python
-2
-d/home/roy/Documents/DS
-	Codes
-3
-d/home/roy/Documents
-	Scripts
-28
-d/home/roy/Documents/Scripts
-	Git
-2
-d/home/roy/Documents/Scripts/Git
-	gitinit.sh
-2
-d/home/roy/Documents/Scripts
-	Git
-2
-d/home/roy/Documents/Scripts/Git
-	gitinit.sh
-2
-d/home/roy/Documents/Scripts
-	Git
-2
 d/home/roy
 	.dotfiles
 4
 d/home/roy/.dotfiles
-	vifm
+	newsboat
 7
-d/home/roy/.dotfiles/vifm
+d/home/roy/.dotfiles/newsboat
+	.config
+1
+d/home/roy/.dotfiles/newsboat/.config
+	newsboat
+1
+d/home/roy/.dotfiles/newsboat/.config/newsboat
+	urls
+2
+d/home/roy/.dotfiles/newsboat/.config
+	newsboat
+1
+d/home/roy/.dotfiles/newsboat
 	.config
 1
 d/home/roy/.dotfiles
-	vifm
+	newsboat
 7
 d/home/roy
-	.dotfiles
-4
-d/home/roy/.dotfiles
-	vifm
-7
+	.config
+3
+d/home/roy/.config
+	newsboat
+22
+d/home/roy/.config/newsboat
+	config
+1
+d/home/roy/.config
+	newsboat
+22
+d/home/roy/.config/newsboat
+	urls
+2
+d/home/roy/.config
+	newsboat
+22
+d/home/roy/.config/newsboat
+	config
+1
+d/home/roy/.config
+	newsboat
+22
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	newsboat
+22
 d/home/roy
 	Documents
 22
 d/home/roy/Documents
-	DS
-5
-d/home/roy/Documents/DS
-	Codes
+	Books
 3
-d/home/roy/Documents/DS/Codes
-	.gitignore
-4
-d/home/roy/Documents/DS
-	Codes
-3
-d/home/roy/Documents/DS/Codes
-	.gitignore
-4
 d/home/roy
-	Documents
+	.config
+3
+d/home/roy/.config
+	newsboat
 22
-d/home/roy/Documents
-	Scripts
-28
-d/home/roy/Documents/Scripts
-	Git
-3
-d/home/roy/Documents
-	Scripts
-28
-d/home/roy/Documents/Scripts
-	Git
-3
-d/home/roy/Documents/Scripts/Git
-	..
-0
-d/home/roy
-	Documents
-22
-d/home/roy/Documents
-	MOOC
-21
-d/home/roy/Documents/MOOC
-	Linear_Algebra
-5
-d/home/roy/Documents/MOOC/Linear_Algebra
-	Lectures
-3
-d/home/roy/Documents/MOOC/Linear_Algebra/Lectures
-	14 (Orthogonal vectors and subspaces).mp4
-14
-d/home/roy
-	Documents
-22
-d/home/roy/Documents
-	MOOC
-21
-d/home/roy/Documents/MOOC
-	Linear_Algebra
-5
-d/home/roy/Documents/MOOC/Linear_Algebra
-	Lectures
-3
-d/home/roy/Documents/MOOC/Linear_Algebra/Lectures
-	1 (Geometry of Linear Equations).mp4
+d/home/roy/.config/newsboat
+	config
 1
 d
 
@@ -371,9 +371,6 @@ D
 # Search history (oldest to newest):
 
 # Prompt history (oldest to newest):
-pnewsboat
-pconfig
-purls
 pvifmimg.orig
 pCedar_Point
 pMiscConfigs
@@ -421,10 +418,14 @@ pgitpush_orig.sh
 ptest.sh
 p.netrc
 pLinAlg
+pnewsboat
+pconfig
+purls
 
 # Local filter history (oldest to newest):
 
 # Registers:
+""/home/roy/.dotfiles/newsboat/.config/newsboat/config
 
 # Directory stack (oldest to newest):
 

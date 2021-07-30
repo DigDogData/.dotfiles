@@ -30,309 +30,318 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/roy
-	.local
-10
-d/home/roy/.local
-	share
-3
-d/home/roy/.local/share
-	virtualenvs
-19
-d/home/roy/.local/share/virtualenvs
-	..
-0
-d/home/roy/.local/share
-	virtualenvs
-19
-d/home/roy/.local
-	share
-3
+d/home/roy/Documents
+	MOOC
+21
+d/home/roy/Documents/MOOC
+	Linear_Algebra
+5
+d/home/roy/Documents/MOOC/Linear_Algebra
+	Lectures
+4
+d/home/roy/Documents/MOOC/Linear_Algebra/Lectures
+	13 (Quiz 1 review).mp4
+13
+d/home/roy/Documents/MOOC/Linear_Algebra
+	Lectures
+4
+d/home/roy/Documents/MOOC/Linear_Algebra/Lectures
+	13 (Quiz 1 review).mp4
+13
 d/home/roy
 	Documents
-18
+22
+d/home/roy/Documents
+	MOOC
+21
+d/home/roy/Documents/MOOC
+	Linear_Algebra
+5
+d/home/roy/Documents/MOOC/Linear_Algebra
+	Codes
+2
+d/home/roy/Documents/MOOC/Linear_Algebra/Codes
+	..
+0
+d/home/roy/Documents/MOOC/Linear_Algebra
+	Exams
+2
+d/home/roy/Documents/MOOC
+	Linear_Algebra
+5
 d/home/roy/Documents
 	DS
+5
+d/home/roy/Documents/DS
+	Codes
+3
+d/home/roy/Documents/DS/Codes
+	Py
+1
+d/home/roy/Documents/DS/Codes/Py
+	LinAlg
+2
+d/home/roy/Documents/DS/Codes/Py/LinAlg
+	.Rhistory
+1
+d/home/roy/Documents/DS/Codes/Py
+	LinAlg
+2
+d/home/roy/Documents/DS/Codes
+	Py
+1
+d/home/roy/Documents/DS/Codes/Py
+	LinAlg
+2
+d/home/roy/Documents/DS/Codes
+	Py
+1
+d/home/roy/Documents/DS
+	Codes
+3
+d/home/roy/Documents/DS/Codes
+	Py
+1
+d/home/roy/Documents/DS/Codes/Py
+	
+1
+d/home/roy/Documents/DS/Codes
+	Python
+1
+d/home/roy/Documents/DS/Codes/Python
+	LinAlg
+2
+d/home/roy/Documents/DS/Codes
+	Python
+1
+d/home/roy/Documents/DS
+	Codes
+3
+d/home/roy/Documents/DS/Codes
+	Python
+1
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	DS
+5
+d/home/roy/Documents/DS
+	Codes
+3
+d/home/roy/Documents/DS/Codes
+	.gitignore
+4
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	DS
+5
+d/home/roy/Documents/DS
+	Codes
+3
+d/home/roy/Documents/DS/Codes
+	README.md
+5
+d/home/roy/Documents/DS
+	Codes
+3
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy/Documents/Scripts
+	Git
+2
+d/home/roy/Documents/Scripts/Git
+	gitinit.sh
+2
+d/home/roy/Documents/Scripts
+	Git
+2
+d/home/roy/Documents
+	DS
+5
+d/home/roy/Documents/DS
+	Codes
+3
+d/home/roy/Documents/DS/Codes
+	README.md
+5
+d/home/roy/Documents/DS
+	Codes
+3
+d/home/roy/Documents/DS/Codes
+	Python
+2
+d/home/roy/Documents/DS/Codes/Python
+	LinAlg
+2
+d/home/roy/Documents/DS/Codes
+	Python
+2
+d/home/roy/Documents/DS/Codes/Python
+	LinAlg
+2
+d/home/roy/Documents/DS/Codes
+	Python
 2
 d/home/roy/Documents/DS
 	Codes
-1
-d/home/roy/Documents/DS/Codes
-	Python
-2
-d/home/roy/Documents/DS/Codes/Python
-	..
-0
-d/home/roy/Documents/DS/Codes
-	Python
-2
-d/home/roy/Documents/DS/Codes/Python
-	..
-0
-d/home/roy
-	Warpinator
-25
-d/home/roy/Warpinator
-	COVID Vax
-1
-d/home/roy/Warpinator/COVID Vax
-	Anika.pdf
-1
-d/home/roy/Warpinator
-	COVID Vax
-1
-d/home/roy
-	Documents
-18
-d/home/roy/Documents
-	Scripts
-7
-d/home/roy/Documents/Scripts
-	Git
-2
-d/home/roy/Documents/Scripts/Git
-	gitpull
-2
-d/home/roy/Documents/Scripts
-	Git
-2
-d/home/roy/Documents
-	Scripts
-7
-d/home/roy
-	Documents
-18
-d/home
-	roy
-2
-d/
-	media
-11
-d/media
-	roy
-1
-d/media/roy
-	ROY
-1
-d/media/roy/ROY
-	tmp
-1
-d/media/roy/ROY/tmp
-	vid
-13
-d/media/roy/ROY/tmp/vid
-	j9.mp4
-31
-d/home/roy
-	Documents
-18
-d/home/roy/Documents
-	Scripts
-7
-d/home/roy/Documents/Scripts
-	Git
-2
-d/home/roy/Documents/Scripts/Git
-	gitstat
 3
-d/home/roy/Documents/Scripts
-	Git
+d/home/roy/Documents/DS/Codes
+	Python
 2
+d/home/roy/Documents/DS/Codes/Python
+	LinAlg
+2
+d/home/roy/Documents/DS/Codes
+	Python
+2
+d/home/roy/Documents/DS
+	Codes
+3
 d/home/roy/Documents
 	Scripts
-7
-d/home/roy
-	Documents
-18
-d/home
-	roy
-2
-d/
-	media
-11
-d/media
-	roy
-1
-d/media/roy
-	ROY
-1
-d/media/roy/ROY
-	tmp
-1
-d/media/roy/ROY/tmp
-	vid
-13
-d/media/roy/ROY/tmp/vid
-	j6.mp4
 28
-d/media/roy/ROY/tmp
-	vid
-13
-d/home/roy
-	Documents
-18
-d/home/roy/Documents
-	Scripts
-7
 d/home/roy/Documents/Scripts
 	Git
 2
 d/home/roy/Documents/Scripts/Git
-	gitstat
-3
-d/home/roy/Documents/Scripts
-	Git
+	gitinit.sh
 2
-d/home/roy/Documents
-	Scripts
-7
-d/home/roy
-	.dotfiles
-4
-d/home/roy/.dotfiles
-	..
-0
-d/home/roy
-	.dotfiles
-4
-d/home/roy/.dotfiles
-	.gitignore
-11
-d/home/roy
-	.dotfiles
-4
-d/home/roy/.dotfiles
-	bash
-2
-d/home/roy/.dotfiles/bash
-	.bash_aliases
-1
-d/home/roy/.dotfiles
-	bash
-2
-d/home/roy/.dotfiles/bash
-	.bashrc
-2
-d/home/roy/.dotfiles
-	bash
-2
-d/home/roy
-	.dotfiles
-4
-d/home
-	roy
-2
-d/home/roy
-	Documents
-18
-d/home/roy/Documents
-	Scripts
-7
 d/home/roy/Documents/Scripts
 	Git
 2
 d/home/roy/Documents/Scripts/Git
-	gitstat
-3
+	gitinit.sh
+2
 d/home/roy/Documents/Scripts
 	Git
 2
-d/home/roy/Documents
-	Scripts
-7
-d/home/roy
-	Documents
-18
-d/home
-	roy
-2
-d/home/roy
-	Documents
-18
-d/home/roy/Documents
-	Scripts
-7
-d/home/roy/Documents/Scripts
-	Git
-2
-d/home/roy/Documents/Scripts/Git
-	gitstat
-3
-d/home/roy/Documents/Scripts
-	Git
-2
-d/home/roy/Documents
-	Signatures
-8
-d/home/roy
-	Documents
-18
-d/home/roy/Documents
-	Scripts
-7
-d/home/roy/Documents/Scripts
-	.gitignore
-5
-d/home/roy/Documents
-	VimWiki
-9
-d/home/roy/Documents/VimWiki
-	Git.md
-6
-d/home/roy/Documents
-	VimWiki
-9
-d/home/roy
-	Documents
-18
-d/home/roy/Documents
-	Scripts
-7
-d/home/roy/Documents/Scripts
-	Git
-4
-d/home/roy/Documents/Scripts/Git
-	Repo_list.txt
-1
-d/home/roy/Documents/Scripts
-	Git
-4
-d/home/roy/Documents
-	Scripts
-7
 d/home/roy
 	.dotfiles
 4
 d/home/roy/.dotfiles
-	newsboat
+	vifm
 7
-d/home/roy/.dotfiles/newsboat
+d/home/roy/.dotfiles/vifm
 	.config
 1
-d/home/roy/.dotfiles/newsboat/.config
-	newsboat
+d/home/roy/.dotfiles
+	vifm
+7
+d/home/roy
+	.dotfiles
+4
+d/home/roy/.dotfiles
+	vifm
+7
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	DS
+5
+d/home/roy/Documents/DS
+	Codes
+3
+d/home/roy/Documents/DS/Codes
+	.gitignore
+4
+d/home/roy/Documents/DS
+	Codes
+3
+d/home/roy/Documents/DS/Codes
+	.gitignore
+4
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy/Documents/Scripts
+	Git
+3
+d/home/roy/Documents
+	Scripts
+28
+d/home/roy/Documents/Scripts
+	Git
+3
+d/home/roy/Documents/Scripts/Git
+	..
+0
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	MOOC
+21
+d/home/roy/Documents/MOOC
+	Linear_Algebra
+5
+d/home/roy/Documents/MOOC/Linear_Algebra
+	Lectures
+3
+d/home/roy/Documents/MOOC/Linear_Algebra/Lectures
+	14 (Orthogonal vectors and subspaces).mp4
+14
+d/home/roy
+	Documents
+22
+d/home/roy/Documents
+	MOOC
+21
+d/home/roy/Documents/MOOC
+	Linear_Algebra
+5
+d/home/roy/Documents/MOOC/Linear_Algebra
+	Lectures
+3
+d/home/roy/Documents/MOOC/Linear_Algebra/Lectures
+	1 (Geometry of Linear Equations).mp4
 1
-d/home/roy/.dotfiles/newsboat/.config/newsboat
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	newsboat
+23
+d/home/roy/.config/newsboat
 	urls
 2
-d/home/roy/.dotfiles/newsboat/.config
-	newsboat
-1
-d/home/roy/.dotfiles/newsboat
-	.config
-1
-d/home/roy/.dotfiles
-	newsboat
-7
 d/home/roy
-	.dotfiles
-4
-d/home/roy/.dotfiles
+	.config
+3
+d/home/roy/.config
 	newsboat
-7
+23
+d/home/roy/.config/newsboat
+	urls
+2
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	newsboat
+23
+d/home/roy/.config/newsboat
+	urls
+2
 d
 
 # Right window history (oldest to newest):
+D/home/roy
+	..
+0
+D/home
+	roy
+2
+D/home/roy
+	..
+0
 D/home
 	roy
 2
@@ -342,12 +351,10 @@ D/
 D/home
 	..
 0
-D/home/roy
-	..
-0
 D
 
 # Command line history (oldest to newest):
+:empty
 :!chmod a-x
 :!chmod a-x Excel\ Notes.docx
 :!chmod 755 gitinit.sh
@@ -359,12 +366,14 @@ D
 :marks
 :nmap
 :<c-tab>  
-:empty
 :q
 
 # Search history (oldest to newest):
 
 # Prompt history (oldest to newest):
+pnewsboat
+pconfig
+purls
 pvifmimg.orig
 pCedar_Point
 pMiscConfigs
@@ -374,6 +383,10 @@ pbackup
 pgitpull
 pgitpush
 pgitstat
+pgitpull.sh
+pData_Science
+pgitstat.sh
+pMega Database 2021 updates
 pImmigration_Docs
 pIMPORTANT_DOCS
 pTWS_API
@@ -391,15 +404,11 @@ pAnika_Docs
 pRakhi_Docs
 pJob_Search
 pgitpull2.sh
-pnewsboat
-pconfig
-purls
-pgitstat.sh
-pMega Database 2021 updates
 pImage_Processing
 pPredictive_Modeling
 pSpatial_Analysis
 pString_Manipulation
+pDS
 pPython
 pR
 pPy
@@ -412,32 +421,14 @@ pgitpush_orig.sh
 ptest.sh
 p.netrc
 pLinAlg
-pgitpull.sh
-pData_Science
-pDS
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/roy/.local/share/vifm/Trash/000_Scripts
 
 # Directory stack (oldest to newest):
 
 # Trash content:
-t/home/roy/.local/share/vifm/Trash/000_Git-20210726T125336Z-001.zip
-	/home/roy/Documents/Scripts/Git-20210726T125336Z-001.zip
-t/home/roy/.local/share/vifm/Trash/000_Codes
-	/home/roy/Documents/DS/Codes
-t/home/roy/.local/share/vifm/Trash/000_Mega Database 2021 updates
-	/home/roy/Documents/Mega Database 2021 updates
-t/media/roy/ROY/.vifm-Trash-1000/000_Cute Japanese chick loves fucking with her mature lover.mp4
-	/media/roy/ROY/tmp/vid/Cute Japanese chick loves fucking with her mature lover.mp4
-t/home/roy/.local/share/vifm/Trash/000_gitpull.sh
-	/home/roy/Documents/Scripts/Git/gitpull.sh
-t/home/roy/.local/share/vifm/Trash/000_gitpush.sh
-	/home/roy/Documents/Scripts/Git/gitpush.sh
-t/home/roy/.local/share/vifm/Trash/000_gitstat.sh
-	/home/roy/Documents/Scripts/Git/gitstat.sh
 t/home/roy/.local/share/vifm/Trash/000_vifmimg
 	/home/roy/.dotfiles/vifm/.config/vifm/scripts/vifmimg
 t/home/roy/.local/share/vifm/Trash/000_vifmrun
@@ -474,10 +465,24 @@ t/home/roy/.local/share/vifm/Trash/000_.RData
 	/home/roy/Documents/Data_Science/Codes/.RData
 t/home/roy/.local/share/vifm/Trash/000_.Rhistory
 	/home/roy/Documents/Data_Science/Codes/.Rhistory
+t/home/roy/.local/share/vifm/Trash/000_Git-20210726T125336Z-001.zip
+	/home/roy/Documents/Scripts/Git-20210726T125336Z-001.zip
+t/home/roy/.local/share/vifm/Trash/000_Codes
+	/home/roy/Documents/DS/Codes
+t/home/roy/.local/share/vifm/Trash/000_Mega Database 2021 updates
+	/home/roy/Documents/Mega Database 2021 updates
 t/home/roy/.local/share/vifm/Trash/000_gitpull2.sh
 	/home/roy/Documents/Scripts/Git/gitpull2.sh
 t/home/roy/.local/share/vifm/Trash/000_VideoDownloadHelper
 	/home/roy/Warpinator/VideoDownloadHelper
+t/media/roy/ROY/.vifm-Trash-1000/000_Cute Japanese chick loves fucking with her mature lover.mp4
+	/media/roy/ROY/tmp/vid/Cute Japanese chick loves fucking with her mature lover.mp4
+t/home/roy/.local/share/vifm/Trash/000_gitpull.sh
+	/home/roy/Documents/Scripts/Git/gitpull.sh
+t/home/roy/.local/share/vifm/Trash/000_gitpush.sh
+	/home/roy/Documents/Scripts/Git/gitpush.sh
+t/home/roy/.local/share/vifm/Trash/000_gitstat.sh
+	/home/roy/Documents/Scripts/Git/gitstat.sh
 t/home/roy/.local/share/vifm/Trash/000_Scripts
 	/home/roy/Documents/Scripts
 

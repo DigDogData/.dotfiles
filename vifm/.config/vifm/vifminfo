@@ -30,318 +30,309 @@ l2
 r2
 
 # Left window history (oldest to newest):
+d/home/roy/.dotfiles/newsboat/.config
+	newsboat
+1
+d/home/roy/.dotfiles/newsboat/.config/newsboat
+	urls
+2
+d/home/roy/.dotfiles/newsboat/.config
+	newsboat
+1
+d/home/roy/.dotfiles/newsboat
+	.config
+1
+d/home/roy/.dotfiles
+	newsboat
+7
+d/home/roy
+	.dotfiles
+4
+d/home/roy/.dotfiles
+	newsboat
+7
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	newsboat
+18
+d/home/roy/.config/newsboat
+	urls
+2
+d/home/roy/.config
+	newsboat
+18
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	newsboat
+18
+d/home/roy/.config/newsboat
+	config
+1
+d/home/roy/.config
+	newsboat
+18
+d/home/roy
+	.config
+3
 d/home
 	roy
 2
+d/
+	media
+11
+d/media
+	roy
+1
+d/media/roy
+	ROY
+1
+d/media/roy/ROY
+	tmp
+1
+d/media/roy/ROY/tmp
+	sophiemudd
+12
+d/media/roy/ROY/tmp/sophiemudd
+	1513806072578 GIF Gfycat.mp4
+4
+d/media/roy/ROY/tmp
+	kendra
+8
+d/media/roy/ROY/tmp/kendra
+	436c3226e07fa55917dc76cf2e0ee371.jpg
+1
 d/home/roy
-	Videos
-31
-d/home/roy/Videos
-	TV
+	.dotfiles
 4
-d/home/roy/Videos/TV
-	..
-0
-d/home/roy/Videos
-	Movies
-2
-d/home/roy/Videos/Movies
-	Hobbit (Extended)
-2
-d/home/roy/Videos
-	TV
+d/home/roy/.dotfiles
+	.gitignore
+11
+d/home/roy
+	.dotfiles
 4
-d/home/roy/Videos/TV
-	Stargate SG-1
-1
-d/home/roy/Videos/TV/Stargate SG-1
-	Season 7
-7
-d/home/roy/Videos/TV/Stargate SG-1/Season 7
-	E01 - Fallen.srt
+d/home
+	roy
 2
-d/home/roy/Videos/TV/Stargate SG-1
-	Season 6
-6
-d/home/roy/Videos/TV/Stargate SG-1/Season 6
-	E01 - Redemption (Part 1).mkv
-1
-d/home/roy/Videos/TV/Stargate SG-1
-	Season 6
-6
-d/home/roy/Videos/TV
-	Stargate SG-1
-1
-d/home/roy/Videos
-	TV
-4
 d/home/roy
 	.config
 3
 d/home/roy/.config
 	vifm
-30
+25
 d/home/roy/.config/vifm
-	..
-0
+	colors
+1
 d/home/roy/.config
 	vifm
-30
+25
 d/home/roy
 	.dotfiles
 4
 d/home/roy/.dotfiles
+	.gitignore
+11
+d/home/roy
+	.config
+3
+d/home/roy/.config
 	neofetch
-6
+17
+d/home/roy/.config/neofetch
+	config.conf
+1
+d/home/roy/.config
+	neofetch
+17
+d/home/roy/.config/neofetch
+	config.conf
+1
+d/home/roy/.config
+	neofetch
+17
+d/home/roy/.config/neofetch
+	config.conf
+1
+d/home/roy/.config
+	neofetch
+17
+d/home/roy
+	dwhelper
+27
+d/home/roy/dwhelper
+	..
+0
+d/home/roy
+	Downloads
+20
+d/home/roy/Downloads
+	tmp
+4
 d/home/roy
 	Documents
-23
+8
 d/home/roy/Documents
-	Lottery
-19
+	DS
+2
+d/home/roy/Documents/DS
+	Codes
+1
+d/home/roy/Documents/DS/Codes
+	Python
+2
+d/home/roy/Documents/DS/Codes/Python
+	LinAlg
+2
+d/home/roy/Documents/DS/Codes/Python/LinAlg
+	rref2.py
+4
+d/home/roy/Documents/DS/Codes/Python
+	LinAlg
+2
+d/home/roy/Documents/DS/Codes
+	Python
+2
+d/home/roy/Documents/DS
+	Codes
+1
+d/home/roy
+	Downloads
+9
+d/home
+	roy
+2
+d/
+	media
+11
+d/media
+	roy
+1
+d/media/roy
+	ROY
+1
+d/media/roy/ROY
+	tmp
+1
+d/media/roy/ROY/tmp
+	shinozaki
+11
+d/media/roy/ROY/tmp/shinozaki
+	3zChw4M.jpg
+1
+d/home/roy
+	Downloads
+9
+d/home
+	roy
+2
+d/
+	home
+5
+d/home
+	roy
+2
+d/home/roy
+	Downloads
+9
+d/home
+	roy
+2
+d/
+	media
+11
+d/media
+	roy
+1
+d/media/roy
+	ROY
+1
+d/media/roy/ROY
+	tmp
+1
+d/media/roy/ROY/tmp
+	erica
+6
+d/media/roy/ROY/tmp/erica
+	1054-01.jpg
+1
+d/media/roy/ROY/tmp
+	jap
+7
+d/media/roy/ROY/tmp/jap
+	f8u7x85pyjf51.jpg
+3
+d/media/roy/ROY/tmp
+	pic
+10
+d/media/roy/ROY/tmp/pic
+	4ckfo-PF30g.jpg
+1
 d/home/roy
 	Pictures
-10
-d/home/roy/Pictures
-	Wallpapers
-31
-d/home/roy
-	Videos
-14
-d/home/roy/Videos
-	Movies
-2
-d/home/roy/Videos/Movies
-	Hobbit (Extended)
-2
-d/home/roy/Videos/Movies/Hobbit (Extended)
-	1. An Unexpected Journey
-1
-d/home/roy/Videos/Movies/Hobbit (Extended)/1. An Unexpected Journey
-	Movie.mkv
-1
-d/home/roy/Videos/Movies/Hobbit (Extended)
-	1. An Unexpected Journey
-1
-d/home/roy/Videos/Movies
-	Hobbit (Extended)
-2
-d/home/roy/Videos
-	Movies
-2
-d/home/roy
-	Videos
-14
-d/home
-	roy
-2
-d/home/roy
-	Desktop
-6
-d/home/roy/Desktop
-	opendns.txt
-12
-d/home/roy
-	Desktop
-6
-d/home
-	roy
-2
-d/home/roy
-	Music
-10
-d/home/roy/Music
-	Anika's Songs
-1
-d/home/roy/Music/Anika's Songs
-	Alors On Danse - Stromae.mp3
-6
-d/home/roy/Music
-	Hindi Songs
-4
-d/home/roy/Music/Hindi Songs
-	Bhimsen Joshi
-1
-d/home/roy/Music/Hindi Songs/Bhimsen Joshi
-	Bhimsen_01 Raga Yamani Bilawal.mp3
-8
-d/home/roy/Music/Hindi Songs
-	Bhimsen Joshi
-1
-d/home/roy/Music
-	Hindi Songs
-4
-d/home/roy
-	Music
-10
-d/home
-	roy
-2
-d/home/roy
-	Documents
-7
-d/home/roy/Documents
-	Lottery
-19
-d/home/roy/Documents/Lottery
-	Color-analysis
-2
-d/home/roy/Documents/Lottery/Color-analysis
-	..
-0
-d/home/roy/Documents/Lottery
-	Articles
-1
-d/home/roy/Documents/Lottery/Articles
-	..
-0
-d/home/roy/Documents/Lottery
-	Color-analysis
-2
-d/home/roy/Documents/Lottery/Color-analysis
-	A7_RGiarelli.pdf
-1
-d/home/roy/Documents/Lottery
-	Articles
-1
-d/home/roy/Documents/Lottery/Articles
-	Lottery.pdf
-4
-d/home/roy/Documents/Lottery
-	Color-analysis
-2
-d/home/roy/Documents/Lottery/Color-analysis
-	pick5_color.R
-5
-d/home/roy/Documents/Lottery
-	Color-analysis
-2
-d/home/roy/Documents
-	Linux_Stuff
-18
-d/home/roy/Documents/Linux_Stuff
-	System-freeze.odt
-1
-d/home/roy/Documents
-	Linux_Stuff
-18
-d/home/roy/Documents/Linux_Stuff
-	System-freeze.odt
-1
-d/home/roy/Documents
-	India_Trips
-15
-d/home/roy/Documents/India_Trips
-	2017
-1
-d/home/roy/Documents/India_Trips/2017
-	DL (Manojit).pdf
-5
-d/home/roy/Documents/India_Trips
-	2017
-1
-d/home/roy/Documents/India_Trips/2017
-	Jaya travel CC form.pdf
-8
-d/home/roy/Documents/India_Trips
-	2017
-1
-d/home/roy/Documents
-	Hawking_Thesis
 11
-d/home/roy/Documents/Hawking_Thesis
-	PR-PHD-05437.pdf
-1
-d/home/roy/Documents
-	Games
-8
-d/home/roy/Documents/Games
-	Age Of Mythology (EE)
-1
-d/home/roy/Documents/Games/Age Of Mythology (EE)
-	10 habits of the great AoM players.pdf
-1
-d/home/roy/Documents/Games
-	Chess
+d/home
+	roy
 2
-d/home/roy/Documents/Games/Chess
-	Videos
-5
-d/home/roy/Documents/Games/Chess/Videos
-	How to Play Chess (Jeremy Silman)
+d/
+	media
+11
+d/media
+	roy
 1
-d/home/roy/Documents/Games/Chess/Videos/How to Play Chess (Jeremy Silman)
-	Lect01 (Intro).mp4
-2
-d/home/roy/Documents/Games/Chess/Videos
-	How to Play Chess (Jeremy Silman)
+d/media/roy
+	ROY
 1
-d/home/roy/Documents/Games/Chess/Videos/How to Play Chess (Jeremy Silman)
-	Course Guidebook.pdf
+d/media/roy/ROY
+	tmp
 1
-d/home/roy/Documents/Games/Chess/Videos
-	How to Play Chess (Jeremy Silman)
+d/media/roy/ROY/tmp
+	shinozaki
+11
+d/media/roy/ROY/tmp/shinozaki
+	3zChw4M.jpg
 1
-d/home/roy/Documents/Games/Chess
-	Scid Tutorials
-4
-d/home/roy/Documents/Games/Chess/Scid Tutorials
-	4. Learn Chess Openings with SCID Database.mp4
-1
-d/home/roy/Documents/Games/Chess
-	Database
-3
-d/home/roy/Documents/Games/Chess/Database
-	..
-0
-d/home/roy/Documents/Games/Chess
-	Checkmate vs Stalemate
-2
-d/home/roy/Documents/Games/Chess/Checkmate vs Stalemate
-	Read.txt
-1
-d/home/roy/Documents/Games/Chess
-	Books
-1
-d/home/roy/Documents/Games/Chess/Books
-	The Mammoth Book of the World's Greatest Chess Games (Graham Burgess).pdf
-7
-d/home/roy/Documents/Games/Chess
-	Books
-1
-d/home/roy/Documents/Games
-	Chess
-2
-d/home/roy/Documents
-	Games
-8
-d/home/roy
-	Documents
-7
-d/home/roy/Documents
-	VimWiki
-34
-d/home/roy/Documents/VimWiki
-	Git.md
-6
 d/home/roy
 	.dotfiles
 4
 d/home/roy/.dotfiles
-	neofetch
-6
+	bash
+2
+d/home/roy
+	.dotfiles
+4
+d/home/roy/.dotfiles
+	bash
+2
+d/home/roy
+	.config
+3
+d/home/roy/.config
+	newsboat
+18
+d/home/roy/.config/newsboat
+	urls
+2
+d/home/roy/.config
+	newsboat
+18
+d/home/roy
+	.config
+3
+d/home
+	roy
+2
+d/
+	home
+5
+d/home
+	roy
+2
 d
 
 # Right window history (oldest to newest):
-D/home/roy
-	..
-0
-D/home
-	roy
-2
-D/home/roy
-	..
-0
 D/home
 	roy
 2
@@ -351,10 +342,12 @@ D/
 D/home
 	..
 0
+D/home/roy
+	..
+0
 D
 
 # Command line history (oldest to newest):
-:empty
 :!chmod a-x
 :!chmod a-x Excel\ Notes.docx
 :!chmod 755 gitinit.sh
@@ -366,6 +359,7 @@ D
 :marks
 :nmap
 :<c-tab>  
+:empty
 :q
 
 # Search history (oldest to newest):
@@ -380,10 +374,6 @@ pbackup
 pgitpull
 pgitpush
 pgitstat
-pgitpull.sh
-pData_Science
-pgitstat.sh
-pMega Database 2021 updates
 pImmigration_Docs
 pIMPORTANT_DOCS
 pTWS_API
@@ -401,11 +391,15 @@ pAnika_Docs
 pRakhi_Docs
 pJob_Search
 pgitpull2.sh
+pnewsboat
+pconfig
+purls
+pgitstat.sh
+pMega Database 2021 updates
 pImage_Processing
 pPredictive_Modeling
 pSpatial_Analysis
 pString_Manipulation
-pDS
 pPython
 pR
 pPy
@@ -418,18 +412,32 @@ pgitpush_orig.sh
 ptest.sh
 p.netrc
 pLinAlg
-pnewsboat
-pconfig
-purls
+pgitpull.sh
+pData_Science
+pDS
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/roy/.local/share/vifm/Trash/000_Cedar_Point.png
+""/home/roy/.local/share/vifm/Trash/000_Scripts
 
 # Directory stack (oldest to newest):
 
 # Trash content:
+t/home/roy/.local/share/vifm/Trash/000_Git-20210726T125336Z-001.zip
+	/home/roy/Documents/Scripts/Git-20210726T125336Z-001.zip
+t/home/roy/.local/share/vifm/Trash/000_Codes
+	/home/roy/Documents/DS/Codes
+t/home/roy/.local/share/vifm/Trash/000_Mega Database 2021 updates
+	/home/roy/Documents/Mega Database 2021 updates
+t/media/roy/ROY/.vifm-Trash-1000/000_Cute Japanese chick loves fucking with her mature lover.mp4
+	/media/roy/ROY/tmp/vid/Cute Japanese chick loves fucking with her mature lover.mp4
+t/home/roy/.local/share/vifm/Trash/000_gitpull.sh
+	/home/roy/Documents/Scripts/Git/gitpull.sh
+t/home/roy/.local/share/vifm/Trash/000_gitpush.sh
+	/home/roy/Documents/Scripts/Git/gitpush.sh
+t/home/roy/.local/share/vifm/Trash/000_gitstat.sh
+	/home/roy/Documents/Scripts/Git/gitstat.sh
 t/home/roy/.local/share/vifm/Trash/000_vifmimg
 	/home/roy/.dotfiles/vifm/.config/vifm/scripts/vifmimg
 t/home/roy/.local/share/vifm/Trash/000_vifmrun
@@ -466,24 +474,10 @@ t/home/roy/.local/share/vifm/Trash/000_.RData
 	/home/roy/Documents/Data_Science/Codes/.RData
 t/home/roy/.local/share/vifm/Trash/000_.Rhistory
 	/home/roy/Documents/Data_Science/Codes/.Rhistory
-t/home/roy/.local/share/vifm/Trash/000_Git-20210726T125336Z-001.zip
-	/home/roy/Documents/Scripts/Git-20210726T125336Z-001.zip
-t/home/roy/.local/share/vifm/Trash/000_Codes
-	/home/roy/Documents/DS/Codes
-t/home/roy/.local/share/vifm/Trash/000_Mega Database 2021 updates
-	/home/roy/Documents/Mega Database 2021 updates
 t/home/roy/.local/share/vifm/Trash/000_gitpull2.sh
 	/home/roy/Documents/Scripts/Git/gitpull2.sh
 t/home/roy/.local/share/vifm/Trash/000_VideoDownloadHelper
 	/home/roy/Warpinator/VideoDownloadHelper
-t/media/roy/ROY/.vifm-Trash-1000/000_Cute Japanese chick loves fucking with her mature lover.mp4
-	/media/roy/ROY/tmp/vid/Cute Japanese chick loves fucking with her mature lover.mp4
-t/home/roy/.local/share/vifm/Trash/000_gitpull.sh
-	/home/roy/Documents/Scripts/Git/gitpull.sh
-t/home/roy/.local/share/vifm/Trash/000_gitpush.sh
-	/home/roy/Documents/Scripts/Git/gitpush.sh
-t/home/roy/.local/share/vifm/Trash/000_gitstat.sh
-	/home/roy/Documents/Scripts/Git/gitstat.sh
 t/home/roy/.local/share/vifm/Trash/000_Scripts
 	/home/roy/Documents/Scripts
 t/home/roy/.local/share/vifm/Trash/000_Cedar_Point.png

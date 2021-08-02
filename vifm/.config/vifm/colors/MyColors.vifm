@@ -61,7 +61,7 @@ highlight TopLine cterm=bold ctermfg=10 ctermbg=8
 highlight TopLineSel cterm=bold ctermfg=10 ctermbg=default
 highlight StatusLine cterm=bold ctermfg=white ctermbg=8
 highlight WildMenu cterm=underline,reverse ctermfg=white ctermbg=black
-highlight CmdLine cterm=none ctermfg=47 ctermbg=default
+highlight CmdLine cterm=none ctermfg=153 ctermbg=default
 highlight ErrorMsg cterm=none ctermfg=red ctermbg=black
 highlight Border cterm=none ctermfg=black ctermbg=default
 highlight JobLine cterm=bold,reverse ctermfg=black ctermbg=white

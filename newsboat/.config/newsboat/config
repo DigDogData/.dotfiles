@@ -19,7 +19,9 @@ ignore-mode "display"           # ignore articles
 # KEYBINDING
 bind-key LEFT quit
 bind-key RIGHT open
-bind-key ENTER open-in-browser
+bind-key ENTER open-in-browser-and-mark-read
+bind-key a mark-feed-read
+bind-key c mark-all-feeds-read
 
 # COLORS
 # ==================

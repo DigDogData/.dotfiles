@@ -32,4 +32,4 @@ color listfocus           color238  color254
 color listnormal_unread   color31   color15  bold
 color listfocus_unread    color31   color254 bold
 color info                color15   color24  bold
-color article             color238   color15
+color article             color59   color15

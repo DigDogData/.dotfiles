@@ -188,6 +188,8 @@ filextype *.ps,*.eps,*.ps.gz
         "\ {View in gv}
         "\ gv %c %i &,
 
+" Epub
+filextype *.epub fbreader %f %i &
 fileviewer *.epub
         \ vifmimg epub %px %py %pw %ph %c
         \ %pc

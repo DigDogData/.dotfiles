@@ -240,7 +240,7 @@ let g:lightline = {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'readonly', 'filename', 'modified', 'virtualenv', 'gitbranch'] ],
       \   'right': [ [ 'lineinfo' ],
-      \              [ 'fileformat', 'fileencoding', 'filetype', 'percent' ] ]
+      \              [ 'fileformat', 'filetype', 'percent' ] ]
       \ },
       \ 'component': {
       \   'virtualenv': venv

@@ -1,5 +1,17 @@
 [flake8]
-# extend maximum allowed line length (beyond default of 79)
+ignore =
+    # H301: one import per line
+    # H301,
+    # H306: imports not in alphabetical order (time, os)
+    H306
+extend-ignore =
+    # whitespace before ':' warning (whitespace added by black)
+    E203
+# set indent size (default = 4)
+indent-size = 4
+# extend maximum allowed line length (beyond default 79)
 max-line-length = 88
 # set maximum allowed (McCabe) complexity value for a block of code
 max-complexity = 10
+# exclude files/folders
+exclude = .git,__pycache__

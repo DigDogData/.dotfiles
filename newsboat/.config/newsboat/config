@@ -1,8 +1,9 @@
-# LOAD
+# LOAD/SAVE
 refresh-on-startup yes
 auto-reload yes
 reload-time 60      # #minutes between auto-reloads
 reload-threads 15   # #parallel reload threads started when all feeds are reloaded
+save-path "~/Documents/Newsboat"
 
 # FORMAT
 feedlist-format "%3i %n %8u %t"

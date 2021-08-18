@@ -211,6 +211,7 @@ inoremap <expr><Right> pumvisible() ? "<C-y>":"<Right>"
 inoremap <expr><Left> pumvisible() ? "<C-e>":"<Left>"
 
 " set jedi
+let g:jedi#documentation_command = "K"      " open python help doc
 let g:jedi#completions_command = "<C-a>"    " replace default <C-Space> keymap
 set noshowmode          " needed for next line
 let g:jedi#show_call_signatures = 2

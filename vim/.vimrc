@@ -43,8 +43,6 @@ Plug 'joshdick/onedark.vim'
 " fzf integration (*install fzf first*)
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-" tag
-"Plug 'preservim/tagbar'
 " linting+fixing
 Plug 'dense-analysis/ale'
 " python intellisense
@@ -112,21 +110,11 @@ colorscheme onedark
 "let g:codedark_conservative = 0     " 1/0 for less/more(default) colors
 "colorscheme codedark
 
-"""""""""""""""""""""""""""""""
-" set fzf
-"""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""
+" set fzf (defaults set in .bashrc)
+"""""""""""""""""""""""""""""""""""
 let g:fzf_layout = { 'down': '40%' }
-let g:fzf_preview_window = ['right:50%', 'ctrl-/']  " ctrl-/ to toggle
-"let g:fzf_preview_window = ['right:50%:wrap', 'ctrl-/']  " ctrl-/ to toggle
-
-" search for file
-let $FZF_DEFAULT_COMMAND = '
-    \                       rg
-    \                       --files
-    \                       --hidden
-    \                       --follow
-    \                       --glob "!{.cache,.git,.local,.mozilla,.pyenv,.steam}"
-    \                      '
+let $FZF_DEFAULT_OPTS = '--color=preview-bg:#3c3c3c'   " 'ctrl-/' to toggle preview
 
 " search within file
 command! -bang -nargs=* Rg
@@ -226,14 +214,8 @@ nmap <leader>w <Plug>VimwikiIndex
 nmap <leader>wi <Plug>VimwikiDiaryIndex
 nmap <Delete> <Plug>VimwikiDeleteFile
 
-" set tagbar
-"let g:tagbar_width = 30
-"let g:tagbar_compact = 1
-"let g:tagbar_singleclick = 1
-"map <F8> :TagbarToggle<CR>
-
 " set statusline
-" ('colorscheme':'onedark'/'codedark'/'gruvbox'/'sonokai'/'PaperColor')
+" ('colorscheme':'onedark'/'codedark'/'gruvbox')
 set laststatus=2
 let g:lightline = {
       \ 'colorscheme': 'onedark',

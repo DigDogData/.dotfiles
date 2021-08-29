@@ -114,7 +114,7 @@ colorscheme onedark
 " set fzf (defaults set in .bashrc)
 """""""""""""""""""""""""""""""""""
 let g:fzf_layout = { 'down': '40%' }
-let $FZF_DEFAULT_OPTS = '--color=preview-bg:#3c3c3c'   " 'ctrl-/' to toggle preview
+"let $FZF_DEFAULT_OPTS = '--color=preview-bg:#3c3c3c'
 
 " search within file
 command! -bang -nargs=* Rg

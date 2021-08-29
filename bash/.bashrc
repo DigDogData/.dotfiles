@@ -127,5 +127,5 @@ export PATH="$PATH:$HOME/.local/bin"
 # fzf set up ('ctrl-/' to toggle preview window)
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 export FZF_DEFAULT_COMMAND='rg --files --hidden --follow --glob "!{.cache,.git,.local,.mozilla,.pyenv,.steam}"'
-export FZF_DEFAULT_OPTS='--no-height --preview-window 'right:50%' 'ctrl-/' --color=bg+:#222222,gutter:-1,info:#0dbc79,hl:#0dbc79,hl+:#23d18b,prompt:#0dbc79,preview-bg:#222222'
-#export FZF_DEFAULT_OPTS='--no-height --preview-window 'right:50%' 'wrap' 'ctrl-/' --color=bg+:#222222,gutter:-1,info:#0dbc79,hl:#0dbc79,hl+:#23d18b,prompt:#0dbc79,preview-bg:#222222'
+export FZF_DEFAULT_OPTS='--no-height --preview-window=right:50% --bind=ctrl-/:toggle-preview --color=bg+:#222222,gutter:-1,info:#0dbc79,hl:#0dbc79,hl+:#23d18b,prompt:#0dbc79,preview-bg:#222222'
+#export FZF_DEFAULT_OPTS='--no-height --preview-window=right:50%:wrap --bind=ctrl-/:toggle-preview --color=bg+:#222222,gutter:-1,info:#0dbc79,hl:#0dbc79,hl+:#23d18b,prompt:#0dbc79,preview-bg:#222222'

@@ -113,11 +113,9 @@ colorscheme onedark
 """""""""""""""""""""""""""""""""""
 " set fzf (defaults set in .bashrc)
 """""""""""""""""""""""""""""""""""
-" popup window (center of current window) (popup window available in Vim v8.2+)
-"let g:fzf_layout = { 'window': { 'width': 0.9, 'height': 0.6, 'relative': v:true } }
-" popup window (center of screen)
-"let g:fzf_layout = { 'window': { 'width': 0.9, 'height': 0.6 } }
 let g:fzf_layout = { 'down': '40%' }
+let g:fzf_preview_window = ['right:50%', 'ctrl-/']  " ctrl-/ to toggle
+"let g:fzf_preview_window = ['right:50%:wrap', 'ctrl-/']
 "let $FZF_DEFAULT_OPTS = '--color=preview-bg:#3c3c3c'   " change preview window color
 
 " search within file

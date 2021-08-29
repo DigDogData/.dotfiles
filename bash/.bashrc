@@ -124,7 +124,7 @@ fi
 # pipenv setup
 export PATH="$PATH:$HOME/.local/bin"
 
-# fzf set up (*** do NOT add '--preview="head -$LINES {}"' to FZF_DEFAULT_OPTS ***)
+# fzf set up (*** do NOT add --preview option to FZF_DEFAULT_OPTS ***)
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 export FZF_DEFAULT_COMMAND='rg --files --hidden --follow --glob "!{.cache,.git,.local,.mozilla,.pyenv,.steam}"'
 export FZF_DEFAULT_OPTS='--no-height --color=bg+:#222222,gutter:-1,info:#0dbc79,hl:#0dbc79,hl+:#23d18b,prompt:#0dbc79,preview-bg:#222222'

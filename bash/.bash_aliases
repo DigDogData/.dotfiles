@@ -37,5 +37,5 @@ alias ff='vi $(fzf --preview="head -$LINES {}" --preview-window="right:50%" --bi
 #alias ff='fzf --preview="head -$LINES {}" --preview-window="right:50%" --bind="ctrl-/:toggle-preview" | xargs -r -I % xed %'    # open in xed
 alias fd='cd $HOME/Documents && vi $(fzf --preview="head -$LINES {}" --preview-window="right:50%" --bind="ctrl-/:toggle-preview")'
 alias FF='cd $HOME && vi $(fzf --preview="head -$LINES {}" --preview-window="right:50%" --bind="ctrl-/:toggle-preview")'
-alias rr='rga'
-#alias rr='rg --column --line-number --no-heading --hidden --smart-case "${*:-}" | fzf --delimiter : --preview "head -$LINES {1}" --preview-window="right:50%" --bind="ctrl-/:toggle-preview"'
+alias Rg='rga'
+#alias Rg='rg --column --line-number --no-heading --hidden --smart-case "${*:-}" | fzf --delimiter : --preview "head -$LINES {1}" --preview-window="right:50%" --bind="ctrl-/:toggle-preview"'

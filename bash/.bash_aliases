@@ -32,10 +32,10 @@ alias log='clear && tail /var/log/syslog -n 20'
 alias bootlog='clear && sudo tail /var/log/boot.log -n 100'
 
 # fzf aliases
-alias ff='vi $(fzf --preview="head -$LINES {}" --preview-window="right:50%" --bind="ctrl-/:toggle-preview")'
-#alias ff='vi $(fzf --preview="head -$LINES {}" --preview-window="right:50%:wrap" --bind="ctrl-/:toggle-preview")'
-#alias ff='fzf --preview="head -$LINES {}" --preview-window="right:50%" --bind="ctrl-/:toggle-preview" | xargs -r -I % xed %'    # open in xed
-alias fd='cd $HOME/Documents && vi $(fzf --preview="head -$LINES {}" --preview-window="right:50%" --bind="ctrl-/:toggle-preview")'
-alias FF='cd $HOME && vi $(fzf --preview="head -$LINES {}" --preview-window="right:50%" --bind="ctrl-/:toggle-preview")'
+alias ff='fzf --preview="head -$LINES {}" --preview-window="right:50%" --bind="ctrl-/:toggle-preview" | xargs -r -I % xed %'    # open in xed
+#alias ff='vi $(fzf --preview="head -$LINES {}" --preview-window="right:50%" --bind="ctrl-/:toggle-preview")'   # open in vim
+alias fd='cd $HOME/Documents && fzf --preview="head -$LINES {}" --preview-window="right:50%" --bind="ctrl-/:toggle-preview" | xargs -r -I % xed %'
+#alias fd='cd $HOME/Documents && vi $(fzf --preview="head -$LINES {}" --preview-window="right:50%" --bind="ctrl-/:toggle-preview")'
+alias FF='cd $HOME && fzf --preview="head -$LINES {}" --preview-window="right:50%" --bind="ctrl-/:toggle-preview" | xargs -r -I % xed %'
 alias Rg='rga'
 #alias Rg='rg --column --line-number --no-heading --hidden --smart-case "${*:-}" | fzf --delimiter : --preview "head -$LINES {1}" --preview-window="right:50%" --bind="ctrl-/:toggle-preview"'

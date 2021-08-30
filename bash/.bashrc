@@ -132,9 +132,7 @@ export PATH="$PATH:$HOME/.local/bin"
 # fzf set up (*** do NOT add --preview option to FZF_DEFAULT_OPTS ***)
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 export FZF_DEFAULT_COMMAND='rg --files --hidden --follow --glob "!{.cache,.git,.local,.mozilla,.pyenv,.steam,.thunderbird,BraveSoftware}"'
+# onedark theme color
+export FZF_DEFAULT_OPTS='--no-height --color=bg+:#3B4252,spinner:#81A1C1,hl:#616E88,fg:#D8DEE9,header:#616E88,info:#81A1C1,pointer:#81A1C1,marker:#81A1C1,fg+:#D8DEE9,prompt:#F92672,hl+:#81A1C1,preview-bg:#222222'
 # gruvbox theme color
-export FZF_DEFAULT_OPTS='--no-height --color=bg+:#3c3836,bg:#32302f,spinner:#fb4934,hl:#928374,fg:#ebdbb2,header:#928374,info:#8ec07c,pointer:#fb4934,marker:#fb4934,fg+:#ebdbb2,prompt:#fb4934,hl+:#fb4934,preview-bg:#222222'
-# nord theme color
-#export FZF_DEFAULT_OPTS='--no-height --color=bg+:#3B4252,bg:#2E3440,spinner:#81A1C1,hl:#616E88,fg:#D8DEE9,header:#616E88,info:#81A1C1,pointer:#81A1C1,marker:#81A1C1,fg+:#D8DEE9,prompt:#81A1C1,hl+:#81A1C1,preview-bg:#222222'
-# molokai theme color
-#export FZF_DEFAULT_OPTS='--no-height --color=bg+:#293739,bg:#1B1D1E,border:#808080,spinner:#E6DB74,hl:#7E8E91,fg:#F8F8F2,header:#7E8E91,info:#A6E22E,pointer:#A6E22E,marker:#F92672,fg+:#F8F8F2,prompt:#F92672,hl+:#F92672,preview-bg:#222222'
+#export FZF_DEFAULT_OPTS='--no-height --color=bg+:#3c3836,spinner:#fb4934,hl:#928374,fg:#ebdbb2,header:#928374,info:#8ec07c,pointer:#fb4934,marker:#fb4934,fg+:#ebdbb2,prompt:#fb4934,hl+:#fb4934,preview-bg:#222222'

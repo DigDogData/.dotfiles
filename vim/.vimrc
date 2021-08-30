@@ -57,6 +57,10 @@ Plug 'vimwiki/vimwiki'
 Plug 'itchyny/vim-gitbranch'
 " statusline
 Plug 'itchyny/lightline.vim'
+" NERDTree
+Plug 'preservim/nerdtree'
+" tag
+"Plug 'preservim/tagbar'
 call plug#end()
 
 filetype plugin indent on       " required
@@ -258,6 +262,29 @@ let g:startify_custom_header = [
 " disable netrw
 let g:loaded_netrw       = 1
 let g:loaded_netrwPlugin = 1
+
+" set NERDTree
+nmap <leader>f :NERDTreeToggle<CR>
+let g:NERDTreeWinPos = "right"
+let g:NERDTreeShowBookmarks = 0
+let g:NERDTreeMinimalUI = 1
+let g:NERDTreeAutoDeleteBuffer = 1
+let g:NERDTreeQuitOnOpen = 1
+let g:NERDTreeWinSize = 30
+let g:NERDTreeShowHidden = 1
+" quit vim if only NERDTree is present
+function! QuitIfOnly()
+    if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree())
+        q
+    end
+endfunction
+autocmd bufenter * call QuitIfOnly()
+
+" set tagbar
+"let g:tagbar_width = 30
+"let g:tagbar_compact = 1
+"let g:tagbar_singleclick = 1
+"map <F8> :TagbarToggle<CR>
 
 " open + reload vimrc
 nnoremap <leader>ev :e $MYVIMRC<cr>

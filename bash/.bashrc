@@ -132,4 +132,6 @@ export PATH="$PATH:$HOME/.local/bin"
 # fzf set up (*** do NOT add --preview option to FZF_DEFAULT_OPTS ***)
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 export FZF_DEFAULT_COMMAND='rg --files --hidden --follow --glob "!{.cache,.git,.local,.mozilla,.pyenv,.steam,.thunderbird,BraveSoftware}"'
-export FZF_DEFAULT_OPTS='--no-height --color=bg+:#222222,gutter:-1,info:#0dbc79,hl:#0dbc79,hl+:#23d18b,prompt:#0dbc79,preview-bg:#222222'
+# gruvbox theme color
+export FZF_DEFAULT_OPTS='--no-height --color=bg+:#3c3836,bg:#32302f,spinner:#fb4934,hl:#928374,fg:#ebdbb2,header:#928374,info:#8ec07c,pointer:#fb4934,marker:#fb4934,fg+:#ebdbb2,prompt:#fb4934,hl+:#fb4934,preview-bg:#222222'
+#export FZF_DEFAULT_OPTS='--no-height --color=bg+:#222222,gutter:-1,info:#0dbc79,hl:#0dbc79,hl+:#23d18b,prompt:#0dbc79,preview-bg:#222222'

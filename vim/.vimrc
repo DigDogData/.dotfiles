@@ -106,8 +106,14 @@ autocmd BufWritePre * :%s/\s\+$//e
 " set gruvbox color scheme
 set background=dark     " use dark theme
 let g:gruvbox_italic = 1
+let g:gruvbox_italicize_comments = 1
+let g:gruvbox_italicize_strings = 0
 let g:gruvbox_contrast_dark = 'medium'    " soft/medium(default)/hard
 colorscheme gruvbox8
+" customize colors
+"if &background == 'dark' && g:colors_name == 'gruvbox8'
+"    hi Normal guibg=#282828
+"endif
 
 """""""""""""""""""""""""""""""""""
 " set fzf (defaults set in .bashrc)
@@ -126,9 +132,8 @@ command! -bang -nargs=* Rg
     \                           --line-number
     \                           --hidden
     \                           --no-heading
-    \                           --color=always
     \                           --smart-case
-    \                           --glob "!{.cache,.git,.local,.mozilla,.pyenv,.steam}"
+    \                           --glob "!{.cache,.git,.local,.mozilla,.pyenv,.steam,.thunderbird,BraveSoftware}"
     \                       '
     \                       .shellescape(<q-args>), 1,
     \                       fzf#vim#with_preview(), <bang>0

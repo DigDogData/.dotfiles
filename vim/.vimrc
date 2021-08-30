@@ -38,8 +38,7 @@ set undodir=~/.vim/undodir
 call plug#begin('~/.vim/plugged')
 " theme
 Plug 'joshdick/onedark.vim'
-"Plug 'lifepillar/vim-gruvbox8'
-"Plug 'morhetz/gruvbox'
+"Plug 'lifepillar/vim-gruvbox8'     " advanced gruvbox
 " fzf integration (install fzf BEFORE activating this plugin)
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -109,7 +108,6 @@ colorscheme onedark
 "let g:gruvbox_italic = 1
 "let g:gruvbox_contrast_dark = 'medium'    " soft/medium(default)/hard
 "colorscheme gruvbox8
-"colorscheme gruvbox
 
 """""""""""""""""""""""""""""""""""
 " set fzf (defaults set in .bashrc)
@@ -218,7 +216,7 @@ nmap <leader>wi <Plug>VimwikiDiaryIndex
 nmap <Delete> <Plug>VimwikiDeleteFile
 
 " set statusline
-" ('colorscheme':'onedark'/'gruvbox'/'gruvbox8')
+" ('colorscheme':'onedark'/'gruvbox8')
 set laststatus=2
 let g:lightline = {
       \ 'colorscheme': 'onedark',

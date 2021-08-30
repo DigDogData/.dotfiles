@@ -37,8 +37,8 @@ set undodir=~/.vim/undodir
 " set plugins
 call plug#begin('~/.vim/plugged')
 " theme
-Plug 'joshdick/onedark.vim'
-"Plug 'lifepillar/vim-gruvbox8'     " advanced gruvbox
+"Plug 'joshdick/onedark.vim'
+Plug 'lifepillar/vim-gruvbox8'     " advanced gruvbox
 " fzf integration (install fzf BEFORE activating this plugin)
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -96,18 +96,18 @@ autocmd BufWritePre * :%s/\s\+$//e
 " set color scheme
 """""""""""""""""""""""""""""
 " set onedark color scheme (use custom comment_grey and white color values)
-let g:onedark_terminal_italics = 1
-let g:onedark_color_overrides = {
-\ 'white': {'gui': '#c6c6c6', 'cterm': '251', 'cterm16': '15' },
-\ 'comment_grey': {'gui': '#808080', 'cterm': '244', 'cterm16': '8' }
-\}
-colorscheme onedark
+"let g:onedark_terminal_italics = 1
+"let g:onedark_color_overrides = {
+"\ 'white': {'gui': '#c6c6c6', 'cterm': '251', 'cterm16': '15' },
+"\ 'comment_grey': {'gui': '#808080', 'cterm': '244', 'cterm16': '8' }
+"\}
+"colorscheme onedark
 
 " set gruvbox color scheme
-"set background=dark     " use dark theme
-"let g:gruvbox_italic = 1
-"let g:gruvbox_contrast_dark = 'medium'    " soft/medium(default)/hard
-"colorscheme gruvbox8
+set background=dark     " use dark theme
+let g:gruvbox_italic = 1
+let g:gruvbox_contrast_dark = 'medium'    " soft/medium(default)/hard
+colorscheme gruvbox8
 
 """""""""""""""""""""""""""""""""""
 " set fzf (defaults set in .bashrc)
@@ -219,7 +219,7 @@ nmap <Delete> <Plug>VimwikiDeleteFile
 " ('colorscheme':'onedark'/'gruvbox8')
 set laststatus=2
 let g:lightline = {
-      \ 'colorscheme': 'onedark',
+      \ 'colorscheme': 'gruvbox8',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'readonly', 'filename', 'modified', 'virtualenv', 'gitbranch'] ],

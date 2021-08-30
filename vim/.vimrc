@@ -40,7 +40,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'joshdick/onedark.vim'
 "Plug 'morhetz/gruvbox'
 "Plug 'tomasiser/vim-code-dark'
-" fzf integration (*install fzf first*)
+" fzf integration (install fzf BEFORE activating this plugin)
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 " linting+fixing
@@ -169,16 +169,16 @@ let g:fzf_colors =
 " enable all python syntax highlighting
 let python_highlight_all = 1
 
-" turn off highlighting
+" turn off search highlighting
 noremap <leader>h :noh<CR>
 
-" Disable Ctrl-Z in normal&insert mode to prevent backgrounding (<nop> -> 'no operation')
+" Disable Ctrl-Z to prevent backgrounding (<nop> -> 'no operation')
 nnoremap <c-z> <nop>
 inoremap <c-z> <nop>
 
-" open new buffer in split window
-nmap <leader>r :set splitright<CR>:vsp
-nmap <leader>l :vsp
+" open new buffer in (right/left)split window
+nmap <leader>r :set splitright<CR>:vnew<CR>
+nmap <leader>l :set nosplitright<CR>:vnew<CR>
 
 " move through split windows
 nmap <leader><Up> :wincmd k<CR>
@@ -257,9 +257,6 @@ let g:startify_custom_header = [
          \ '   | | (_| | |_  | |_ \ V / (_| | | | | | | | (_| \__ \ |',
          \ '   |_|\__._|\__|  \__| \_/ \__._|_| |_| |_|  \__._|___/_|',
          \]
-
-" set gitbranch
-" let gitbranch = system('echo -n $(git rev-parse --abbrev-ref HEAD 2> /dev/null)')
 
 " disable netrw
 let g:loaded_netrw       = 1

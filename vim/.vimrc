@@ -97,6 +97,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 """""""""""""""""""""""""""""
 " set onedark color scheme (use custom comment_grey and white color values)
 "let g:onedark_terminal_italics = 1
+"let g:python_highlight_all = 1
 "let g:onedark_color_overrides = {
 "\ 'white': {'gui': '#c6c6c6', 'cterm': '251', 'cterm16': '15' },
 "\ 'comment_grey': {'gui': '#808080', 'cterm': '244', 'cterm16': '8' }
@@ -110,7 +111,7 @@ let g:gruvbox_italicize_comments = 1
 let g:gruvbox_italicize_strings = 0
 let g:gruvbox_contrast_dark = 'medium'    " soft/medium(default)/hard
 colorscheme gruvbox8
-" customize colors
+" customize gruvbox
 "if &background == 'dark' && g:colors_name == 'gruvbox8'
 "    hi Normal guibg=#282828
 "endif

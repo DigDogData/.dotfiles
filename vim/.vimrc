@@ -227,8 +227,7 @@ let g:lightline = {
       \ 'left': [ [ 'mode', 'paste' ],
       \           [ 'readonly', 'filename', 'modified', 'virtualenv', 'gitbranch'] ],
       \ 'right': [ [ 'linter_checking', 'linter_errors', 'linter_warnings', 'linter_infos', 'linter_ok' ],
-      \            [ 'lineinfo' ],
-      \            [ 'fileformat', 'filetype', 'percent' ] ]
+      \            [ 'fileformat', 'filetype', 'percent', 'lineinfo' ] ]
       \ },
       \ 'component': {
       \   'virtualenv': venv

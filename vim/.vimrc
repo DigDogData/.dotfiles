@@ -17,7 +17,6 @@ set nowrap
 set wildmode=longest,list,full
 setlocal spelllang=en_us
 set nu rnu						" set hybrid line numbering
-set colorcolumn=88              " conform with flake8 (~/.config/flake8)
 set hlsearch
 set incsearch
 set smartcase
@@ -37,13 +36,11 @@ set undodir=~/.vim/undodir
 " set plugins
 call plug#begin('~/.vim/plugged')
 " theme
-"Plug 'joshdick/onedark.vim'
 Plug 'lifepillar/vim-gruvbox8'     " advanced gruvbox
+"Plug 'joshdick/onedark.vim'
 " fzf integration (install fzf BEFORE activating this plugin)
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-" linting+fixing
-Plug 'dense-analysis/ale'
 " python intellisense
 Plug 'davidhalter/jedi-vim'
 " autocompletion autopopup
@@ -56,6 +53,10 @@ Plug 'vimwiki/vimwiki'
 Plug 'itchyny/vim-gitbranch'
 " statusline
 Plug 'itchyny/lightline.vim'
+" linting+fixing
+Plug 'dense-analysis/ale'
+" statusline+ale
+Plug 'maximbaz/lightline-ale'
 " NERDTree
 Plug 'preservim/nerdtree'
 " tag
@@ -95,6 +96,19 @@ autocmd BufWritePre * :%s/\s\+$//e
 """""""""""""""""""""""""""""
 " set color scheme
 """""""""""""""""""""""""""""
+" set gruvbox color scheme
+set background=dark     " use dark theme
+let g:gruvbox_italics = 1
+let g:gruvbox_italicize_comments = 1
+let g:gruvbox_italicize_strings = 0
+let g:gruvbox_filetype_hi_groups = 1    " enable syntax highlighting for many filetypes
+colorscheme gruvbox8      " gruvbox8_soft/gruvbox8(medium)/gruvbox8_hard
+" set long line alert (>88 characters)
+if &background == 'dark' && g:colors_name == 'gruvbox8'
+    hi OverLength guibg=#3c3836 ctermbg=red ctermfg=white
+    match OverLength /\%89v.\+/
+endif
+
 " set onedark color scheme (use custom comment_grey and white color values)
 "let g:onedark_terminal_italics = 1
 "let g:python_highlight_all = 1
@@ -104,25 +118,12 @@ autocmd BufWritePre * :%s/\s\+$//e
 "\}
 "colorscheme onedark
 
-" set gruvbox color scheme
-set background=dark     " use dark theme
-let g:gruvbox_italic = 1
-let g:gruvbox_italicize_comments = 1
-let g:gruvbox_italicize_strings = 0
-let g:gruvbox_contrast_dark = 'medium'    " soft/medium(default)/hard
-colorscheme gruvbox8
-" customize gruvbox
-"if &background == 'dark' && g:colors_name == 'gruvbox8'
-"    hi Normal guibg=#282828
-"endif
-
 """""""""""""""""""""""""""""""""""
 " set fzf (defaults set in .bashrc)
 """""""""""""""""""""""""""""""""""
 let g:fzf_layout = { 'down': '40%' }
 let g:fzf_preview_window = ['right:50%', 'ctrl-/']  " ctrl-/ to toggle
 "let g:fzf_preview_window = ['right:50%:wrap', 'ctrl-/']
-"let $FZF_DEFAULT_OPTS = '--color=preview-bg:#3c3c3c'   " change preview window color
 
 " search within file
 command! -bang -nargs=* Rg
@@ -191,14 +192,6 @@ nmap <leader><Down> :wincmd j<CR>
 nmap <leader><Left> :wincmd h<CR>
 nmap <leader><Right> :wincmd l<CR>
 
-" remove ugly vertical lines on window division
-set fillchars+=vert:$
-
-" set linting+fixing (read :help <commad> for details)
-let g:ale_linters = {'python': ['flake8']}
-let g:ale_fixers = {'*': [], 'python': ['black']}
-let g:ale_fix_on_save = 1
-
 " set builtin autocompletion
 set complete+=kspell            " add completion dictionary
 set shortmess+=c                " disable completion status message
@@ -221,16 +214,21 @@ nmap <leader>w <Plug>VimwikiIndex
 nmap <leader>wi <Plug>VimwikiDiaryIndex
 nmap <Delete> <Plug>VimwikiDeleteFile
 
-" set statusline
-" ('colorscheme':'onedark'/'gruvbox8')
+" set linting+fixing (read :help <commad> for details)
+let g:ale_linters = {'python': ['flake8']}
+let g:ale_fixers = {'*': [], 'python': ['black']}
+let g:ale_fix_on_save = 1
+
+" set lightline (integrate ale)
 set laststatus=2
 let g:lightline = {
       \ 'colorscheme': 'gruvbox8',
       \ 'active': {
-      \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'readonly', 'filename', 'modified', 'virtualenv', 'gitbranch'] ],
-      \   'right': [ [ 'lineinfo' ],
-      \              [ 'fileformat', 'filetype', 'percent' ] ]
+      \ 'left': [ [ 'mode', 'paste' ],
+      \           [ 'readonly', 'filename', 'modified', 'virtualenv', 'gitbranch'] ],
+      \ 'right': [ [ 'linter_checking', 'linter_errors', 'linter_warnings', 'linter_infos', 'linter_ok' ],
+      \            [ 'lineinfo' ],
+      \            [ 'fileformat', 'filetype', 'percent' ] ]
       \ },
       \ 'component': {
       \   'virtualenv': venv
@@ -238,7 +236,26 @@ let g:lightline = {
       \ 'component_function': {
       \   'gitbranch': 'gitbranch#name'
       \ },
+      \ 'component_expand': {
+      \  'linter_checking': 'lightline#ale#checking',
+      \  'linter_infos': 'lightline#ale#infos',
+      \  'linter_warnings': 'lightline#ale#warnings',
+      \  'linter_errors': 'lightline#ale#errors',
+      \  'linter_ok': 'lightline#ale#ok',
+      \ },
+      \ 'component_type': {
+      \     'linter_checking': 'right',
+      \     'linter_infos': 'right',
+      \     'linter_warnings': 'warning',
+      \     'linter_errors': 'error',
+      \     'linter_ok': 'right',
+      \ },
       \ }
+let g:lightline#ale#indicator_checking = "\uf110"
+let g:lightline#ale#indicator_infos = "\uf129"
+let g:lightline#ale#indicator_warnings = "\uf071"
+let g:lightline#ale#indicator_errors = "\uf05e"
+let g:lightline#ale#indicator_ok = "\uf00c"
 
 " set terminal
 map <leader>t :below vert terminal<CR>
@@ -249,7 +266,8 @@ if hostname() == 'nbook'
 else
     set termwinsize=0x90
 endif
-hi Terminal guibg=#3c3c3c       " linux mint terminal bg color
+set fillchars+=vert:$       " change vertical line type on split
+"hi Terminal guibg=#3c3836       " gruvbox8 colorcolumn color
 
 " set startify
 let g:startify_session_autoload = 1

@@ -244,7 +244,12 @@ let g:lightline = {
 map <leader>t :below vert terminal<CR>
 tmap <F2> <C-w>w
 tmap <F3> <C-w>N
-hi Terminal guibg=#3c3c3c         " linux mint console color
+if hostname() == 'nbook'
+    set termwinsize=0x72
+else
+    set termwinsize=0x80
+endif
+hi Terminal guibg=#3c3c3c       " linux mint terminal bg color
 
 " set startify
 let g:startify_session_autoload = 1

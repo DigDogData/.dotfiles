@@ -270,7 +270,7 @@ else
     set termwinsize=0x90
 endif
 set fillchars+=vert:$       " change vertical line type on split
-"hi Terminal guibg=#3c3836       " gruvbox8 colorcolumn color
+"hi Terminal guibg=#3c3836     " gruvbox8 statusline color
 
 " set startify
 let g:startify_session_autoload = 1

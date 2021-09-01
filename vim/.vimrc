@@ -247,7 +247,7 @@ tmap <F3> <C-w>N
 if hostname() == 'nbook'
     set termwinsize=0x72
 else
-    set termwinsize=0x80
+    set termwinsize=0x90
 endif
 hi Terminal guibg=#3c3c3c       " linux mint terminal bg color
 

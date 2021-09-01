@@ -59,7 +59,7 @@ Plug 'itchyny/lightline.vim'
 " NERDTree
 Plug 'preservim/nerdtree'
 " tag
-"Plug 'preservim/tagbar'
+Plug 'preservim/tagbar'
 call plug#end()
 
 filetype plugin indent on       " required
@@ -285,10 +285,11 @@ endfunction
 autocmd bufenter * call QuitIfOnly()
 
 " set tagbar
-"let g:tagbar_width = 30
-"let g:tagbar_compact = 1
-"let g:tagbar_singleclick = 1
-"map <F8> :TagbarToggle<CR>
+let g:tagbar_ctags_bin = '$HOME/Documents/Ctags/bin/ctags'
+let g:tagbar_width = 30
+let g:tagbar_compact = 1
+let g:tagbar_singleclick = 1
+nnoremap <silent> <F8> :TagbarToggle<CR>
 
 " open + reload vimrc
 nnoremap <leader>ev :e $MYVIMRC<cr>

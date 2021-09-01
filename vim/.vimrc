@@ -105,8 +105,12 @@ let g:gruvbox_filetype_hi_groups = 1    " enable syntax highlighting for many fi
 colorscheme gruvbox8      " gruvbox8_soft/gruvbox8(medium)/gruvbox8_hard
 " set long line alert (>88 characters)
 if &background == 'dark' && g:colors_name == 'gruvbox8'
-    hi OverLength guibg=#3c3836 ctermbg=red ctermfg=white
+    " set excess line bg color
+    hi OverLength guibg=#3c3836 ctermbg=gray
     match OverLength /\%89v.\+/
+    " set excess 1st character bg color
+    "hi ColorColumn guibg=#3c3836 ctermbg=gray
+    "call matchadd('ColorColumn', '\%89v', 100)
 endif
 
 " set onedark color scheme (use custom comment_grey and white color values)

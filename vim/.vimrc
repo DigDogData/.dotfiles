@@ -264,13 +264,10 @@ let g:lightline#ale#indicator_ok = "\uf00c"
 map <leader>t :below vert terminal<CR>
 tmap <F2> <C-w>w
 tmap <F3> <C-w>N
-if hostname() == 'nbook'
-    set termwinsize=0x72
-else
-    set termwinsize=0x90
-endif
-set fillchars+=vert:$       " change vertical line type on split
 "hi Terminal guibg=#3c3836     " gruvbox8 statusline color
+
+" change vertical line type on split
+set fillchars+=vert:$
 
 " set startify
 let g:startify_session_autoload = 1

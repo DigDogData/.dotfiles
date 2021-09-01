@@ -274,7 +274,7 @@ let g:NERDTreeShowBookmarks = 0
 let g:NERDTreeMinimalUI = 1
 let g:NERDTreeAutoDeleteBuffer = 1
 let g:NERDTreeQuitOnOpen = 1
-let g:NERDTreeWinSize = 30
+let g:NERDTreeWinSize = max([30, winwidth(0)/5])     " max(30char,20% width)
 let g:NERDTreeShowHidden = 1
 " quit vim if only NERDTree is present
 function! QuitIfOnly()
@@ -286,7 +286,7 @@ autocmd bufenter * call QuitIfOnly()
 
 " set tagbar
 let g:tagbar_ctags_bin = '$HOME/Documents/Ctags/bin/ctags'
-let g:tagbar_width = 30
+let g:tagbar_width = max([30, winwidth(0)/5])     " max(30char,20% width)
 let g:tagbar_compact = 1
 let g:tagbar_singleclick = 1
 nnoremap <silent> <F8> :TagbarToggle<CR>

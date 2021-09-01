@@ -5,8 +5,6 @@ let mapleader = "\<Space>"
 set nocompatible                " required
 filetype off                    " required
 syntax on
-set clipboard=unnamedplus		" to copy from system clipboard
-set guioptions+=a               " to copy to system clipboard
 set belloff=all                 " disable bell + flash
 set expandtab
 set smarttab
@@ -76,7 +74,9 @@ else                                        " if none
     let venv = 'base'
 endif
 
-" clipboard mapping
+" set clipboard
+set clipboard=unnamedplus		" to copy from system clipboard
+set guioptions+=a               " to copy to system clipboard
 vnoremap <C-c> "+y
 inoremap <C-v> <ESC>"+pa
 

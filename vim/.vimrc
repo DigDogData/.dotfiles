@@ -34,7 +34,8 @@ set undodir=~/.vim/undodir
 " set plugins
 call plug#begin('~/.vim/plugged')
 " theme
-Plug 'lifepillar/vim-gruvbox8'     " advanced gruvbox
+Plug 'lifepillar/vim-gruvbox8'     " improved gruvbox
+"Plug 'tomasiser/vim-code-dark'
 "Plug 'joshdick/onedark.vim'
 " fzf integration (install fzf BEFORE activating this plugin)
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -93,37 +94,51 @@ set foldlevel=99
 " remove trailing spaces on save
 autocmd BufWritePre * :%s/\s\+$//e
 
-" enable all python syntax highlighting
+" enable python syntax highlighting
 let python_highlight_all = 1
 
 """""""""""""""""""""""""""""
 " set color scheme
 """""""""""""""""""""""""""""
-" set gruvbox color scheme
-set background=dark     " use dark theme
-let g:gruvbox_italics = 1
-let g:gruvbox_italicize_comments = 1
-let g:gruvbox_italicize_strings = 0
-let g:gruvbox_filetype_hi_groups = 1    " enable syntax highlighting for many filetypes
-colorscheme gruvbox8      " gruvbox8_soft/gruvbox8(medium)/gruvbox8_hard
-" set long line alert (>88 characters)
-if &background == 'dark' && g:colors_name == 'gruvbox8'
-    " set excess line bg color
-    hi OverLength guibg=#3c3836 ctermbg=gray
-    match OverLength /\%89v.\+/
-    " set excess 1st character bg color
-    "hi ColorColumn guibg=#3c3836 ctermbg=gray
-    "call matchadd('ColorColumn', '\%89v', 100)
-endif
+let color_scheme = 'gruvbox8'       " gruvbox8/codedark/onedark
+if color_scheme == 'gruvbox8'
 
-" set onedark color scheme (use custom comment_grey and white color values)
-"let g:onedark_terminal_italics = 1
-"let g:python_highlight_all = 1
-"let g:onedark_color_overrides = {
-"\ 'white': {'gui': '#c6c6c6', 'cterm': '251', 'cterm16': '15' },
-"\ 'comment_grey': {'gui': '#808080', 'cterm': '244', 'cterm16': '8' }
-"\}
-"colorscheme onedark
+    " set gruvbox color scheme
+    set background=dark     " use dark theme
+    let g:gruvbox_italics = 1
+    let g:gruvbox_italicize_comments = 1
+    let g:gruvbox_italicize_strings = 0
+    let g:gruvbox_filetype_hi_groups = 1    " enable additional syntax highlighting
+    colorscheme gruvbox8            " gruvbox8_soft/gruvbox8(medium)/gruvbox8_hard
+    " set long line alert (>88 characters)
+    if &background == 'dark' && g:colors_name == 'gruvbox8'
+        " set long line alert (>88 characters)
+        hi OverLength guibg=#3c3836 ctermbg=gray
+        match OverLength /\%89v.\+/
+        " disable ugly orange bar for python indent guide
+        if exists('python_highlight_all')
+            unlet python_highlight_all
+        endif
+    endif
+
+elseif color_scheme == 'codedark'
+
+    " set codedark color scheme
+    "let g:codedark_conservative = 1     " conservative colors
+    colorscheme codedark
+
+else
+
+    " set onedark color scheme
+    let g:onedark_terminal_italics = 1
+    let g:python_highlight_all = 1
+    let g:onedark_color_overrides = {
+    \ 'white': {'gui': '#c6c6c6', 'cterm': '251', 'cterm16': '15' },
+    \ 'comment_grey': {'gui': '#808080', 'cterm': '244', 'cterm16': '8' }
+    \}
+    colorscheme onedark
+
+endif
 
 """""""""""""""""""""""""""""""""""
 " set fzf (defaults set in .bashrc)
@@ -226,11 +241,12 @@ let g:ale_fix_on_save = 1
 " set lightline (integrate ale info)
 set laststatus=2
 let g:lightline = {
-      \ 'colorscheme': 'gruvbox8',
+      \ 'colorscheme': color_scheme,
       \ 'active': {
       \ 'left': [ [ 'mode', 'paste' ],
       \           [ 'readonly', 'filename', 'modified', 'virtualenv', 'gitbranch'] ],
-      \ 'right': [ [ 'linter_checking', 'linter_errors', 'linter_warnings', 'linter_infos', 'linter_ok' ],
+      "\ 'right': [ [ 'linter_checking', 'linter_errors', 'linter_warnings', 'linter_infos', 'linter_ok' ],
+      \ 'right': [ [ 'linter_checking', 'linter_errors', 'linter_warnings', 'linter_infos' ],
       \            [ 'fileformat', 'filetype', 'percent', 'lineinfo' ] ]
       \ },
       \ 'component': {
@@ -244,21 +260,21 @@ let g:lightline = {
       \  'linter_infos': 'lightline#ale#infos',
       \  'linter_warnings': 'lightline#ale#warnings',
       \  'linter_errors': 'lightline#ale#errors',
-      \  'linter_ok': 'lightline#ale#ok',
+      "\  'linter_ok': 'lightline#ale#ok',
       \ },
       \ 'component_type': {
       \     'linter_checking': 'right',
       \     'linter_infos': 'right',
       \     'linter_warnings': 'warning',
       \     'linter_errors': 'error',
-      \     'linter_ok': 'right',
+      "\     'linter_ok': 'right',
       \ },
       \ }
 let g:lightline#ale#indicator_checking = "\uf110"
 let g:lightline#ale#indicator_infos = "\uf129"
-let g:lightline#ale#indicator_warnings = "\uf071"
-let g:lightline#ale#indicator_errors = "\uf05e"
-let g:lightline#ale#indicator_ok = "\uf00c"
+let g:lightline#ale#indicator_warnings = "\uf071 "
+let g:lightline#ale#indicator_errors = "\uf05e "
+"let g:lightline#ale#indicator_ok = "\uf00c"
 
 " set terminal
 map <leader>t :below vert terminal<CR>

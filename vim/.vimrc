@@ -46,6 +46,8 @@ Plug 'mhinz/vim-startify'
 Plug 'vimwiki/vimwiki'
 " git branch
 Plug 'itchyny/vim-gitbranch'
+" git gutter
+Plug 'airblade/vim-gitgutter'
 " statusline
 Plug 'itchyny/lightline.vim'
 " linting+fixing
@@ -233,14 +235,23 @@ let g:ale_linters = {'python': ['flake8']}
 let g:ale_fixers = {'*': [], 'python': ['black']}
 let g:ale_fix_on_save = 1
 
-" set lightline (integrate ale info)
+" set gitgutter
+set updatetime=100
+let g:gitgutter_map_keys = 0        " disable plugin's builtin keymaps
+nmap ] <Plug>(GitGutterNextHunk)
+nmap [ <Plug>(GitGutterPrevHunk)
+
+" set lightline (integrate ale + gitgutter stat)
+function! GitStatus()
+    let [a,m,r] = GitGutterGetHunkSummary()
+    return printf('+%d ~%d -%d', a, m, r)
+endfunction
 set laststatus=2
 let g:lightline = {
       \ 'colorscheme': color_scheme,
       \ 'active': {
       \ 'left': [ [ 'mode', 'paste' ],
-      \           [ 'readonly', 'filename', 'modified', 'virtualenv', 'gitbranch'] ],
-      "\ 'right': [ [ 'linter_checking', 'linter_errors', 'linter_warnings', 'linter_infos', 'linter_ok', 'lineinfo' ],
+      \           [ 'readonly', 'filename', 'modified', 'virtualenv', 'gitbranch', 'gitgutter'] ],
       \ 'right': [ [ 'linter_checking', 'linter_errors', 'linter_warnings', 'linter_infos', 'lineinfo' ],
       \            [ 'fileformat', 'filetype', 'percent' ] ]
       \ },
@@ -248,28 +259,26 @@ let g:lightline = {
       \   'virtualenv': venv
       \ },
       \ 'component_function': {
-      \   'gitbranch': 'gitbranch#name'
+      \   'gitbranch': 'gitbranch#name',
+      \   'gitgutter': 'GitStatus'
       \ },
       \ 'component_expand': {
       \  'linter_checking': 'lightline#ale#checking',
       \  'linter_infos': 'lightline#ale#infos',
       \  'linter_warnings': 'lightline#ale#warnings',
       \  'linter_errors': 'lightline#ale#errors',
-      "\  'linter_ok': 'lightline#ale#ok',
       \ },
       \ 'component_type': {
       \     'linter_checking': 'right',
       \     'linter_infos': 'right',
       \     'linter_warnings': 'warning',
       \     'linter_errors': 'error',
-      "\     'linter_ok': 'right',
       \ },
       \ }
 let g:lightline#ale#indicator_checking = "\uf110"
 let g:lightline#ale#indicator_infos = "\uf129"
 let g:lightline#ale#indicator_warnings = "\uf071 "
 let g:lightline#ale#indicator_errors = "\uf05e "
-"let g:lightline#ale#indicator_ok = "\uf00c"
 
 " set terminal
 map <leader>t :below vert terminal<CR>

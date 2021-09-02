@@ -33,10 +33,6 @@ set undodir=~/.vim/undodir
 
 " set plugins
 call plug#begin('~/.vim/plugged')
-" theme
-Plug 'lifepillar/vim-gruvbox8'     " improved gruvbox
-"Plug 'tomasiser/vim-code-dark'
-"Plug 'joshdick/onedark.vim'
 " fzf integration (install fzf BEFORE activating this plugin)
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -60,6 +56,15 @@ Plug 'maximbaz/lightline-ale'
 Plug 'preservim/nerdtree'
 " tag
 Plug 'preservim/tagbar'
+" theme
+let color_scheme = 'gruvbox8'       " gruvbox8/codedark/onedark
+if color_scheme == 'gruvbox8'
+    Plug 'lifepillar/vim-gruvbox8'     " improved gruvbox
+elseif color_scheme == 'codedark'
+    Plug 'tomasiser/vim-code-dark'
+else
+    Plug 'joshdick/onedark.vim'
+endif
 call plug#end()
 
 filetype plugin indent on       " required
@@ -100,10 +105,7 @@ let python_highlight_all = 1
 """""""""""""""""""""""""""""
 " set color scheme
 """""""""""""""""""""""""""""
-let color_scheme = 'gruvbox8'       " gruvbox8/codedark/onedark
 if color_scheme == 'gruvbox8'
-
-    " set gruvbox color scheme
     set background=dark     " use dark theme
     let g:gruvbox_italics = 1
     let g:gruvbox_italicize_comments = 1
@@ -120,16 +122,10 @@ if color_scheme == 'gruvbox8'
             unlet python_highlight_all
         endif
     endif
-
 elseif color_scheme == 'codedark'
-
-    " set codedark color scheme
     "let g:codedark_conservative = 1     " conservative colors
     colorscheme codedark
-
 else
-
-    " set onedark color scheme
     let g:onedark_terminal_italics = 1
     let g:python_highlight_all = 1
     let g:onedark_color_overrides = {
@@ -137,7 +133,6 @@ else
     \ 'comment_grey': {'gui': '#808080', 'cterm': '244', 'cterm16': '8' }
     \}
     colorscheme onedark
-
 endif
 
 """""""""""""""""""""""""""""""""""
@@ -245,9 +240,9 @@ let g:lightline = {
       \ 'active': {
       \ 'left': [ [ 'mode', 'paste' ],
       \           [ 'readonly', 'filename', 'modified', 'virtualenv', 'gitbranch'] ],
-      "\ 'right': [ [ 'linter_checking', 'linter_errors', 'linter_warnings', 'linter_infos', 'linter_ok' ],
-      \ 'right': [ [ 'linter_checking', 'linter_errors', 'linter_warnings', 'linter_infos' ],
-      \            [ 'fileformat', 'filetype', 'percent', 'lineinfo' ] ]
+      "\ 'right': [ [ 'linter_checking', 'linter_errors', 'linter_warnings', 'linter_infos', 'linter_ok', 'lineinfo' ],
+      \ 'right': [ [ 'linter_checking', 'linter_errors', 'linter_warnings', 'linter_infos', 'lineinfo' ],
+      \            [ 'fileformat', 'filetype', 'percent' ] ]
       \ },
       \ 'component': {
       \   'virtualenv': venv

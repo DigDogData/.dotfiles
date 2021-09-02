@@ -93,6 +93,9 @@ set foldlevel=99
 " remove trailing spaces on save
 autocmd BufWritePre * :%s/\s\+$//e
 
+" enable all python syntax highlighting
+let python_highlight_all = 1
+
 """""""""""""""""""""""""""""
 " set color scheme
 """""""""""""""""""""""""""""
@@ -175,9 +178,6 @@ let g:fzf_colors =
   \ 'marker':  ['fg', 'Keyword'],
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
-
-" enable all python syntax highlighting
-let python_highlight_all = 1
 
 " turn off search highlighting
 noremap <leader>h :noh<CR>

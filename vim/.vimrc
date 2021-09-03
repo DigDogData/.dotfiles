@@ -244,7 +244,11 @@ nmap [ <Plug>(GitGutterPrevHunk)
 " set lightline (integrate ale + gitgutter stat)
 function! GitStatus()
     let [a,m,r] = GitGutterGetHunkSummary()
-    return printf('+%d ~%d -%d', a, m, r)
+    if a+m+r > 0
+        return printf('+%d ~%d -%d', a, m, r)
+    else
+        return ''
+    endif
 endfunction
 set laststatus=2
 let g:lightline = {

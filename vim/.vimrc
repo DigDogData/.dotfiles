@@ -33,6 +33,10 @@ set undodir=~/.vim/undodir
 
 " set plugins
 call plug#begin('~/.vim/plugged')
+" theme
+Plug 'lifepillar/vim-gruvbox8'     " improved gruvbox
+Plug 'tomasiser/vim-code-dark'
+Plug 'joshdick/onedark.vim'
 " fzf integration (install fzf BEFORE activating this plugin)
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -58,15 +62,6 @@ Plug 'maximbaz/lightline-ale'
 Plug 'preservim/nerdtree'
 " tag
 Plug 'preservim/tagbar'
-" theme
-let color_scheme = 'onedark'       " gruvbox8/codedark/onedark
-if color_scheme == 'gruvbox8'
-    Plug 'lifepillar/vim-gruvbox8'     " improved gruvbox
-elseif color_scheme == 'codedark'
-    Plug 'tomasiser/vim-code-dark'
-else
-    Plug 'joshdick/onedark.vim'
-endif
 call plug#end()
 
 filetype plugin indent on       " required
@@ -107,6 +102,7 @@ let python_highlight_all = 1
 """""""""""""""""""""""""""""
 " set color scheme
 """""""""""""""""""""""""""""
+let color_scheme = 'onedark'       " gruvbox8/codedark/onedark
 if color_scheme == 'gruvbox8'
     set background=dark     " use dark theme
     let g:gruvbox_italics = 1

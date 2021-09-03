@@ -114,12 +114,8 @@ if color_scheme == 'gruvbox8'
     let g:gruvbox_italicize_strings = 0
     let g:gruvbox_filetype_hi_groups = 1    " enable additional syntax highlighting
     colorscheme gruvbox8            " gruvbox8_soft/gruvbox8(medium)/gruvbox8_hard
-    " set long line alert (>88 characters)
+    " disable ugly orange bar for python indent guide
     if &background == 'dark' && g:colors_name == 'gruvbox8'
-        " set long line alert (>88 characters)
-        hi OverLength guibg=#3c3836 ctermbg=gray
-        match OverLength /\%89v.\+/
-        " disable ugly orange bar for python indent guide
         if exists('python_highlight_all')
             unlet python_highlight_all
         endif
@@ -136,6 +132,10 @@ else
     \}
     colorscheme onedark
 endif
+
+" set long line alert (>88 characters)
+hi OverLength guibg=#3c3836 ctermbg=gray
+match OverLength /\%89v.\+/
 
 """""""""""""""""""""""""""""""""""
 " set fzf (defaults set in .bashrc)
@@ -284,7 +284,6 @@ let g:lightline#ale#indicator_errors = "\uf05e "
 map <leader>t :below vert terminal<CR>
 tmap <F2> <C-w>w
 tmap <F3> <C-w>N
-"hi Terminal guibg=#3c3836     " gruvbox8 statusline color
 
 " change vertical line type on split
 set fillchars+=vert:$

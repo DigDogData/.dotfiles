@@ -59,7 +59,7 @@ Plug 'preservim/nerdtree'
 " tag
 Plug 'preservim/tagbar'
 " theme
-let color_scheme = 'gruvbox8'       " gruvbox8/codedark/onedark
+let color_scheme = 'onedark'       " gruvbox8/codedark/onedark
 if color_scheme == 'gruvbox8'
     Plug 'lifepillar/vim-gruvbox8'     " improved gruvbox
 elseif color_scheme == 'codedark'
@@ -115,10 +115,8 @@ if color_scheme == 'gruvbox8'
     let g:gruvbox_filetype_hi_groups = 1    " enable additional syntax highlighting
     colorscheme gruvbox8            " gruvbox8_soft/gruvbox8(medium)/gruvbox8_hard
     " disable ugly orange bar for python indent guide
-    if &background == 'dark' && g:colors_name == 'gruvbox8'
-        if exists('python_highlight_all')
-            unlet python_highlight_all
-        endif
+    if exists('python_highlight_all')
+        unlet python_highlight_all
     endif
 elseif color_scheme == 'codedark'
     "let g:codedark_conservative = 1     " conservative colors

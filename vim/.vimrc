@@ -241,7 +241,10 @@ let g:gitgutter_map_keys = 0        " disable plugin's builtin keymaps
 nmap ] <Plug>(GitGutterNextHunk)
 nmap [ <Plug>(GitGutterPrevHunk)
 
-" set lightline (integrate ale + gitgutter stat)
+"""""""""""""""""""""""""""""""""""""""""""
+" set lightline (integrate ale + gitgutter)
+"""""""""""""""""""""""""""""""""""""""""""
+" function to define gitgutter status
 function! GitStatus()
     let [a,m,r] = GitGutterGetHunkSummary()
     if a+m+r > 0
@@ -250,6 +253,22 @@ function! GitStatus()
         return ''
     endif
 endfunction
+
+" function to auto-update lightline after switching colorscheme
+" (source: https://hiphish.github.io/blog/2019/09/21/switching-automatically-themes-in-lightline/)
+function! s:onColorSchemeChange(scheme)
+    execute 'runtime autoload/lightline/colorscheme/'.a:scheme.'.vim'
+    let g:lightline.colorscheme = a:scheme
+    call lightline#init()
+    call lightline#colorscheme()
+    call lightline#update()
+endfunction
+augroup lightline-events
+    autocmd!
+    autocmd ColorScheme * call s:onColorSchemeChange(expand("<amatch>"))
+augroup END
+
+" set lightline
 set laststatus=2
 let g:lightline = {
       \ 'colorscheme': color_scheme,

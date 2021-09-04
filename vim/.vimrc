@@ -93,6 +93,10 @@ let &t_EI = "\<Esc>[2 q"     " EI -> NORMAL mode, 2 -> solid block
 set foldmethod=indent
 set foldlevel=99
 
+" make jj do esc (and disable esc)
+inoremap jj <Esc>
+inoremap <Esc> <Nop>
+
 " remove trailing spaces on save
 autocmd BufWritePre * :%s/\s\+$//e
 
@@ -102,7 +106,7 @@ let python_highlight_all = 1
 """""""""""""""""""""""""""""
 " set color scheme
 """""""""""""""""""""""""""""
-let color_scheme = 'onedark'       " gruvbox8/codedark/onedark
+let color_scheme = 'gruvbox8'       " gruvbox8/codedark/onedark
 if color_scheme == 'gruvbox8'
     set background=dark     " use dark theme
     let g:gruvbox_italics = 1

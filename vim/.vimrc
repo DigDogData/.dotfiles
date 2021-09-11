@@ -33,10 +33,6 @@ set undodir=~/.vim/undodir
 
 " set plugins
 call plug#begin('~/.vim/plugged')
-" theme
-Plug 'lifepillar/vim-gruvbox8'     " improved gruvbox
-Plug 'tomasiser/vim-code-dark'
-Plug 'joshdick/onedark.vim'
 " fzf integration (install fzf BEFORE activating this plugin)
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -99,37 +95,8 @@ autocmd BufWritePre * :%s/\s\+$//e
 " enable python syntax highlighting
 let python_highlight_all = 1
 
-"""""""""""""""""""""""""""""
 " set color scheme
-"""""""""""""""""""""""""""""
-let color_scheme = 'gruvbox8'       " gruvbox8/codedark/onedark
-if color_scheme == 'gruvbox8'
-    set background=dark     " use dark theme
-    let g:gruvbox_italics = 1
-    let g:gruvbox_italicize_comments = 1
-    let g:gruvbox_italicize_strings = 0
-    let g:gruvbox_filetype_hi_groups = 1    " enable additional syntax highlighting
-    colorscheme gruvbox8            " gruvbox8_soft/gruvbox8(medium)/gruvbox8_hard
-    " disable ugly orange bar for python indent guide
-    if exists('python_highlight_all')
-        unlet python_highlight_all
-    endif
-elseif color_scheme == 'codedark'
-    "let g:codedark_conservative = 1     " conservative colors
-    colorscheme codedark
-else
-    let g:onedark_terminal_italics = 1
-    let g:python_highlight_all = 1
-    let g:onedark_color_overrides = {
-    \ 'white': {'gui': '#c6c6c6', 'cterm': '251', 'cterm16': '15' },
-    \ 'comment_grey': {'gui': '#808080', 'cterm': '244', 'cterm16': '8' }
-    \}
-    colorscheme onedark
-endif
-
-" set long line alert (>88 characters)
-hi OverLength guibg=#3c3836 ctermbg=gray
-match OverLength /\%89v.\+/
+colorscheme gruvbox8        " gruvbox8/onedark/codedark
 
 """""""""""""""""""""""""""""""""""
 " set fzf (defaults set in .bashrc)

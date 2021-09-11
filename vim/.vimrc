@@ -265,7 +265,7 @@ augroup END
 " set lightline
 set laststatus=2
 let g:lightline = {
-      \ 'colorscheme': color_scheme,
+      \ 'colorscheme': g:colors_name,
       \ 'active': {
       \ 'left': [ [ 'mode', 'paste' ],
       \           [ 'readonly', 'filename', 'modified', 'virtualenv', 'gitbranch', 'gitgutter'] ],

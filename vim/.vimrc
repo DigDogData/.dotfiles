@@ -270,7 +270,7 @@ tmap <F2> <C-w>w
 tmap <F3> <C-w>N
 
 " change vertical line type on split
-set fillchars+=vert:$
+"set fillchars+=vert:$
 
 " set startify
 let g:startify_session_autoload = 1

@@ -171,7 +171,7 @@ command! reload :write | restart
 " program.
 
 " Pdf
-filextype *.pdf xreader %f %i &, apvlv %c, xpdf %c  " %i macro suppresses warnings
+filextype *.pdf evince %f %i &, apvlv %c, xpdf %c  " %i macro suppresses warnings
 "filextype *.pdf zathura %c %i &, apvlv %c, xpdf %c
 fileviewer *.pdf
         \ vifmimg pdf %px %py %pw %ph %c

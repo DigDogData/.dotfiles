@@ -38,6 +38,8 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 " python intellisense
 Plug 'davidhalter/jedi-vim'
+" R IDE
+Plug 'jalvesaq/Nvim-R', {'branch': 'stable'}
 " autocompletion autopopup
 Plug 'vim-scripts/AutoComplPop'
 " startify
@@ -182,6 +184,9 @@ set noshowmode          " needed for next line
 let g:jedi#show_call_signatures = 2
 let g:jedi#squelch_py_warning = 1       " disable abort warning
 autocmd FileType python setlocal completeopt-=preview   " disable scratch preview
+
+" set Nvim-R
+let R_auto_start = 2    " autostart R session whil editing R script
 
 " set vimwiki
 let g:vimwiki_list = [{'path': '$HOME/Documents/VimWiki/',

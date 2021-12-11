@@ -187,6 +187,7 @@ autocmd FileType python setlocal completeopt-=preview   " disable scratch previe
 
 " set Nvim-R
 let R_auto_start = 2    " autostart R session whil editing R script
+let R_assign = 0    " to avoid '_' being replaced by '<-' while editing R file
 
 " set vimwiki
 let g:vimwiki_list = [{'path': '$HOME/Documents/VimWiki/',

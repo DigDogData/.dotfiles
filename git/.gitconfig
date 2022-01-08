@@ -1,0 +1,5 @@
+[user]
+	name = DigDogData
+	email = roy@manojitroy.com
+[credential]
+	helper = cache --timeout=604800

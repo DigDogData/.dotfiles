@@ -174,12 +174,12 @@ nmap <leader><Right> :wincmd l<CR>
 " set builtin autocompletion
 set complete+=kspell            " add completion dictionary
 set shortmess+=c                " disable completion status message
-inoremap <expr><Right> pumvisible() ? "<C-y>":"<Right>"
-inoremap <expr><Left> pumvisible() ? "<C-e>":"<Left>"
+inoremap <expr><Right> pumvisible() ? '<C-y>':'<Right>'
+inoremap <expr><Left> pumvisible() ? '<C-e>':'<Left>'
 
 " set jedi
-let g:jedi#documentation_command = "K"      " open python help doc
-let g:jedi#completions_command = "<C-a>"    " replace default <C-Space> keymap
+let g:jedi#documentation_command = 'K'      " open python help doc
+let g:jedi#completions_command = '<C-a>'    " replace default <C-Space> keymap
 set noshowmode          " needed for next line
 let g:jedi#show_call_signatures = 2
 let g:jedi#squelch_py_warning = 1       " disable abort warning
@@ -197,10 +197,17 @@ nmap <leader>w <Plug>VimwikiIndex
 nmap <leader>wi <Plug>VimwikiDiaryIndex
 nmap <Delete> <Plug>VimwikiDeleteFile
 
-" set linting+fixing (read :help <commad> for details)
+" set linting+fixing (read :help <command> for details)
+" python integration
 let g:ale_linters = {'python': ['flake8']}
 let g:ale_fixers = {'*': [], 'python': ['black']}
 let g:ale_fix_on_save = 1
+" r integration
+let g:ale_r_lintr_options = 'with_defaults(line_length_linter(88),
+                                          \ commented_code_linter = NULL,
+                                          \ snake_case_linter = NULL,
+                                          \ camel_case_linter = NULL,
+                                          \ object_usage_linter = NULL)'
 
 " set gitgutter
 set updatetime=100

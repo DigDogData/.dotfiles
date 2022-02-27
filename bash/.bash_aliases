@@ -36,6 +36,7 @@ alias y='youtube-dl'
 alias yx='youtube-dl -x --audio-format mp3 --prefer-ffmpeg'
 alias yxp='youtube-dl -x --audio-format mp3 --prefer-ffmpeg --yes-playlist'
 alias ffprobe='ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=s=x:p=0'
+alias p='auto-cpufreq --stats'
 
 # fzf aliases
 alias ff='fzf --preview="head -$LINES {}" --preview-window="right:50%" --bind="ctrl-/:toggle-preview" | xargs -r -I % xed %'    # open in xed

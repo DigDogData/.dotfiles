@@ -299,6 +299,10 @@ let g:startify_custom_header = [
 let g:loaded_netrw       = 1
 let g:loaded_netrwPlugin = 1
 
+" open URL to browser by typing 'gx'
+" (flush console with 'ctrl-l' after launching browser)
+nmap gx :silent execute "!xdg-open " . shellescape("<cWORD>")<CR>
+
 " set NERDTree
 nmap <leader>f :NERDTreeToggle<CR>
 let g:NERDTreeWinPos = "right"

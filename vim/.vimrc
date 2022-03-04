@@ -203,12 +203,12 @@ let g:ale_linters = {'python': ['flake8']}
 let g:ale_fixers = {'*': [], 'python': ['black']}
 let g:ale_fix_on_save = 1
 " r integration
+let g:ale_r_lintr_lint_package = 1  " use lint package
 let g:ale_r_lintr_options = 'with_defaults(line_length_linter(88),
                                           \ commented_code_linter = NULL,
                                           \ snake_case_linter = NULL,
                                           \ camel_case_linter = NULL,
                                           \ object_usage_linter = NULL)'
-let g:ale_r_lintr_lint_package = 1  " use lint package
 
 " set gitgutter
 set updatetime=100
